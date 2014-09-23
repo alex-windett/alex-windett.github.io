@@ -1,0 +1,239 @@
+
+body {
+  font-family: 'Raleway', sans-serif;
+/*  background-image: url("http://wallalay.com/wp-content/uploads/2014/06/Desktop-Wallpapers-51.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+  /*background-color: #fcf6e0;*/
+  color: #EBCB93;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #EBCB93;
+}
+
+h1 {
+  font-size: 120px;
+  margin-top: 10px;
+  padding-top: 20px;
+  /*margin-top: 0;*/
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+  height: 700px;
+  width: 150px;
+}
+
+nav a {
+  color: #181E23;
+  background: #EBCB93;
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 20px;
+  list-style: none;
+  display:block;
+  margin-left: 10px;
+}
+
+nav a:hover {
+  background-color: #dfac52;
+}
+
+section {
+  height: 900px;
+  width: 100%;
+}
+
+
+section h1 {
+  
+}
+
+#home{
+  background-color: #fcf6e0;
+}
+
+#home h1 {
+  padding-top: 15%;
+}
+
+#about{
+  background-color: #181E23;
+}
+#skills{
+  background-color:#181E23;
+}
+#experience{
+  background-color: #181E23;
+}
+#projects{
+  background-color:#181E23;
+}
+#contact{
+  background-color: #181E23;
+}
+
+
+.about_button {
+  margin-left: 40%;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+#home p {
+  width: 50%;
+  margin: auto
+}
+
+
+#about p {
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 30px;
+}
+
+.photoapp {
+  border: solid black 2px;
+}
+/*To use when the cols have been commented in*/
+/*.interests {
+  width: 80%;
+  border: solid 5px white;
+  margin: auto;
+  text-align: center;
+  display: table;
+}
+
+.interests .col:hover {
+  background-color: #8E9290;
+  border-color: red;
+}
+
+.interests div {
+  border: solid 2px black;
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  vertical-align: top;
+}
+
+.interests img {
+  height:auto;
+  width: 100px;
+  border-radius: 500px;
+}*/
+
+.experience_logo {
+  margin: auto;
+  width: 900px;
+}
+
+.experience_logo img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.experience_logo li {
+  display: inline-block;
+}
+
+.past_projects {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.thumbnails {
+  width: 45%;
+  height: auto;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact li {
+  border: solid #181E23 2px;
+  border-radius: 10px;
+  display: inline-block; 
+  padding: 30px;
+  margin-right: 50px;
+  background: white; 
+}
+
+.contact li:hover{
+  background-color: #181E23;
+  border: solid 2px #EBCB93;
+  color: #EBCB93; 
+}
+
+.skill {
+  border: black solid 2px;
+}
+
+
+@media only screen and (max-width: 780px) {
+
+h1  { 
+  font-size: 80px;
+}
+
+
+  section {
+    height: 1500px;
+  }
+
+  .about_button {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+  .experience_logo {
+    width: 95%;
+  }
+
+  .experience_logo li {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+  }
+
+  .past_projects {
+    width: 95%;
+    margin: none;
+  }
+
+  .thumbnails {
+    height: 20%;
+    width: auto;
+    padding: 10px;
+  }
+
+  .interests {
+    width: 80%;
+  }
+
+  .col {
+    background-color: 100%;
+  }
+
+  .contact {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact li {
+    width: 25%;
+    margin-bottom: 20px;
+  }
+
+  }

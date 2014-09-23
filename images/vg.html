@@ -1,0 +1,188 @@
+
+<!-- saved from url=(0064)chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  
+<link rel="stylesheet" href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/css/style.css">
+<link rel="stylesheet" href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/css/font-awesome.min.css">
+
+<script type="text/javascript" async="" fk-userid="65" fk-server="fkapp.herokuapp.com" src="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/js/featurekicker.js"></script><script type="text/javascript" src="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/js/jquery.min.js"></script>
+<script type="text/javascript" src="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/js/date.js"></script> 
+
+<script type="text/javascript" src="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/js/tools.js"></script> 
+<script type="text/javascript" src="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/js/messages.js"></script> 
+<script type="text/javascript" src="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/js/smartscratchpad.js"></script> 
+<script type="text/javascript" src="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/js/datamanagement.js"></script> 
+<script type="text/javascript" src="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/js/setupscreens.js"></script> 
+
+<script language="javascript" type="text/javascript" src="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/js/tabpage.js"></script> 
+
+  <title>New Tab</title>
+  <link rel="shortcut icon" href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/images/nicon.png" type="image/png">
+<link rel="stylesheet" href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/css/featurekicker.css" type="text/css"></head>
+  <body style="zoom: 1; background-image: url(chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/images/wallpapers/nature0.jpg);">
+      <div id="walkthrough" style="display: none;">
+       <div id="walkthroughfade"></div>
+    	<div id="walkthroughstage"></div>
+    	<a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#"><span class="icon-prev"></span></a>
+    	<a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#"><span class="icon-next"></span></a>
+    	
+    </div>
+    
+  <div class="maincontainer">
+   <!-- <center><div id="placeholder" style="width:600px;height:300px"></div></center>	      -->
+     <center>
+       <div id="topicons">
+   		
+   		 <a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" id="gohome" title="Get to the first screen"><span class="icon-home"></span></a>
+   		 <a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" id="detailedstats" title="Get detailed browsing behavior"><span class="icon-stats"></span></a>
+   		<a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" id="settingslink" title="Configure your settings"><span class="icon-settings"></span></a>
+   		<a href="http://belimitless.co/help.html" title="Get product help and support from our website"><span class="icon-info"></span></a>  		
+   		<a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" id="clearstats" title="Delete all your local statistics"><span class="icon-trash"></span></a>
+   		<a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" id="feedbacklink" title="Connect with us" added_fk_click_handler="true"><span class="icon-feedback"></span></a>
+   	<!--	<span class="icon-share"></span> -->
+   </div>
+   </center>
+    
+     <div id="firstscreen" style="display: none;">
+      <center>
+		  <h1>Welcome. Let's make 2014 the year of <b>limitless</b> productivity.</h1>
+<!--	 Limitless app will help you remember goals and be more productive with your time. Get started. -->
+			    			
+	
+ 
+		<form autocomplete="off">
+			  <div class="label">I'm,</div>
+			  <div class="inputline nameline"></div>
+			  <input class="nameinput" placeholder="Mike" maxlength="30" name="name">   			  
+
+			  
+			  <div class="label">My goal for 2014 is</div>
+			  <div class="inputline goalline"></div> 
+			  <input class="goalinput" placeholder=" to become a Developer" maxlength="60">    
+	  
+	<div style="clear: both;"></div>
+		
+			    			</form>
+			    		<div id="startupmessage">	<a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" id="startupbutton">Get started </a> </div>
+	   </center>    		
+
+<!--
+   <center>Once you fill this up, continue your work normally. Data is automatically stored. We will come back with interesting insights for you. </center> 
+  -->                    
+    </div>
+     
+
+    
+     <div id="settingscreen" style="display: none;">
+     	<a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" class="defaulttab">Apps</a>
+     	  <center>
+				<h1> Settings </h1>
+		</center>	  
+		   <div class="settings">
+		    <form autocomplete="off">
+			  <div class="label">Name: </div>
+			  <div class="inputline settingsline"></div>
+			  <input class="nameinput" maxlength="20" name="name">   
+			  
+			  
+			  <div class="label">This year's goal:</div>
+			  <div class="inputline settingsline"></div> 
+			  <input class="goalinput" placeholder="eg. Become a Product Manager" maxlength="40">    
+			  
+			    <div class="label">Today's Goal:</div>
+			    <div class="inputline settingsline"></div> 
+			 	  <input class="dailygoalinput" maxlength="40" placeholder="My goal for today is ..."> 
+			 </form>
+			</div>
+			<br>
+			<a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" class="label" id="updatesettings">Update settings &amp; return </a>
+     </div>  
+     
+     
+        <div id="dailygoalscreen" style="display: none;">
+     	<a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" class="defaulttab">Apps</a>
+     	  <center>
+				<div id="timelefttoday"></div>
+				<div class="inputline goalline"></div> 
+				<input class="dailygoalinput" maxlength="40" placeholder="My goal for today is ..."> 
+				<div id="rememberannualgoal"></div>
+		</center>	  
+     </div>
+     
+     <div id="productivityscreen" style="display: block;">
+ 	    <a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" class="defaulttab">Apps</a>
+     	<div id="container">
+		  <div id="content">
+		  		  <div id="welcome"></div> 
+				<div id="message">
+					<div id="insight">You have spent 1m 59s on <b><a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" id="insightcategory">Tech</a></b> today.</div>
+					<div id="nudge">"Never mistake motion for action." -- Ernest Hemingway </div>
+				</div>
+			  <div id="productivitytoday"></div>		  
+		  </div>
+		</div>
+ 
+     </div>  
+   
+   	<div id="countdowntimerscreen" style="display: none;">
+   		<div id="timer">5000</div>
+   		<div id="timemessage">Test screen</div>
+   	</div>
+    
+    <div id="topsitesscreen" style="display: none;">
+    	<center><h4>Edit your favorite sites here </h4>
+    	<table id="topsitestable"></table>
+    	</center>
+    </div>
+    
+    <div id="detailscreen" style="display: none;">
+   <a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" id="backfromdetails" class="backbutton">&lt;&lt; Back</a>
+   <center>
+  
+   <div id="totaltime"></div>
+    <a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#"" id="editcategories"> Edit Categories </a>
+    <div id="editssave">  Add a category (it can be new or existing). If there are multiple separate by commas. All edits are automatically saved </div>
+     <div id="statstable" style="height: 1120px;">
+      <table id="stats">
+      </table>
+      </div>
+    </center>
+   </div>  
+   
+      <div id="stuffscreen" style="display: none;">
+   		<a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" class="defaulttab">Apps</a>
+   <center>
+   <h1>  Store your mental distractions &amp; continue with your main goal. </h1>  
+ 	  <textarea id="scratchpad" maxlength="5000" placeholder="Use this scratch pad to free your mind of distractions. Things get automatically saved when you click outside."></textarea>
+ 	 <br> Try each of these on a new line: <i>Remind me: Meeting at 9pm</i> <b>or</b> <i>Todo: Finish report </i> or <i>Countdown: Exam on June 1, 2014 </i><br>
+ 	 <b> <a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#"" id="sendnotepad">Send this notepad through my Gmail</a> </b>
+    </center>
+   </div> 
+   
+   	 <div id="analyticsscreen" style="display: none;">
+   	 	<a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" class="defaulttab">Apps</a>
+      <center>
+			<h1> Detailed Analytics </h1>
+		 <a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#"><div id="options"></div></a>
+        <div id="productivity"> </div>
+			<table class="categories" id="allcategories"> </table>
+       </center>
+    </div>
+
+<center>
+	 <table id="topsites" class="speeddial" style="display: table;"><tbody><tr><td><a href="http://bbc.co.uk/"><h4>Bbc</h4><h2>Bb</h2><h4>3m 21s</h4></a></td><td><a href="http://lifehacker.com/"><h4>Lifehack</h4><h2>Li</h2><h4>0s</h4></a></td><td><a href="http://quora.com/"><h4>Quora</h4><h2>Qu</h2><h4>0s</h4></a></td><td><a href="http://lumosity.com/"><h4>Lumosity</h4><h2>Lu</h2><h4>0s</h4></a></td><td><a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" id="notepadclick" added_fk_click_handler="true"><div class="icon-notepad"></div><h4>Notepad</h4></a><a href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/tabpage.html#" id="edittopsites">Hide top sites </a></td><td><a href="http://coursera.org/"><h4>Coursera</h4><h2>Co</h2><h4>0s</h4></a></td><td><a href="http://mail.google.com/"><h4>Googlema</h4><h2>Go</h2><h4>0s</h4></a></td><td><a href="http://en.wikipedia.org/"><h4>Wikipedi</h4><h2>Wi</h2><h4>0s</h4></a></td><td><a href="http://lifehack.org/"><h4>Lifehack</h4><h2>Li</h2><h4>0s</h4></a></td></tr></tbody></table>
+</center>
+<!--<center>  <div id="footer"> Your data is stored on your computer, not anywhere else. We understand your need for privacy very well. </div></center>   -->
+	<div>
+			<ul id="temp">		<li>17C Partly Cloudy</li><li></li><li></li></ul>
+		
+	</div>   
+	<div id="imagedetails"><a href="http://bit.ly/1nQuQcW">Port Campbell</a></div>
+	   
+  </div>
+    <!-- Loading FeatureKicker Starts-->
+  <link rel="stylesheet" href="chrome-extension://jdpnljppdhjpafeaokemhcggofohekbp/css/featurekicker.css">
+<!-- Loading FeatureKicker Ends-->
+  
+
+</body></html>
