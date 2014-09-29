@@ -1,10 +1,6 @@
 
 body {
   font-family: 'Raleway', sans-serif;
-/*  background-image: url("http://wallalay.com/wp-content/uploads/2014/06/Desktop-Wallpapers-51.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;*/
-  /*background-color: #fcf6e0;*/
   color: #EBCB93;
   box-sizing: border-box;
 }
@@ -14,11 +10,20 @@ a {
   color: #EBCB93;
 }
 
+p {
+  text-align: center;
+}
+
 h1 {
   font-size: 120px;
   margin-top: 10px;
   margin-bottom: 30px;
   padding-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
   text-align: center;
 }
 
@@ -79,7 +84,8 @@ section h1 {
 
 
 .about_button {
-  margin-left: 40%;
+  margin: auto;
+  width: 40%;
   border: 2px solid black;
   padding: 20px;
 }

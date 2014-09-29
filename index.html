@@ -4,31 +4,23 @@
 
   <meta charset="utf-8">
 
-   <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
-  <link rel="stylesheet" type="text/css" media="all" href="css/grid.css" />
   <link rel="stylesheet" type="text/css" media="all" href="css/stylesheet.css" />
-  <!-- <link rel="stylesheet" type="text/css" media="all" href="css/buttons.css" /> -->
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
   <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
-
-
   <script src="js/jquery-1.11.0.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
   <script src="js/waypoints.min.js"></script>
   <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
   <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
-    <script src="js/app.js"></script>
+  <script src="js/app.js"></script>
 
 </head>
 <body>
 
-  <!-- <img id='menu_icon' src="menu_icon.png"> -->
-
 <div id='#menu'>
   <nav>
-      <a id="nav_about"  href="#about">Who Am I</a>
+      <!-- <a id="nav_about"  href="#about">Who Am I</a> -->
       <a id="nav_skills"  href="#skills">Skills</a>
       <a id="nav_experience"  href="#experience">Experience</a>
       <a id="nav_projects"  href="#projects">Projects</a>
@@ -36,14 +28,15 @@
     </nav>
   </div>
 
+
   <section id="home">-
     <h1>Alex Windett</h1>
-    <!-- <p>Readymade keytar vegan put a bird on it. Brooklyn Banksy mlkshk aesthetic.</p> -->
-    <a id="nav_about" class="about_button" href="#about">Scroll Down to Find Out More</a>
+    <h2>Full Stack Web Developer</h2>
+    <div class="about_button">I am ambitious, hard working and enjoy solving problems with creative ideas. I am self-motivated and can work independently but also am effective working within the dynamics of a collaborative environment. My ideal role would be as a junior full stack developer within a team where I can apply my experience to create web and mobile applications.</div>
   </section>
 
-  <section id="about">
-    <h1>Who Am I</h1>
+  <!-- <section id="about">
+    <h1>Who Am I</h1> -->
 <!--       <div class="interests">
         <div class="col">
           <h2>Something Interesting</h2>
@@ -61,30 +54,37 @@
           <p>Readymade keytar vegan put a bird on it. Brooklyn Banksy mlkshk aesthetic.</p>
         </div>
       </div> -->
-      <p>Scenester next level ugh Bushwick pop-up, 3 wolf moon whatever hella Carles tofu kitsch dreamcatcher squid. Before they sold out Helvetica Brooklyn, Banksy cray ugh actually. Yr gluten-free beard occupy. Narwhal DIY plaid, normcore YOLO pour-over viral kitsch PBR Marfa hoodie Odd Future chambray you probably haven't heard of them.</p>
+  <!--     <p>Scenester next level ugh Bushwick pop-up, 3 wolf moon whatever hella Carles tofu kitsch dreamcatcher squid. Before they sold out Helvetica Brooklyn, Banksy cray ugh actually. Yr gluten-free beard occupy. Narwhal DIY plaid, normcore YOLO pour-over viral kitsch PBR Marfa hoodie Odd Future chambray you probably haven't heard of them.</p>
       
       <p>Scenester next level ugh Bushwick pop-up, 3 wolf moon whatever hella Carles tofu kitsch dreamcatcher squid. Before they sold out Helvetica Brooklyn, Banksy cray ugh actually. Yr gluten-free beard occupy. Narwhal DIY plaid, normcore YOLO pour-over viral kitsch PBR Marfa hoodie Odd Future chambray you probably haven't heard of them</p>
 
       <p>Scenester next level ugh Bushwick pop-up, 3 wolf moon whatever hella Carles tofu kitsch dreamcatcher squid. Before they sold out Helvetica Brooklyn, Banksy cray ugh actually. Yr gluten-free beard occupy. Narwhal DIY plaid, normcore YOLO pour-over viral kitsch PBR Marfa hoodie Odd Future chambray you probably haven't heard of them.</p>
 
-  </section>
+  </section> -->
   
   <section id="skills">
     <h1>Skills</h1>
 
-      <div class="experience_logo">
-      <ul>
-        <li><img src="images/html_5.png"></li>
-        <li><img id="skill_2" src="images/css_3.png"><p  style="display: none" class="2_info">Some info</p></li>
-        <li><img src="images/git.png"></li>
-        <li><img src="images/jquery.png"></li>
-        <li><img src="images/sass-logo-new.png"></li>
-        <li><img id="skill_1" title="example" src="images/javascript.png"></li>
-        <li><img src="images/haml.png"></li>
-        <li><img src="images/rails.png"></li>
-      </ul>
-
+    <div>
+      <h2>Front End Development</h2>
+      <p>HTML5 - CSS3 - HAML</p>
+      <p>JavaScript - JQuery - Responsive Design</p>
+      <p>AJAX - D3.js - Angular.js</p>
     </div>
+
+    <div>
+      <h2>Back End Development</h2>
+      <p>Ruby - Ruby on Rails</p>
+      <p>MySQL - PostgreSQL - Sinatra</p>
+    </div>
+    
+    <div>
+      <h2>Tools</h2>
+      <p>Git / GitHub - Heroku - JSON</p>
+      <p>Bootstrap - Pure CSS</p>
+      <p>Adobe Photoshop</p>
+    </div>
+
 
   </section>
   
@@ -95,77 +95,35 @@
   
   <section id="projects">
     <h1>Projects</h1>
-<!--     <div class="listing_projects">
-      <table>
-        <tr>  
-          <th>Thumbnail</th>
-          <th>Title</th>
-          <th>Description</th>
-        </tr>
-        <tr>
-          <td></td>
-          <td>Tic Tac Toe</td>
-          <td>My First Project</td>
-        </tr>
-        <tr>
-          <td><img id="thumbnail" src="photoapp.png"></td>
-          <div id="tooltip" >Text</div>
-          <td>Photo App</td>
-          <td>My Second Project</td>
-        </tr>
-      </table>
-    </div> -->
 
     <div class="past_projects">
+      
       <div class="individual_project">
         <a href="http://wdi-7-photo-app.herokuapp.com/"><img class="thumbnails" id="thumbnail_1" src="photoapp.png"></a>
         <a href="http://limitless-depths-4252.herokuapp.com/home"><img class="thumbnails" id="thumbnail_2" src="webshot3.png"></a>
         <a href="#"><img class="thumbnails" id="thumbnail_3" src="tic.png"></a>
       </div>
+      
       <br>
+      
       <div style="display: none" class="1">This was my second project and is about photo uploading</div>
-          <div style="display: none" class="2">A social sharing app for backcountry skiing. Allows members to upload GPS coordinates or track their run through their mobile device</div>
-           <div style="display: none" class="3">First project where you can play single or two play tic-tac-toe; against the computor or a friend</div>
-    </div>
+      
+      <div style="display: none" class="2">A social sharing app for backcountry skiing. Allows members to upload GPS coordinates or track their run through their mobile device</div>
+
+      <div style="display: none" class="3">First project where you can play single or two play tic-tac-toe; against the computor or a friend</div>
+      </div>
   </section>
   
   <section id="contact">
     <h1>Contact</h1>
     <div class="contact">
 
-      <!-- email button -->
-      <div class="wrap">
-        <a href="mailto:someone@example.com">
-          <div class="circle">
-            <div class="envelope-top"></div>
-            <div class="envelope"></div>
-          </div>
-        </a>
-      </div>
-<!-- active icons for github, codepen and linkedIn. But can't get them to show in the right place -->
-      <nav id="littlenav">
-        <a class='github' href='https://github.com/??' target='_blank'>
-          Github
-          <div class='i'></div>
-          <div class='h'></div>
-        </a>
-        <a class='codepen' href='http://codepen.io/??' target='_blank'>
-          Codepen
-          <div class='i'></div>
-          <div class='h'></div>
-        </a>
-        <a class='linkedin' href='http://www.linkedin.com/in/??' target='_blank'>
-          Linkedin
-          <div class='i'></div>
-          <div class='h'></div>
-        </a>
-      </nav>
       
       <ul>
-        <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+        <li><a href="uk.linkedin.com/in/alexwindett/" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
         <li><a href="https://github.com/alex-windett" target="_blank"><i class="fa fa-github-square"></i> View my Github</a></li>
-        <li><a href="mailto:alexwindett@hotmail.com"><i class="fa fa-envelope"></i> Message Me</a></li>
-        <li><a href="windett.pdf" target="_blank"><i class="fa fa-file-text"></i> Download CV</a></li>
+        <li><a href="mailto:windettalex@gmail.com"><i class="fa fa-envelope"></i> Message Me</a></li>
+        <li><a href="Alex Windett CV.pdf" target="_blank"><i class="fa fa-file-text"></i> Download CV</a></li>
       </ul>
 
 
