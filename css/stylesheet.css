@@ -10,6 +10,10 @@ a {
   color: #EBCB93;
 }
 
+p {
+  text-align: center;
+}
+
 h1 {
   font-size: 120px;
   margin-top: 10px;
