@@ -29,7 +29,7 @@ h2 {
 
 h3 {
   font-size: 40px;
-   margin: 7% auto 0px auto;
+   margin: 5% auto 0px auto;
   text-align: center;
 }
 
@@ -59,10 +59,6 @@ section {
   width: 100%;
 }
 
-
-section h1 {
-  
-}
 
 #home{
   background-color: #fcf6e0;
@@ -113,33 +109,6 @@ section h1 {
 .photoapp {
   border: solid black 2px;
 }
-/*To use when the cols have been commented in*/
-/*.interests {
-  width: 80%;
-  border: solid 5px white;
-  margin: auto;
-  text-align: center;
-  display: table;
-}
-
-.interests .col:hover {
-  background-color: #8E9290;
-  border-color: red;
-}
-
-.interests div {
-  border: solid 2px black;
-  display: inline-block;
-  width: 30%;
-  margin: 10px;
-  vertical-align: top;
-}
-
-.interests img {
-  height:auto;
-  width: 100px;
-  border-radius: 500px;
-}*/
 
 .experience_logo {
   margin: auto;
@@ -191,7 +160,11 @@ section h1 {
 }
 
 
+<<<<<<< HEAD
 @media only screen and (max-width: 720px) {
+=======
+/*@media only screen and (max-width: 480px) {
+>>>>>>> gh-pages
 
 h1  { 
   font-size: 60px;
@@ -257,4 +230,4 @@ section {
     margin-bottom: 20px;
   }
 
-  }
+  }*/
