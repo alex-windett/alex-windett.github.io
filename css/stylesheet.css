@@ -1,17 +1,31 @@
 
+@font-face {
+ font-family: 'Muli';
+ src: url('../fonts/Muli-Light.ttf');
+}
+
+
 body {
-  font-family: 'Raleway', sans-serif;
-  color: #EBCB93;
+  font-family: 'Muli';
+  color: #a3a3a3;
   box-sizing: border-box;
+  margin: 0px;
+
 }
 
 a {
   text-decoration: none;
-  color: #EBCB93;
+  color: #a3a3a3;
 }
 
 p {
   text-align: center;
+}
+
+.head img {
+ width: 100%;
+ height: 500px;
+ background-repeat: no-repeat;
 }
 
 h1 {
@@ -57,11 +71,11 @@ nav a:hover {
 section {
   height: 900px;
   width: 100%;
+  overflow: hidden;
 }
 
-
 #home{
-  background-color: #fcf6e0;
+  background-color: white;
 }
 
 #home h1 {
@@ -69,19 +83,30 @@ section {
 }
 
 #about{
-  background-color: #181E23;
+  background-color: white;
+  color: #a3a3a3;
 }
-#skills{
-  background-color:#181E23;
-}
+
+
 #experience{
-  background-color: #181E23;
+
+  background-color:white;
 }
+
 #projects{
-  background-color:#181E23;
+      color: white;
+  background-color: #a3a3a3;
 }
+
+#skills{
+  background-color:white;
+  
+}
+
 #contact{
-  background-color: #181E23;
+      color: white;
+  background-color: #a3a3a3;
+
 }
 
 
@@ -90,6 +115,7 @@ section {
   width: 40%;
   border: 2px solid black;
   padding: 20px;
+  color: #159A48;
 }
 
 #home p {
