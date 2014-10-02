@@ -189,11 +189,7 @@ a:hover {
 @media only screen and (max-width : 768px)  { 
 
 
-#head  {
-  height: 300%;
-}
-
-#projects {
+#projects, #about {
   height: 120%;
 }
 
