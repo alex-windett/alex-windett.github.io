@@ -187,9 +187,11 @@ a:hover {
 }
 
 @media only screen and (max-width : 768px)  { 
-
-
 #projects, #about {
+  height: 200%;
+}
+
+#projects {
   height: 120%;
 }
 
