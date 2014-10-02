@@ -193,8 +193,12 @@ a:hover {
   height: 250%;
 }
 
-#projects, #skills {
+#projects {
   height: 120%;
+}
+
+#projects, #skills {
+  height: 250%;
 }
 
 nav {
