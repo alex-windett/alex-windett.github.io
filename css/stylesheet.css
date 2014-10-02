@@ -28,7 +28,7 @@ color: #969696;
 
 #head h2 {
 position: relative;
-bottom: 24.5%;
+bottom: 21.5%;
 font-size: 50px;
 margin: 2% 0 3% 18%;
 color: #00AF33;
@@ -92,12 +92,6 @@ nav a p {
   color: grey;
   margin: 3% 0 auto 18%;
 }
-
-#home p {
-  width: 50%;
-  margin: auto
-}
-
 
 #about p {
   text-align: center;
@@ -190,4 +184,79 @@ a {
 
 a:hover {
   color: white;
+}
+
+@media only screen and (max-width : 768px)  { 
+
+nav {
+position: fixed;
+height: auto;
+width: 100%;
+z-index: 1;
+text-align: left;
+
+}
+
+nav a {
+height: 24px;
+font-size: 11px;
+margin-top: 2px;
+margin-left: 1%;
+display: inline-block;
+width: 15%;
+vertical-align: top;
+}
+
+nav a:first-child {
+  margin-left: 7%;
+}
+
+nav a p {
+margin-top: 5px;
+text-align: left;
+}
+
+#head h1 {
+margin: 2% 0 4% 4%;
+font-size: 55px;
+}
+
+#head h2 {
+bottom: 15.5%;
+font-size: 20px;
+margin: 2% 0 4% 4%;
+}
+
+#about {
+  width: 100%;
+  height: 100%;
+}
+
+#about h2 {
+  margin: 9% auto 10% 3%;
+}
+
+.about_para {
+  width: 100%;
+  font-size: 20px;
+  color: grey;
+margin: 0% 0% 0% 3%;
+}
+
+.thumbnails {
+width: 100%;
+height: auto;
+margin-top: 4%;
+}
+
+.contact ul {
+  padding: 2%;
+}
+
+.contact li {
+width: 50%;
+text-align: center;
+margin: 7%;
+}
+
 }
