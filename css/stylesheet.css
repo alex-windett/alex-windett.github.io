@@ -23,7 +23,7 @@ position: absolute;
 bottom: 12.5%;
 font-size: 100px;
 margin: 2% 0 4% 18%;
-color: grey;
+color: #969696;
 }
 
 #head h2 {
@@ -31,27 +31,43 @@ position: relative;
 bottom: 24.5%;
 font-size: 50px;
 margin: 2% 0 3% 18%;
-color: green;
+color: #00AF33;
+}
+
+#menu {
+  float: right;
 }
 
 nav {
+  margin-top: 4%;
   position: fixed;
   height: 700px;
-  width: 150px;
+  width: 200px;
+  z-index: 1;
+  right: 2%;
+  text-align: right;
 }
 
 nav a {
-  color: #181E23;
-  background: #EBCB93;
-  padding: 10px;
-  font-size: 15px;
-  margin-top: 20px;
-  display:block;
-  margin-left: 10px;
+height: 35px;
+background: #969696;
+padding: 10px;
+font-size: 20px;
+margin-top: 20px;
+display: block;
+margin-left: 10px;
+border-bottom: solid #0AC92B 3px;
+border-right: solid green 3px;
+border-radius: 5px;
+color: white;
 }
 
 nav a:hover {
-  background-color: #dfac52;
+  background-color: grey;
+}
+
+nav a p {
+  margin-top: 5px;
 }
 
 #head {
@@ -97,7 +113,7 @@ nav a:hover {
 }
 
 #projects h1 {
-  margin: 0 auto 5% 18%;
+  margin: 0 auto 1% 18%;
   font-size: 25px;
   color: green;
 }
@@ -109,9 +125,9 @@ nav a:hover {
 }
 
 .thumbnails {
-  width: 45%;
-  height: auto;
-  padding: 2%;
+width: 49%;
+height: auto;
+margin-top: -2%;
 }
 
 #skills {
@@ -130,19 +146,28 @@ nav a:hover {
 }
 
 .skills_list h2 {
-  font-size: 40px;
-  color: grey;
-}
-
-.skills_list p {
   font-size: 30px;
   color: grey;
 }
 
+.skills_list p {
+  font-size: 20px;
+  color: grey;
+}
+
+#contact {
+  width: 100%;
+  height: 98%;
+}
+
 #contact h1 {
-  margin: 0 auto 5% 18%;
+  margin: 15% auto 5% 18%;
   font-size: 25px;
   color: green;
+}
+
+ul {
+ margin-left: 14.5%;
 }
 
 a {
@@ -150,60 +175,19 @@ a {
   text-decoration: none;
 }
 
-.contact {
-  text-align: center;
-}
-
 .contact li {
-  border: solid green 2px;
+  border: solid grey 2px;
   border-radius: 10px;
   display: inline-block; 
-  padding: 30px;
-  margin-right: 50px;
+  padding: 25px;
+  margin-right: 1%;
 }
 
 .contact li:hover{
-  background-color: #181E23;
-  border: solid 2px #EBCB93;
-  color: #EBCB93; 
-}
-
-
-/*#test {
-  color: white;
-  font-family: 'Lato', sans-serif;
-  background-color: black;
-  border-radius: 5px;
-  border-bottom: 10px solid green;
-  border-left: 10px solid white;
-  border-right: 10px solid white;
-  border-top: 10px solid white; 
-}
-
-#test:hover {
-    border-bottom: 7px solid green;
-  border-left: 7px solid white;
-  border-right: 7px solid white;
-  border-top: 7px solid white;
-}*/
-
-#test {
-  border: solid #181E23 2px;
-  border-bottom: solid green 5px;
-  border-right: solid green 5px;
-  border-left: solid orange 2px;
-  border-top: solid orange 2px;
-  border-radius: 10px;
-  display: inline-block; 
-  padding: 20px;
-  margin-right: 50px;
-  background: black;
-  color: white;
-  font-size: 30px; 
-}
-
-#test:hover {
   background-color: grey;
-  border: solid 2px green;
   color: white; 
+}
+
+a:hover {
+  color: white;
 }
