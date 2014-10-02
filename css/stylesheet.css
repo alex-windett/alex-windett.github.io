@@ -188,14 +188,18 @@ a:hover {
 
 @media only screen and (max-width : 768px)  { 
 #about {
-  height: 250%;
+  height: 400%;
 }
 
 #projects {
-  height: 120%;
+  height: 250%;
 }
 
-#projects, #skills {
+#projects h1 {
+  margin-top: 150px
+}
+
+ #skills {
   height: 200%;
 }
 
