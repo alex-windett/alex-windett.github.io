@@ -188,8 +188,13 @@ a:hover {
 
 @media only screen and (max-width : 768px)  { 
 
+
+#head  {
+  height: 250%;
+}
+
 #projects, #skills {
-  height: 130%;
+  height: 120%;
 }
 
 nav {
