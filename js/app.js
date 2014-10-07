@@ -47,6 +47,13 @@ $(function(){
      $(".3").hide()
   });
 
+  $("#thumbnail_4").mouseenter(function(){
+    $(".4").show()
+  });
+  $("#thumbnail_4").mouseout(function(){
+     $(".4").hide()
+  });
+
 
 // Google Anaylitics
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
