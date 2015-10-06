@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url($font-path + 'sofiaprolight-webfont.eot');
+    src: url($font-path + 'sofiaprolight-webfont.eot?#iefix') format('embedded-opentype'),
+         url($font-path + 'sofiaprolight-webfont.woff2') format('woff2'),
+         url($font-path + 'sofiaprolight-webfont.woff') format('woff'),
+         url($font-path + 'sofiaprolight-webfont.ttf') format('truetype'),
+         url($font-path + 'sofiaprolight-webfont.svg#sofia_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
