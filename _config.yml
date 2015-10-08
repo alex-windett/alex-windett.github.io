@@ -7,10 +7,10 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Windett
+title: Alex Windett
 subtitle: "A simple yet classy theme for your Jekyll website or blog"
-email: blcentra@gmail.com
-name: Ben Centra
+email: windettalex@gmail.com
+name: Alex Windett
 description: > 
   A simple yet classy theme for your Jekyll website or blog.
 baseurl: "/" # the subpath of your site, e.g. /blog/
