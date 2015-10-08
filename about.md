@@ -6,12 +6,6 @@ permalink: /about/
 
 <!-- <img src="{{ site.baseurl }}assets/profile-placeholder.gif" title="Profile Picture" class="profile"> -->
 
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
+I have recently completed the General Assembly Web Development Immersive course and as result have become driven to build a career in digital development, using my newly gained skills. 
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
-
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
-
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
-[jekyll]: https://github.com/jekyll/jekyll
+I am ambitious, hard working and enjoy solving problems with creative ideas. I am self-motivated and can work independently but am also effective working within the dynamics of a collaborative environment. My ideal role would be as a junior full stack developer within a team where I can apply my experience from GA to create web and mobile applications.
