@@ -7,14 +7,13 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Alex Windett
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
+title: Alex Windett 
+subtitle: "London based Full Stack Developer"
 email: windettalex@gmail.com
 name: Alex Windett
-description: > 
-  A simple yet classy theme for your Jekyll website or blog.
+description: London based Full Stack Developer
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://windett.co.uk" # the base hostname & protocol for your site
+url: "windett.co.uk" # the base hostname & protocol for your site
 cover: "assets/keyboard.jpg"
 logo: "assets/logo.png"
 
@@ -37,7 +36,7 @@ jekyll-archives:
 disqus_shortname: bencentra
 
 # Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+ga_tracking_id: "UA-55311551-1"
 
 # Category descriptions (for archive pages)
 descriptions:
