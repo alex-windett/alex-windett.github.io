@@ -15,7 +15,7 @@ description: >
   A simple yet classy theme for your Jekyll website or blog.
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://windett.co.uk" # the base hostname & protocol for your site
-cover: "assets/header_image.jpg"
+cover: "assets/keyboard.jpg"
 logo: "assets/logo.png"
 
 # Build settings
