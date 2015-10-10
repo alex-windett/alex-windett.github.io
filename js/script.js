@@ -27,6 +27,16 @@ var projects = {
 	}
 }
 
+var forms = {
+
+	init: function() {
+		$('form').superLabels({
+		    labelLeft: 15,
+		    labelTop: 5
+		});
+	}
+}
+
 
 $(document).ready(function() {
 
@@ -36,4 +46,6 @@ $(document).ready(function() {
     header.init();
 
     projects.ga();
+
+    forms.init();
 });

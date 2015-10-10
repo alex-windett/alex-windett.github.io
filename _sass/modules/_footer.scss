@@ -19,7 +19,7 @@
 	  }
 	}
 	.wrapper {
-		@include outer-container;
+		@include outer-container(46em);
 	}
 	.footer-heading {
 

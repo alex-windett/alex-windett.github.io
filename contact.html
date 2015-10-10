@@ -5,15 +5,22 @@ permalink: /contact/
 ---
 
 <form action="http://formspree.io/windettalex@gmail.com" method="POST">
+	<ul>
+		<li>
+			<label for="name">Name</label>
+			<input type="text">
+		</li>
 
-	<label for="name">Name</label>
-	<input type="text">
+		<li>
+			<label for="email">Your Email</label>
+			<input type="email" name="_replyto" required>
+		</li>
 
-	<label for="email">Your Email</label>
-	<input type="email" name="_replyto" required>
-
-	<label for="comments">What do you want to chat about</label>
-	<textarea name="comments" cols="30" rows="10"></textarea>
+		<li>
+			<label for="comments">What do you want to chat about</label>
+			<textarea name="comments" cols="30" rows="10"></textarea>
+		</li>
+	</ul>
 
 	<input type="submit" value="Send Message">
 

@@ -53,14 +53,15 @@
 
 </footer>
 
-<!-- Scripts -->
+<!-- External Scripts -->
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
 
-<script src="{{ "js/script.js" | prepend: site.baseurl }}"></script>
+<!-- Local Scripts -->
+<script src="{{ "js/jQuery.superLables.min.js" | prepend: site.baseurl }}"></script>
 
-<!-- <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}"> -->
+<script src="{{ "js/script.js" | prepend: site.baseurl }}"></script>
 
 {% if site.ga_tracking_id %}
 <!-- Google Analytics -->
