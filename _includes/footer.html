@@ -4,28 +4,29 @@
 
     <h3 class="footer-heading">{{ site.title }}</h3>
 
-    <div class="site-navigation">
-    	
-    	<p><strong>Site Map</strong></p>
-      <ul class="pages">
-        {% for page in site.pages %}
-        {% if page.title and page.main_nav != false %}
-          <li class="nav-link"><a href="{{ page.url | remove_first: '/' | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
+    {% if site.site_map == true %}
+      <div class="site-navigation">
+      	<p><strong>Site Map</strong></p>
+        <ul class="pages">
+          {% for page in site.pages %}
+            {% if page.title and page.main_nav != false %}
+              <li class="nav-link"><a href="{{ page.url | remove_first: '/' | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
 
     <div class="site-contact">
 
     	<p><strong>Contact</strong></p>
-      <ul class="social-media-list">
-      	<li>
-      		<a href="mailto:{{ site.email }}">
-	      		<i class="fa fa-envelope-o"></i>
-	      		<span class="username">{{ site.email }}</span>
-      		</a>
-      	</li>
+        <ul class="social-media-list">
+          	<li>
+          		<a href="mailto:{{ site.email }}">
+    	      		<i class="fa fa-envelope-o"></i>
+    	      		<span class="username">{{ site.email }}</span>
+          		</a>
+          	</li>
 
       	{% for social in site.social %}
 	      	{% if social.url != null %}
@@ -38,13 +39,15 @@
 	      	{% endif %}
       	{% endfor %}
 
-      </ul>
+         </ul>
     </div>
 
+    {% if site.rss == true %}
     <div class="site-signature">
     	<p class="rss-subscribe text"><strong>Subscribe <a href="{{ "feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
-      <p class="text">{{ site.description }}</p>
+        <p class="text">{{ site.description }}</p>
     </div>
+    {% endif %}
 
   </div>
 
@@ -54,29 +57,10 @@
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
-<script>
 
-$(document).ready(function() {
+<script src="{{ "js/script.js" | prepend: site.baseurl }}"></script>
 
-	// Syntax highlighting
-	hljs.initHighlightingOnLoad();
-
-	// Header
-  var menuToggle = $('#js-mobile-menu').unbind();
-  $('#js-navigation-menu').removeClass("show");
-  menuToggle.on('click', function(e) {
-    e.preventDefault();
-    $('#js-navigation-menu').slideToggle(function(){
-      if($('#js-navigation-menu').is(':hidden')) {
-        $('#js-navigation-menu').removeAttr('style');
-      }
-    });
-  });
-
-
-});
-
-</script>
+<!-- <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}"> -->
 
 {% if site.ga_tracking_id %}
 <!-- Google Analytics -->
@@ -87,8 +71,8 @@ $(document).ready(function() {
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', '{{ site.ga_tracking_id }}', 'auto');
   ga('send', 'pageview', {
-  	'page': '{{ page.url }}',
-  	'title': '{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}'
+    'page': '{{ page.url }}',
+    'title': '{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}'
   });
 </script>
 {% endif %}

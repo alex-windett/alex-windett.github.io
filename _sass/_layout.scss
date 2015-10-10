@@ -90,7 +90,8 @@ pre code.hljs {
 			background-color: rgba(0,0,0,0.2);
 			padding: 6em 1em !important;
 			@include media($tablet) {
-				padding: 9em 1em !important;
+				height: 30em;
+				padding: 10.3em 1em !important;
 			}
 		}
 	}
@@ -303,6 +304,10 @@ pre code.hljs {
 		.post-header {
 			padding: 0.5em 1em 1em 1em;
 			text-align: center;
+
+			.post-title {
+				color: $action-color;
+			}
 		}
 		.posts-list {
 			@extend %default-ul;

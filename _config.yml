@@ -1,5 +1,3 @@
-production: false
-
 # External gems
 gems:
   - jekyll-archives # Sorry, not GitHub pages friendly!
@@ -101,5 +99,5 @@ protocols:
     os_rcs_type: "git"
     os_src: "git@github.com:RichardLitt/wordhoardpress.com.git"
 
-sass:
-  style: exapnded
+site_map: false
+rss: false

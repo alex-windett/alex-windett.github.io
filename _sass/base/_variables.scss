@@ -1,9 +1,9 @@
 // Google Fonts
-@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300|Roboto:400,700,300|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
 
 // Typography
-$base-font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; // $helvetica;
-$heading-font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", "Arial", sans-serif; // $base-font-family;
+$base-font-family: "Muli", "Arial", sans-serif; // $helvetica;
+$heading-font-family: "Muli", "Arial", sans-serif; // $helvetica;
 
 // Font Sizes
 $base-font-size: $em-base; // 16px
@@ -28,19 +28,20 @@ $light-gray: #ddd;
 $white: #fff;
 // Flat UI Colors. For more, see http://flatuicolors.com/
 $turquoise: #1abc9c;	// Turqoise
-$green: #27ae60;	  	// Nephritis
-$blue: #2980b9;				// Belize Hole
-$purple: #8e44ad;			// Wisteria
-$orange: #d35400;			// Pumpkin
-$red:	#c0392b;				// Pomegranate
-$gray: #7f8c8d;				// Asbestos
+$green: #398C43;	  	// Nephritis
+$blue: #2980b9;			// Belize Hole
+$purple: #8e44ad;		// Wisteria
+$orange: #d35400;		// Pumpkin
+$red:	#c0392b;		// Pomegranate
+$gray: #7f8c8d;			// Asbestos
+
 // Even more colors
 $bc-red: #bc0000;
 
 // Font Colors
 $base-background-color: #fff;
 $base-font-color: $dark-gray;
-$action-color: $blue;
+$action-color: $green;
 $highlight-color: tint($action-color, 33%);
 
 // Border
