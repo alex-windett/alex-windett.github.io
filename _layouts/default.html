@@ -3,11 +3,11 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="page-{{ page.url | slugify }}">
 
     {% include header.html %}
 
-    <div class="page-content {{ page.url | slugify }}">
+    <div class="page-content">
         {{ content }}
     </div>
 
