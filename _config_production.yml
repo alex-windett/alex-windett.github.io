@@ -1,4 +1,4 @@
-production: false
+production: true
 
 # External gems
 gems:
@@ -102,4 +102,4 @@ protocols:
     os_src: "git@github.com:RichardLitt/wordhoardpress.com.git"
 
 sass:
-  style: exapnded
+  style: compressed
