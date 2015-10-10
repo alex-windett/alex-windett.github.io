@@ -15,6 +15,18 @@ var header  = {
 	}
 }
 
+var projects = {
+
+	ga: function() {
+
+		$('.ga-projects').click(function(event){
+			event.preventDefault();
+
+			$(this).siblings().slideToggle().toggleClass('hidden revealed');
+		})
+	}
+}
+
 
 $(document).ready(function() {
 
@@ -22,4 +34,6 @@ $(document).ready(function() {
     hljs.initHighlightingOnLoad();
 
     header.init();
+
+    projects.ga();
 });
