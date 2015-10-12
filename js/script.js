@@ -76,6 +76,33 @@ var forms = {
 	}
 }
 
+var tools = {
+	elements: $('.list__projects--tools li, .list__projects--sites li, .heading--lazyload'),
+	visible: false,
+	init: function () {
+		if (this.elements.length) {
+			this.elements.css({opacity: 0});
+		}
+	},
+	scroll: function () {
+		if (!this.visible) {
+			this.elements.each( function(i){
+
+				var bottom_of_object = $('.list__projects--sites').offset().top + 370;
+				var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+				/* If the object is completely visible in the window, fade it it */
+				// if( bottom_of_window > bottom_of_object ){
+					$(this).delay( 600 * i ).animate({'opacity':'1'},300, function(){
+						this.visible = true;
+					});
+				// }
+
+			});
+		}
+	}
+};
+
 
 $(document).ready(function() {
 
@@ -88,6 +115,9 @@ $(document).ready(function() {
 
     forms.init();
     forms.contact();
+
+    tools.init();
+    tools.scroll();
 
 
     $('a.no-link').on('click', function(e){
