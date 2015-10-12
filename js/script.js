@@ -88,5 +88,9 @@ $(document).ready(function() {
 
     forms.init();
     forms.contact();
-    // forms.randomGiphy( 100, 'funny+animals' );
+
+
+    $('a.no-link').on('click', function(e){
+    	e.preventDefault();
+    })
 });

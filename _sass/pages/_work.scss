@@ -1,9 +1,17 @@
 body.page-work {
 
-	.project-list {
+	.project-list,
+	.ga-list {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+	}
 
-		.hidden {
-			display: none;
+	.ga-list {
+		li {
+			display: inline-block;
+			width: 32%;
+			vertical-align: top;
 		}
 	}
 }
