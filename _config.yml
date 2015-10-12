@@ -38,6 +38,9 @@ jekyll-archives:
 # Google analytics
 ga_tracking_id: "UA-55311551-1"
 
+# Should pages be able to be shared on social sites
+post_sharing: false
+
 # Category descriptions (for archive pages)
 descriptions:
   - cat: SCSS
@@ -45,6 +48,9 @@ descriptions:
 
   - cat: JS
     desc: "Wonderful world of JavaScript"
+
+  - cat: Other
+    desc: "Whats happening in my world"
 
 # Social icons and sharing options
 #
@@ -82,7 +88,6 @@ social:
     url: https://uk.linkedin.com/in/alexwindett
     desc: Connect with me on LinkedIn
     share: true
-
 
 # Social sharing protocols
 # These are for automatically generating sharing metadata for FB and Twitter
