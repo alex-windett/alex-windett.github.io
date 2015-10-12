@@ -1,17 +1,37 @@
 body.page-work {
 
-	.project-list,
-	.ga-list {
+	.list {
 		list-style: none;
 		margin-left: 0;
 		padding-left: 0;
-	}
 
-	.ga-list {
-		li {
-			display: inline-block;
-			width: 32%;
-			vertical-align: top;
+		&__ga {
+			li {
+				display: inline-block;
+				width: 32%;
+				vertical-align: top;
+			}
+		}
+
+		&__projects {
+
+			&--sites {
+
+				> li {
+					margin: 35px 30px;
+					display: inline-block;
+					vertical-align: top;
+
+					&:first-child {
+						margin-left: 0;
+					}
+				}
+			}
+
+			& img {
+				width: 140px;
+				margin: 0;
+			}
 		}
 	}
 }
