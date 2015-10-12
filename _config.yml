@@ -13,7 +13,7 @@ email: windettalex@gmail.com
 name: Alex Windett
 description: London based Full Stack Developer
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: windett.co.uk
+url: http://windett.co.uk
 cover: "assets/keyboard.jpg"
 logo: "assets/logo.png"
 
@@ -104,5 +104,21 @@ protocols:
     os_rcs_type: "git"
     os_src: "git@github.com:RichardLitt/wordhoardpress.com.git"
 
+tools:
+  - name: Ruby on Rails + Ruby
+  - name: Wordpress + PHP
+  - name: Grunt + Bower
+  - name: CSS Sass + Less
+  - name: JavaScript and jQuery
+  - name: Photoshop and Illustrator
+
+my_sites:
+  - name: 9bar
+    image: 9bar.png
+    url: http://www.9bar.com
+
+  - name: Yes+
+    image: yes+.png
+    url: http://www.yesplus.org.uk
 site_map: false
 rss: false

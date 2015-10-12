@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Work
+title: Portfolio
 permalink: /work/
 ---
 
@@ -8,15 +8,16 @@ permalink: /work/
 
 <p>Currently working as a front end developer at Big Fish Design in London, I maintain and develop large scale sites. I was given the role of lead dev on the creationg and release of <a href="http://www.9bar.com">9Bar</a>. I now look after the refactoring and imporvements of this site, alongside the redevelopment of all the <a href="http://www.tyrrellscrisps">Tyrrells'</a> sites and the upkeep of many more</p>
 
+
 <p>Check out some of my recent work below:</p>
 
-<ul class="project-list">
-	<li>
+<ul class="list list__projects list__projects--sites">
+	<!-- <li>
 		<a href="#" class="ga-projects">GA</a>
 
 		<section class="hidden">
 			<p>I studied at Genearl Assembly in the summer of 2014, I finshed having poduced three ruby on rails&nbsp;apps.</p>
-			<ul class="ga-list">
+			<ul class="list list__ga">
 				<li>
 					<a href="#" class="no-link">Ski App</a>
 					<p>Ski route tracking intergrated with google maps and geolocation</p>
@@ -32,9 +33,23 @@ permalink: /work/
 			</ul>
 			<hr>
 		</section>
-	</li>
+	</li> -->
 
-	<li><a target="_blank" href="http://www.9bar.com">9bar</li></a>
-
-	<li><a target="_blank" href="http://www.yesplus.org.uk">Yes+</a></li>
+	{% for my_site in site.my_sites %}
+		<li>
+			<a href="{{ my_site.url }}">
+				<img src="{{ site.url }}/assets/images/sites/{{ my_site.image }}" width="140" height"90" alt="{{ my_site.name }}">
+			</a>
+		</li>
+	{% endfor %}
 </ul>
+
+{% if site.tools %}
+	<h2 class="heading--lazyload">Langauges, Frameworks and Tools</h2>
+
+	<ul class="list list__projects list__projects--tools">
+		{% for tool in site.tools %}
+			<li><a href="#" class="no-link">{{ tool.name }}</a></li>
+		{% endfor %}
+	</ul>
+{% endif %}
