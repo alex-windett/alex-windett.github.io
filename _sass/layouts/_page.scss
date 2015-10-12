@@ -1,0 +1,31 @@
+/*
+*	Pages
+*/
+.page {
+	.post-header {
+		padding: 0.5em 1em 1em 1em;
+		text-align: center;
+
+		.post-title {
+			color: $action-color;
+		}
+	}
+	.posts-list {
+		@extend %default-ul;
+		li {
+			padding: modular-scale(-4);
+			padding-left: 0;
+		}
+		.desc {
+			font-size: 0.9em;
+		}
+		.post-date {
+			color: $medium-gray;
+		}
+	}
+	.profile {
+		max-width: 320px;
+		margin: auto;
+		padding-bottom: 0.5em;
+		}
+}

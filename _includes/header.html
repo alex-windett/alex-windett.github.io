@@ -1,0 +1,21 @@
+<header class="navigation" role="banner">
+    <div class="navigation-wrapper">
+        <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+            <i class="fa fa-bars"></i>
+        </a>
+        <nav role="navigation">
+            <ul id="js-navigation-menu" class="navigation-menu show">
+                <li class="nav-link">
+                     <a href="http://windett.co.uk">
+                        Home
+                    </a>
+                </li>
+                {% for page in site.pages %}
+                    {% if page.title and page.main_nav != false %}
+                        <li class="nav-link"><a href="{{ page.url | remove_first: '/' | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</header>

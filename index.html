@@ -1,117 +1,105 @@
-<!-- <!DOCTYPE html> -->
-<html>
-<head>
-  <title>Alex Windett</title>
+---
+layout: default
+---
+<div class="home">
 
-  <meta charset="utf-8">
-  <meta name='keywords' content='developer, web, full stack, London, Windett, web developer'/>
-  <meta name='description' content='Full stack web developer in London'/>
-  <meta name="author" content="Alex Windett" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-  <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" media="all" href="css/stylesheet.css" />
-  <link rel="stylesheet" type="text/css" href="css/normailize.css">
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-  <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="js/waypoints.min.js"></script>
-  <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
-  <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
-  <script src="js/app.js"></script>
-
-</head>
-<body>
-
-<div id='menu'>
-  <nav>
-      <a id="nav_about"  href="#about"><p>ABOUT ME</p></a>
-      <a id="nav_projects"  href="#projects"><p>PROJECTS</p></a>
-      <a id="nav_skills"  href="#skills"><p>SKILLS</p></a>
-      <a id="nav_contact"  href="#contact"><p>CONTACT</p></a> 
-    </nav>
-  </div>
-
-  <section id='head'>
-    <img src="keyboard.jpg">  
-    <h1>Alex Windett</h1> 
-    <p></p>
-    <h2>FULL STACK WEB DEVELOPER</h2>
-  </section>
-
-  <section id="about">
-    <h2>ABOUT ME</h2>
-    <div class="about_para">I have recently completed the General Assembly Web Development Immersive course and as result have become driven to build a career
-    in digital development, using my newly gained skills.
-    <br>
-    <br>
-    I am ambitious, hard working and enjoy solving problems with creative ideas. I am self-motivated and can work independently but am also effective working within the dynamics of a collaborative environment. My ideal role would be as a junior full stack developer within a team where I can apply my experience from GA to create web and mobile applications.</div>
-  </section>
-
-
-  <section id="projects">
-    <h1>PROJECTS</h1>
-
-    <div class="past_projects">
-      
-      <div class="individual_project">
-        <a href=""><img class="thumbnails" id="thumbnail_3" src="tic_tac_toe.jpg"></a>
-        <a href="http://pacific-refuge-8200.herokuapp.com/" target="_blank"><img class="thumbnails" id="thumbnail_1" src="photo_app_1.jpg"></a>
-        <a href="http://limitless-depths-4252.herokuapp.com/home" target="_blank"><img class="thumbnails" id="thumbnail_2" src="skiing_app.jpg"></a>
-        <a href="/daily-life" target='_blank'><img src="daily_life.jpg" class='thumbnails' id='thumbnail_4'></a>
-      </div>
-      
-      <br>
-      
-      <div style="display: none" class="1">PHOTOBUCKET <br> My second project a GA - a photo sharing app that allows members to upload multiple photos, comment on others photos and see where people have been around the world.</div>
-      
-      <div style="display: none" class="2">SKI APP <br> A social sharing app for backcountry skiing. <br> Allows members to upload GPS coordinates or track their run through their mobile device</div>
-
-      <div style="display: none" class="3">TIC TAC TOE <br> My first GA project and first ever website. <br> After logging you can play single or two play tic-tac-toe; against the computor or a friend</div>
-
-     <div style="display: none" class="4">DAILY LIFE APP <br>A website that I have done on the side. It uses APIs from various sources on the web that I use regularly everyday so that everything is in one place. I am constantly adding and removing aspects to the site when I come across new and interesting APIS.</div>
-      </div>
-  </section>
-
-    <section id="skills">
-    <h1>SKILLS</h1>
-      <div class='skills_list'>
-        <h2>Front End Development</h2>
-        <p>HTML5 - Haml - CSS3 - Sass</p>
-        <p>JavaScript - JQuery - Responsive Design</p>
-        <p>AJAX - D3.js - Angular.js</p>
-      </div>
-
-      <div class='skills_list'>
-        <h2>Back End Development</h2>
-        <p>Ruby - Ruby on Rails</p>
-        <p>MySQL - PostgreSQL - Sinatra</p>
-      </div>
-      
-      <div class='skills_list'>
-        <h2>Tools</h2>
-        <p>Git / GitHub - Heroku - JSON</p>
-        <p>Bootstrap </p>
-        <p>Adobe Photoshop - InDesign - Illustrator </p>
-      </div>
-  </section>
-  
-  <section id="contact">
-    <h1>CONTACT</h1>
-    <div class="contact">    
-      <ul>
-        <a href="https://www.linkedin.com/in/alexwindett" target="_blank"><li><i class="fa fa-linkedin"></i> LinkedIn</li></a>
-        
-        <a href="https://github.com/alex-windett" target="_blank"><li><i class="fa fa-github-square"></i> View my GitHub</li></a>
-       
-        <a href="mailto:windettalex@gmail.com"><li><i class="fa fa-envelope"></i> Message Me</li></a>
-
-        <a href="Alex_Windett_CV.pdf" target="_blank"><li><i class="fa fa-file-text"></i> Download CV</li></a>
-      </ul>
+    <div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
+        <div class="scrim {% if site.cover %}has-cover{% endif %}">
+            <header class="site-header">
+                <h1 class="title">{{ site.title }}</h1>
+                {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
+            </header>
+        </div>
     </div>
-  </section>
-</body>
-</html>
+
+    <div class="wrapper">
+        <section class="about">
+            <header class="post-header">
+                <h1 class="post-title">About Me</h1>
+            </header>
+
+            <p>A year ago I completed the General Assembly Web Development Immersive course and as result have become driven to build a career in digital development. Currently working at Big Fish Design as a Front End Developer in their Web Depeartment, I have created and maintained large scale sites for their clients. I am always interested in working outside of the office looking for projects to advance and put to use my expertise.</p>
+
+            <p>I am ambitious, hard working and enjoy solving problems with creative ideas. I am self-motivated and can work independently but am also effective working within the dynamics of a collaborative environment. I am ever on the look out for new projects to work on whether thats starting from scratch or imporving on excisting site..</p>
+
+            <p>Check out my blog below for some of the things that I have been up to recently</p>
+        </section>
+
+        <hr>
+
+         <ul class="post-list">
+            {% for post in paginator.posts %}
+            <li>
+                <h2>
+                    <a class="post-link" href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+                <section class="post-excerpt" itemprop="description">
+                    <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+                </section>
+                <section class="post-meta">
+                    <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+                    <div class="post-categories">
+                        {% if post.categories %}in {% for cat in post.categories %}
+                            {% if site.jekyll-archives %}
+                                <a href="{{ site.baseurl }}category/{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
+                            {% else %}
+                                <span>{{ cat | capitalize }}</span>{% if forloop.last == false %}, {% endif %}
+                            {% endif %}
+                        {% endfor %}{% endif %}
+                    </div>
+                </section>
+            </li>
+            {% if forloop.last == false %}
+            <hr>
+            {% endif %}
+            {% endfor %}
+        </ul>
+
+        {% if paginator.total_pages > paginator.per_page %}
+            <nav class="pagination" role="navigation">
+                <p>
+                    {% if paginator.next_page %}
+                    <a class="newer-posts" href="{{ site.baseurl }}page{{paginator.next_page}}">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-square fa-stack-2x"></i>
+                            <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    {% else %}
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-square fa-stack-2x"></i>
+                        <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
+                    </span>
+                    {% endif %}
+                    <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+                    {% if paginator.previous_page %}
+                    {% if paginator.page == 2 %}
+                    <a class="newer-posts" href="{{ site.baseurl }}">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-square fa-stack-2x"></i>
+                            <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    {% else %}
+                    <a class="newer-posts" href="{{ site.baseurl }}page{{paginator.previous_page}}">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-square fa-stack-2x"></i>
+                            <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    {% endif %}
+                    {% else %}
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-square fa-stack-2x"></i>
+                        <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
+                    </span>
+                    {% endif %}
+                </p>
+                <p>
+                    <a href="{{ site.baseurl }}posts">View All Posts by Category</a>
+                </p>
+            </nav>
+        {% endif %}
+
+    </div>
+</div>
