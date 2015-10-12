@@ -23,7 +23,7 @@ var projects = {
 			event.preventDefault();
 
 			$(this).siblings().slideToggle().toggleClass('hidden revealed');
-		})
+		});
 	}
 }
 
@@ -34,6 +34,45 @@ var forms = {
 		    labelLeft: 15,
 		    labelTop: 5
 		});
+	},
+
+	randomGiphy: function( count, searchTerms ) {
+		$.ajax({
+			url: 'http://api.giphy.com/v1/gifs/search?limit=' + count + '&q=' + searchTerms + '&api_key=dc6zaTOxFJmzC',
+			type: 'GET',
+			dataType: 'JSON'
+			// data: data
+		}).success(function(data){
+			var gifs = data.data,
+
+				gifsCount = gifs.length; // number of gifs in request
+				randomGif = Math.floor(Math.random() * gifsCount) + 1  // random number
+
+				url = gifs[randomGif].images.original.url; // gif url
+
+				$('.form__notification--confirmation').find('img').attr('src', url);
+		});
+	},
+
+	contact: function() {
+		var $contactForm = $('.form__contact');
+	    $contactForm.submit(function(e) {
+	        e.preventDefault();
+	        $.ajax({
+	            url: '//formspree.io/windettalex@gmail.com',
+	            method: 'POST',
+	            data: $(this).serialize(),
+	            dataType: 'json',
+	            success: function(data) {
+	            	forms.randomGiphy( 100, 'funny+animals' );
+	            	$contactForm.hide();
+	            	$('.form__notification--confirmation').show();
+	            },
+	            error: function(err) {
+	                $('.form__notification--error').show();
+	            }
+	        });
+	    });
 	}
 }
 
@@ -48,4 +87,6 @@ $(document).ready(function() {
     projects.ga();
 
     forms.init();
+    forms.contact();
+    // forms.randomGiphy( 100, 'funny+animals' );
 });

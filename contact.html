@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<form action="http://formspree.io/windettalex@gmail.com" method="POST">
+<form action="http://formspree.io/windettalex@gmail.com" method="POST" class="form__contact">
 	<ul>
 		<li>
 			<label for="name">Name</label>
@@ -25,3 +25,14 @@ permalink: /contact/
 	<input type="submit" value="Send Message">
 
 </form>
+
+<section class="form__notification--confirmation hidden">
+	<h2>Thanks for the email!</h2>
+	<h3>In the meantime here's a funny gif</h3>
+
+	<div class="gif"><img src=""></div>
+</section>
+
+<section class="form__notification--error hidden">
+	<h2>Seems to be a problem... have another go or email me at <a href="mailto:windettalex@gmail.com">windettalex@gmail.com</a></h2>
+</section>
