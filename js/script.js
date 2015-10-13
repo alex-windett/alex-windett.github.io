@@ -50,7 +50,7 @@ var forms = {
 
 				url = gifs[randomGif].images.original.url; // gif url
 
-				$('.form__notification--confirmation').find('img').attr('src', url);
+				$('.giphy img').attr('src', url);
 		});
 	},
 
@@ -64,7 +64,6 @@ var forms = {
 	            data: $(this).serialize(),
 	            dataType: 'json',
 	            success: function(data) {
-	            	forms.randomGiphy( 100, 'funny+animals' );
 	            	$contactForm.hide();
 	            	$('.form__notification--confirmation').show();
 	            },
@@ -115,10 +114,10 @@ $(document).ready(function() {
 
     forms.init();
     forms.contact();
+    forms.randomGiphy( 100, 'funny+animals' );
 
     tools.init();
     tools.scroll();
-
 
     $('a.no-link').on('click', function(e){
     	e.preventDefault();
