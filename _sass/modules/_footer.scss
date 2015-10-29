@@ -1,0 +1,21 @@
+footer {
+
+	background: $color__bg--dark;
+	padding-top: 10rem;
+
+	h3 {
+		text-align: center;
+	}
+
+	.social-links {
+	    width: 24rem;
+	    margin: 0 auto;
+	}
+
+	li p {
+		font-family: $font__heading--main;
+		font-size: 1.8rem;
+		line-height: 2.4rem;
+		display: inline-block;
+	}
+}

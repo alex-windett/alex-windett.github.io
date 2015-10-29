@@ -12,3 +12,26 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+social:
+  - name: Mail
+    icon: mail
+    username: windettalex@gmail.com
+    url: windettalex@gmai.com
+
+  - name: Twitter
+    icon: twitter
+    username: alexwindett
+    url: https://twitter.com/alexwindett
+
+  - name: GitHub
+    icon: github
+    username: alex-windett
+    url: https://github.com/alex-windett
+    desc: Fork me on GitHub
+
+  - name: LinkedIn
+    icon: linkedin
+    username: Alex Windett
+    url: https://uk.linkedin.com/in/alexwindett
+    desc: Connect with me on LinkedIn

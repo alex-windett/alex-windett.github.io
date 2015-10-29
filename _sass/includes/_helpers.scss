@@ -15,6 +15,14 @@
 // 	@extend .clearfix;
 // }
 
+.background--dark {
+	background: $color__bg--dark;
+}
+
+.background--light {
+	background: $color__bg--light;
+}
+
 .center {
 	text-align: center;
 }
@@ -25,4 +33,10 @@
 
 .right {
 	float: right;
+}
+
+ul.remove-default {
+
+	margin-left: 0;
+	list-style: none;
 }
