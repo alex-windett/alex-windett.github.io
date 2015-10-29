@@ -30,8 +30,23 @@ body.home {
 		}
 
 		&--intro {
-			padding-left: 52rem;
-			padding-right: 52rem;
+			padding-left: 5rem;
+			padding-right: 5rem;
+
+			@media #{$large-up} {
+				padding-left: 42rem;
+				padding-right: 42rem;
+			}
+		}
+
+		&--portfolio {
+			padding-left: 5rem;
+			padding-right: 5rem;
+
+			@media #{$large-up} {
+				padding-left: 0;
+				padding-right: 0;
+			}
 		}
 	}
 }
