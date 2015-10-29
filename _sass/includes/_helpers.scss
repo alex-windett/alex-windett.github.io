@@ -1,0 +1,28 @@
+.clearfix {
+
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+// .hr {
+// 	border-bottom: 1px solid $color__hr;
+// 	margin: 7rem auto 5rem;
+// 	width: 60%;
+
+// 	@extend .clearfix;
+// }
+
+.center {
+	text-align: center;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}

@@ -1,0 +1,15 @@
+@mixin greyscale($value) {
+			filter: grayscale( $value );
+    -webkit-filter: grayscale( $value );
+		    filter: gray;
+}
+
+@mixin transition($transition, $duration) {
+  -webkit-transition: $transition $duration all;
+		  transition: $transition $duration all;
+}
+
+@mixin animation($animation, $transition, $duration) {
+	-webkit-animation: $animation $transition $duration;
+    -moz-animation: $animation $transition $duration;
+}

@@ -1,0 +1,35 @@
+// ***************************
+//	$$ Fonts
+// ***************************
+
+// Generate @font-face declarations for a list of fonts
+
+// relative path to fonts
+$font-path: '../assets/fonts/';
+
+// the name that will be used in font-family property
+// Add in 'fontello' when needed
+$font-families: 'Raleway Italic', 'Raleway Thin';
+
+// the filename of your font without the file extension
+// Add in 'fontello' when needed
+$font-filenames: 'raleway-italic-webfont', 'raleway-thin-webfont';
+$i: 1;
+
+@each $font-family in $font-families {
+
+	@font-face {
+        font-family: $font-family;
+        src: url($font-path + nth($font-filenames, $i) + '.eot');
+        src: url($font-path + nth($font-filenames, $i) + '.eot?#iefix') format('embedded-opentype'),
+        url($font-path + nth($font-filenames, $i) + '.woff2') format('woff2'),
+        url($font-path + nth($font-filenames, $i) + '.woff') format('woff'),
+        url($font-path + nth($font-filenames, $i) + '.ttf') format('truetype'),
+        url($font-path + nth($font-filenames, $i) + '.svg#' + $font-family ) format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    $i: $i+1;
+
+}

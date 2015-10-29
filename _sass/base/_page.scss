@@ -1,0 +1,77 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+body {
+	background: $body-background;
+}
+
+#container {
+	width: 90%;
+    max-width: 108rem;
+
+	margin: 0 auto;
+
+	.content-wrapper {
+		// background: $page-container;
+
+		@media #{$large-up} {
+			padding-bottom: 7.5rem;
+		}
+	}
+}
+
+h1 {
+	font-family: $font__heading--main;
+	font-size: 5rem;
+	line-height: 4.2rem;
+	text-transform: uppercase;
+}
+
+h2,
+h3 {
+	font-family: $font__heading--secondary;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 4.5rem;
+	line-height: 4.2rem;
+}
+
+h3 {
+	font-size: 3.5rem;
+	line-height: 4.2rem;
+}
+
+h4,
+p,
+a,
+li,
+span {
+	font-family: $font__paragraph;
+}
+
+h4 {
+	font-size: 2.6rem;
+	line-height: 3.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+span,
+a,
+a:hover,
+a:visited,
+a:focus {
+	color: $color__copy--light;
+}
