@@ -1,7 +1,7 @@
 footer {
 
 	background: $color__bg--dark;
-	padding-top: 10rem;
+	padding: 10rem 0;
 
 	h3 {
 		text-align: center;
@@ -10,12 +10,19 @@ footer {
 	.social-links {
 	    width: 24rem;
 	    margin: 0 auto;
+	    margin-top: 2rem;
 	}
 
-	li p {
-		font-family: $font__heading--main;
-		font-size: 1.8rem;
-		line-height: 2.4rem;
-		display: inline-block;
+	li {
+		i {
+			font-size: 1.7rem
+		}
+
+		p {
+			font-family: $font__heading--main;
+			font-size: 1.8rem;
+			line-height: 2.4rem;
+			display: inline-block;
+		}
 	}
 }

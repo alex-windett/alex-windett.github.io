@@ -11,21 +11,6 @@ body {
 	background: $body-background;
 }
 
-#container {
-	width: 90%;
-    max-width: 108rem;
-
-	margin: 0 auto;
-
-	.content-wrapper {
-		// background: $page-container;
-
-		@media #{$large-up} {
-			padding-bottom: 7.5rem;
-		}
-	}
-}
-
 h1 {
 	font-family: $font__heading--main;
 	font-size: 5.4rem;
@@ -57,6 +42,11 @@ h4 {
 	line-height: 3.4rem;
 }
 
+p {
+	font-size: 1.6rem;
+	line-height: 2.6rem;
+}
+
 h1,
 h2,
 h3,
@@ -70,3 +60,11 @@ a:visited,
 a:focus {
 	color: $color__copy--light;
 }
+
+a,
+a:hover,
+a:visited,
+a:focus {
+	text-decoration: none;
+}
+

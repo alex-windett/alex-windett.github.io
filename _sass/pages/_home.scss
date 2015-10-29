@@ -1,0 +1,37 @@
+body.home {
+
+	.cover__image {
+		background: url($image-path + "home_cover.png");
+		background-size: 100% 100%;;
+		padding: 9rem 0;
+
+		&--portrait {
+			text-align: center;
+
+			img {
+				border-radius: 14rem;
+			}
+		}
+
+		&--title {
+		    margin: 4rem auto 0;
+		    width: 33rem;
+		    text-align: center;
+		}
+	}
+
+
+	.homecopy {
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+
+		h3 {
+			margin-bottom: 3rem;
+		}
+
+		&--intro {
+			padding-left: 52rem;
+			padding-right: 52rem;
+		}
+	}
+}

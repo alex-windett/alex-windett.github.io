@@ -1,37 +1,32 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Alex Windett
+job_title: Web Developer
+baseurl: ""
+url: "http://windett.co.uk"
 
 # Build settings
 markdown: kramdown
 
+# Content settings
 social:
-  - name: Mail
-    icon: mail
-    username: windettalex@gmail.com
-    url: windettalex@gmai.com
+    - name: Mail
+      icon: mail
+      username: windettalex@gmail.com
+      url: windettalex@gmai.com
 
-  - name: Twitter
-    icon: twitter
-    username: alexwindett
-    url: https://twitter.com/alexwindett
+    - name: Twitter
+      icon: twitter
+      username: alexwindett
+      url: https://twitter.com/alexwindett
 
-  - name: GitHub
-    icon: github
-    username: alex-windett
-    url: https://github.com/alex-windett
-    desc: Fork me on GitHub
+    - name: GitHub
+      icon: github
+      username: alex-windett
+      url: https://github.com/alex-windett
+      desc: Fork me on GitHub
 
-  - name: LinkedIn
-    icon: linkedin
-    username: Alex Windett
-    url: https://uk.linkedin.com/in/alexwindett
-    desc: Connect with me on LinkedIn
+    - name: LinkedIn
+      icon: linkedin
+      username: Alex Windett
+      url: https://uk.linkedin.com/in/alexwindett
+      desc: Connect with me on LinkedIn

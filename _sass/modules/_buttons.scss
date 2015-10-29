@@ -1,0 +1,24 @@
+.cta {
+	display: inline-block;
+	padding: 0.5rem 10rem;
+	margin: 1rem 0;
+
+	h2 {
+		font-size: 2.7rem;
+		line-height: 4rem;
+	}
+
+	&--dark {
+		background: $color__cta--background;
+		@include transition(ease-in-out, 0.5s);
+
+		h2 {
+			color: $color__cta--text
+		}
+
+		&:hover {
+			background: lighten($color__cta--background, 20%);
+			@include transition(ease-in-out, 0.5s);
+		}
+	}
+}
