@@ -16,12 +16,15 @@ ul.burger-bar {
     li {
         width: 4rem;
         margin: 1rem auto;
-        border: 0.2rem solid black;
+        border: 0.2rem solid $color__copy--light;
         transition: all 0.2s ease-in-out;
     }
 }
 
 .cross {
+    border-left: white 0.2rem solid;
+    margin-top: 0.4rem;
+
     li {
         &:nth-child(1) {
             @include transform-origin(0% 50%);
@@ -68,12 +71,22 @@ nav {
 
         @media #{$large-up} {
             display: inline-block;
-            width: 25%;
+            border-right: 1px solid $color__copy--light;
+
+            $number-of-items: 5;
+            width: 100% / $number-of-items;
+
+            &:last-child {
+                border-right: none;
+            }
         }
 
         a {
-            color: black;
-            @extend p;
+            font-family: $font__heading--main;
+            color: $color__copy--light;
+
+            text-transform: lowercase;
+            @extend h4;
         }
     }
 }
