@@ -29,16 +29,6 @@ body.home {
 			margin-bottom: 3rem;
 		}
 
-		&--intro {
-			padding-left: 5rem;
-			padding-right: 5rem;
-
-			@media #{$large-up} {
-				padding-left: 42rem;
-				padding-right: 42rem;
-			}
-		}
-
 		&--portfolio {
 			padding-left: 5rem;
 			padding-right: 5rem;
@@ -46,6 +36,59 @@ body.home {
 			@media #{$large-up} {
 				padding-left: 0;
 				padding-right: 0;
+			}
+
+			h3 {
+				color: $color__copy;
+			}
+		}
+	}
+
+	.block--grid {
+		max-width: 70rem;
+		margin: 0 auto;
+		text-align: left;
+
+		li {
+			position: relative;
+			width: 100%;
+			padding: 1rem 0;
+
+			@media #{$large-up} {
+			 	width: 33%;
+				display: inline-block;
+				padding: 0.5rem;
+			}
+
+			img {
+				width: 100%;
+			}
+
+			.project--preview,
+			article {
+				display: none;
+			}
+
+			&.active {
+
+				article {
+					display: block;
+					position: absolute;
+					top: 0;
+					width: 200%;
+					margin-left: 24rem;
+
+					.cta {
+					    font-size: 2rem;
+					    padding: 2rem;
+					    width: 46%;
+					    text-align: center;
+					}
+				}
+
+				.project--preview {
+					display: block;
+				}
 			}
 		}
 	}
