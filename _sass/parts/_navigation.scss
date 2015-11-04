@@ -1,5 +1,6 @@
 nav {
     position: fixed;
+    z-index: 1;
     width: 100%;
     @include box-shadow(0px 3px 10px grey);
 }
@@ -22,8 +23,11 @@ ul.burger-bar {
 }
 
 .cross {
-    border-left: white 0.2rem solid;
     margin-top: 0.4rem;
+
+    @media #{$large-up} {
+         border-left: white 0.2rem solid;
+    }
 
     li {
         &:nth-child(1) {
@@ -69,8 +73,13 @@ nav {
         float: left;
         text-align: center;
 
+        &:first-child a {
+            border-top: none;
+        }
+
         @media #{$large-up} {
             display: inline-block;
+            border-bottom: none;
             border-right: 1px solid $color__copy--light;
 
             $number-of-items: 5;
@@ -87,6 +96,13 @@ nav {
 
             text-transform: lowercase;
             @extend h4;
+
+            @media #{$medium-down} {
+                width: 45%;
+                display: inline-block;
+                border-top: 1px solid $color__copy--light;
+                padding: 1rem 0;
+            }
         }
     }
 }

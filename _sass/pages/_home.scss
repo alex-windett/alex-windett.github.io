@@ -89,10 +89,16 @@ body.home {
 
 				article {
 					display: block;
-					position: absolute;
-					top: 0;
-					width: 200%;
-					margin-left: 24rem;
+					margin-top: 1rem;
+
+					@media #{$large-up} {
+						position: absolute;
+						top: 0;
+						width: 200%;
+						margin-left: 24rem;
+					}
+
+					@include transition(ease-in-out, 0.2s);
 
 					h4 {
 						font-family: $font__heading--main;
@@ -106,8 +112,12 @@ body.home {
 					    font-size: 2rem;
 					    color: $color__copy--light;
 					    padding: 1rem 3rem;
-					    width: 46%;
+					    width: 100%;
 					    text-align: center;
+
+					    @media #{$large-up} {
+							width: 46%;
+					    }
 					}
 				}
 
