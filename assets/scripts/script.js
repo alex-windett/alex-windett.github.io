@@ -34,7 +34,7 @@ $(document).ready(function(){
   		} else {
   			var elementPositon = $(this).position();
 
-	  		$(this).addClass('active');
+	  		$(this).addClass('active')
 	  			   .find(projectLogo).hide();
 	  		$(this).siblings()
 	  			.removeClass('active')
