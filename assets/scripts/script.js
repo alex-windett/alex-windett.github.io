@@ -29,18 +29,20 @@ $(document).ready(function(){
 
   	projectItem.click(function(){
   		if ( $(this).hasClass('active') ) {
-
-  			$(this).removeClass('active');
-  				.find(projectLogo).show();
-
+  			$(this).removeClass('active')
+  				   .find(projectLogo).show();
   		} else {
+  			var elementPositon = $(this).position();
 
-	  		$(this).addClass('active')
-	  		$(this).find(projectLogo).hide();
+	  		$(this).addClass('active');
+	  			   .find(projectLogo).hide();
 	  		$(this).siblings()
 	  			.removeClass('active')
 	  			.find(projectLogo).show();
 
+	  		if ( elementPositon.left > 0 ) {
+			  	$(this).detach().prependTo('.block--grid').fadeIn();
+	  		}
 	  	}
   	})
 });
