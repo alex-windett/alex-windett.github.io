@@ -31,13 +31,13 @@ $(document).ready(function(){
 
 
   	projectItem.click(function(){
-        projectItem.each(function(index, el) {
+        projectItem.each(function() {
             $(this).css('left', '0')
         });
 
   		if ( $(this).hasClass('active') ) {
   			$(this).removeClass('active').find(projectLogo).show();
-             $(this).css('left', '0')
+            $(this).css('left', '0')
   		} else {
   			var elementPositon  = $(this).position(),
   				elementIndex	= $(this).index()

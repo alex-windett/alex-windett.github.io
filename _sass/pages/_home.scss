@@ -1,55 +1,5 @@
 body.home {
 
-	.cover__image {
-		background: url($image-path + "home_cover.png");
-		background-size: 100% 100%;;
-		padding: 7% 0;
-
-		&--portrait {
-			text-align: center;
-
-			img {
-				border-radius: 14rem;
-			}
-		}
-
-		&--title {
-		    margin: 4rem auto 0;
-		    width: 33rem;
-		    text-align: center;
-		}
-	}
-
-
-	.homecopy {
-		padding-top: 10rem;
-		padding-bottom: 10rem;
-
-		h3 {
-			margin-bottom: 3rem;
-		}
-
-		&--portfolio {
-			padding-left: 5rem;
-			padding-right: 5rem;
-
-			@media #{$large-up} {
-				padding-left: 0;
-				padding-right: 0;
-			}
-
-			> p {
-				max-width: 49.5rem;
-				margin: 0 auto;
-				margin-bottom: 3rem;
-			}
-
-			h3 {
-				color: $color__copy;
-			}
-		}
-	}
-
 	.block--grid {
 		max-width: 70rem;
 		margin: 0 auto;

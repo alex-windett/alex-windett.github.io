@@ -1,0 +1,31 @@
+.background--light {
+
+	h3 {
+		color: $color__copy;
+	}
+}
+
+section.padder {
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+section.intro {
+	padding-left: 5rem;
+	padding-right: 5rem;
+
+	@media #{$large-up} {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	h3 {
+		margin-bottom: 3rem;
+	}
+
+	> p {
+		max-width: 49.5rem;
+		margin: 0 auto;
+		margin-bottom: 3rem;
+	}
+}

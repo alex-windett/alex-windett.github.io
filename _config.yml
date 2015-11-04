@@ -7,6 +7,9 @@ url: "http://windett.co.uk"
 # Build settings
 markdown: kramdown
 
+# Permalink style
+permalink: pretty
+
 # Content settings
 social:
     - name: Mail
