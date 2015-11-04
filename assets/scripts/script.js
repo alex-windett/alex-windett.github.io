@@ -32,7 +32,8 @@ $(document).ready(function(){
   			$(this).removeClass('active')
   				   .find(projectLogo).show();
   		} else {
-  			var elementPositon = $(this).position();
+  			var elementPositon  = $(this).position(),
+  				elementIndex	= $(this).index()
 
 	  		$(this).addClass('active')
 	  			   .find(projectLogo).hide();
@@ -40,7 +41,7 @@ $(document).ready(function(){
 	  			.removeClass('active')
 	  			.find(projectLogo).show();
 
-	  		if ( elementPositon.left > 0 ) {
+	  		if ( elementIndex > 0 ) {
 			  	$(this).detach().prependTo('.block--grid').fadeIn();
 	  		}
 	  	}

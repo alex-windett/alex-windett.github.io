@@ -30,3 +30,14 @@ social:
       username: Alex Windett
       url: https://uk.linkedin.com/in/alexwindett
       desc: Connect with me on LinkedIn
+
+projects:
+    - name: 9BAR
+      url: https://www.9bar.com
+      description: 'Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should'
+    - name: Yes+
+      url: https://www.yesplus.org.uk
+      description: 'Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should'
+    - name: Tyrrells
+      url: https://www.tyrrellscrisps.co.uk
+      description: 'Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should'

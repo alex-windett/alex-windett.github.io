@@ -4,6 +4,11 @@
 	filter: $fallback;
 }
 
+@mixin opacity($value) {
+	opacity: $value;
+    filter: alpha(opacity=#{$value*100});
+}
+
 @mixin transition($transition, $duration) {
 	-webkit-transition: $transition $duration all;
 	transition: $transition $duration all;

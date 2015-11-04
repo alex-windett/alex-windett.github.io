@@ -38,6 +38,12 @@ body.home {
 				padding-right: 0;
 			}
 
+			> p {
+				max-width: 49.5rem;
+				margin: 0 auto;
+				margin-bottom: 3rem;
+			}
+
 			h3 {
 				color: $color__copy;
 			}
@@ -55,6 +61,8 @@ body.home {
 			width: 100%;
 			padding: 1rem 0;
 
+			@include transition(ease-in-out, 0.2s);
+
 			@media #{$large-up} {
 			 	width: 33%;
 				display: inline-block;
@@ -70,7 +78,14 @@ body.home {
 				display: none;
 			}
 
+			&:hover {
+				@include opacity(0.6);
+				@include transition(ease-in-out, 0.2s);
+			}
+
 			&.active {
+				// If its the active item, remove hover effect
+				@include opacity(1);
 
 				article {
 					display: block;
@@ -79,9 +94,18 @@ body.home {
 					width: 200%;
 					margin-left: 24rem;
 
+					h4 {
+						font-family: $font__heading--main;
+						font-size: 2.7rem;
+						line-height: 3.2rem;
+						color: $color__copy;
+					}
+
 					.cta {
+						font-family: $font__heading--main;
 					    font-size: 2rem;
-					    padding: 2rem;
+					    color: $color__copy--light;
+					    padding: 1rem 3rem;
 					    width: 46%;
 					    text-align: center;
 					}

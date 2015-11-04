@@ -20,72 +20,22 @@ body_class: home
 	<p>Some sort of quick blurb about the type of work I do I image. Probably going onto multiple lines, who knows? </p>
 
 	<ul class="block--grid">
+		{% for project in site.projects %}
 		<li>
 			<a href="#" class="link__removed">
-				<img class="project--logo" src="assets/images/project-cover_03.png" alt="">
-				<img class="project--preview" src="assets/images/alex_03.png" alt="">
+				<img class="project--logo" src="assets/images/projects/project__logo--{{ project.name | downcase }}.png" alt="">
+				<img class="project--preview" src="assets/images/projects/project__preview--{{ project.name | downcase }}.png" alt="">
 			</a>
 
 			<article>
-				<h4>9BAR</h4>
-				<p>Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should<</p>
+				<h4>{{ project.name }}</h4>
+				<p>{{ project.description }}</p>
 
-				<a href="#" class="cta cta--dark">
+				<a href="{{ project.url }}" class="cta cta--dark">
 					to the website
 				</a>
 			</article>
 		</li>
-		<li>
-			<a href="#" class="link__removed">
-				<img class="project--logo" src="assets/images/project-cover_07.png" alt="">
-				<img class="project--preview" src="assets/images/alex_03.png" />
-			<article>
-				<h4>Tyrrells</h4>
-				<p>Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should<</p>
-
-				<a href="#" class="cta cta--dark">
-					to the website
-				</a>
-			</article>
-		</li>
-		<li>
-			<a href="#" class="link__removed">
-				<img class="project--logo" src="assets/images/project-cover_05.png" alt="">
-				<img class="project--preview" src="assets/images/alex_03.png" />
-			<article>
-				<h4>YES+</h4>
-				<p>Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should<</p>
-
-				<a href="#" class="cta cta--dark">
-					to the website
-				</a>
-			</article>
-		</li>
-		<li>
-			<a href="#" class="link__removed">
-				<img class="project--logo" src="assets/images/project-cover_03.png" alt="">
-				<img class="project--preview" src="assets/images/alex_03.png" />
-			<article>
-				<h4>9BAR</h4>
-				<p>Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should<</p>
-
-				<a href="#" class="cta cta--dark">
-					to the website
-				</a>
-			</article>
-		</li>
-		<li>
-			<a href="#" class="link__removed">
-				<img class="project--logo" src="assets/images/project-cover_07.png" alt="">
-				<img class="project--preview" src="assets/images/alex_03.png" />
-			<article>
-				<h4>Tyrrells</h4>
-				<p>Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should<</p>
-
-				<a href="#" class="cta cta--dark">
-					to the website
-				</a>
-			</article>
-		</li>
+		{% endfor %}
 	</ul>
 </section>
