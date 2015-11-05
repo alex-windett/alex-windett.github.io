@@ -49,7 +49,7 @@ $(document).ready(function(){
 	  		if ( elementIndex > 0 && windowWidth >= largeScreenSize ) {
                 // Very basic but works
                 // $(this).detach().prependTo('.block--grid');
-                alert();
+
                 var left        = $(this).position().left,
                     itemWidth   = projectItem.width();
 
