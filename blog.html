@@ -8,6 +8,21 @@ body_class: blog
 	<p>Some sort of quick blurb about the type of work I do I image. Probably going onto multiple lines, who knows? </p>
 </section>
 
-<section class="background--light">
+<section class="background--light padder blog--list clearfix">
+	<ul>
+	{% for post in site.posts %}
+		<li class="blog--list__item clearfix {% if post.image %}with__image{% endif %}">
+			{% if post.image %}
+				<div class="left">
+					<img src="{{ post.image | prepend: baseurl }}" alt="">
+				</div>
+			{% endif %}
 
+			<div class="right">
+				<h3>{{ post.title }}</h3>
+				<p>{{ post.excerpt }}</p>
+			</div>
+		</li>
+	{% endfor %}
+	</ul>
 </section>
