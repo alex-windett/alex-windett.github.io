@@ -11,8 +11,8 @@ section.padder {
 }
 
 section.intro {
-	padding-left: 5rem;
-	padding-right: 5rem;
+	width: 70%;
+    margin: 0 auto;
 
 	@media #{$large-up} {
 		padding-left: 0;
