@@ -27,4 +27,23 @@ body.post-single {
 			width: 100%;
 		}
 	}
+
+	.page-navigation {
+	    padding: 8rem 0;
+
+	    li {
+	    	display: inline-block;
+	    	width: 33.3%;
+	    	float: left;
+	    }
+
+		a {
+			font-size: 1.8rem;
+			color: $color__copy;
+
+			&:hover {
+				border-bottom: solid 1px;
+			}
+		}
+	}
 }

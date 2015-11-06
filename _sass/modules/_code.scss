@@ -10,6 +10,10 @@ code {
 	overflow-x:scroll;
 	padding:0.25em;
 
+	> span {
+	    line-height: 2.8rem
+	}
+
 }
 pre {
 	margin:0;
