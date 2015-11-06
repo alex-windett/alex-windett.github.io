@@ -1,0 +1,30 @@
+body.post-single {
+
+	.post {
+	    width: 60%;
+	    margin: 0 auto;
+
+	    p {
+			margin: 1rem 0;
+			color: $color__copy--dark;
+
+			a {
+				color: $color__copy;
+			}
+		}
+	}
+
+	.post-title {
+		font-family: $font__heading--main;
+		color: $color__copy;
+		padding: 5rem 0;
+	}
+
+	.post-header {
+		margin-bottom: 4rem;
+
+		img {
+			width: 100%;
+		}
+	}
+}

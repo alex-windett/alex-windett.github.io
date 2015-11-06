@@ -54,7 +54,7 @@ $(document).ready(function(){
                     itemWidth   = projectItem.width();
 
                 $(this).animate({
-                    left: "-" + left
+                    left: -Math.abs(left)
                 }, 'fast' );
                 $(this).siblings().animate({
                     left: itemWidth + 20 // Componsating for extra space

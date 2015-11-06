@@ -33,6 +33,10 @@ body.blog {
 			p {
 				padding: 0.5rem 0;
 			}
+
+			h3 > a {
+				color: inherit;
+			}
 		}
 	}
 }

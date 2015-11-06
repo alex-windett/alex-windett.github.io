@@ -53,7 +53,6 @@ h3,
 h4,
 p,
 li,
-span,
 a,
 a:hover,
 a:visited,
@@ -68,3 +67,16 @@ a:focus {
 	text-decoration: none;
 }
 
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 2rem 0 2rem 6rem;
+	border-left: solid #eeeeee 0.2rem;
+	padding: 0.5rem 0 0.5rem 2rem;
+}
