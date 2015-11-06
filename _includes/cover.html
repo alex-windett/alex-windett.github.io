@@ -1,8 +1,10 @@
 <section class="cover__image">
 
-	<div class="cover__image--portrait">
-		<img src=" {{ "/assets/images/home_cover_portrait.png" | prepend: baseurl" alt="{{ site.title }}">
-	</div>
+	{% if page.body_class == 'home' %}
+		<div class="cover__image--portrait">
+			<img src=" {{ "/assets/images/home_cover_portrait.png" | prepend: baseurl" alt="{{ site.title }}">
+		</div>
+	{% endif %}
 
 	<div class="cover__image--title">
 		<h1>{{ site.title }}</h1>
