@@ -1,52 +1,79 @@
+'use strict';
+
 module.exports = function (grunt) {
 
-	var timestamp = new Date().getTime();
+    // Show elapsed time after tasks run to visualize performance
+    require('time-grunt')(grunt);
+    // Load all Grunt tasks that are listed in package.json automagically
+    require('load-grunt-tasks')(grunt);
 
-	var globalConfig = {
-		project: 'windett',
-		assets : 'assets',
+    grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
 
-		base: '/',
+        // shell commands for use in Grunt tasks
+        shell: {
+            jekyllBuild: {
+                command: 'jekyll build'
+            },
+            jekyllServe: {
+                command: 'jekyll serve'
+            }
+        },
 
-		js           : '<%= globalConfig.assets %>/scripts',
-		css          : '/css',
-		scss         : '/scss',
-		scss_includes: '<%= globalConfig.scss %>/includes',
-		img          : '<%= globalConfig.assets %>/img',
+        // watch for files to change and run tasks when they do
+        watch: {
+            sass: {
+                files: ['_sass/**/*.{scss,sass}'],
+                tasks: ['sass']
+            }
+        },
 
-		js_min   : '<%= globalConfig.js %>/min',
-		js_concat: '<%= globalConfig.js %>/concat',
+        // sass (libsass) config
+        sass: {
+            options: {
+                sourceMap: true,
+                relativeAssets: false,
+                outputStyle: 'expanded',
+                sassDir: '_sass',
+                cssDir: '_site/css'
+            },
+            build: {
+                files: [{
+                    expand: true,
+                    cwd: '_sass/',
+                    src: ['**/*.{scss,sass}'],
+                    dest: '_site/css',
+                    ext: '.css'
+                }]
+            }
+        },
 
-		timestamp: timestamp
-	};
+        // run tasks in parallel
+        concurrent: {
+            serve: [
+                'sass',
+                'watch',
+                'shell:jekyllServe'
+            ],
+            options: {
+                logConcurrentOutput: true
+            }
+        },
 
-	grunt.initConfig({
-		pkg         : grunt.file.readJSON('package.json'),
-		globalConfig: globalConfig
-	});
+    });
 
-	// Load tasks
-	grunt.loadTasks('grunt-tasks');
+    // Register the grunt serve task
+    grunt.registerTask('serve', [
+        'concurrent:serve'
+    ]);
 
-	// Register tasks
-	grunt.registerTask('common', [
-		//'scss_images',
-		//'newer:sprite',
-		//'sass_globbing',
-		// 'rename',
-		// 'replace:scss',
-		// 'concat',
-		// 'uglify',
-		'sass'
-	]);
-	grunt.registerTask('default', [
-		'common',
-		// 'svgmin',
-		// 'newer:imagemin',
-		// 'replace:images'
-	]);
-	grunt.registerTask('dev', [
-		'common',
-		'watch'
-	]);
+    // Register the grunt build task
+    grunt.registerTask('build', [
+        'shell:jekyllBuild',
+        'sass'
+    ]);
+
+    // Register build as the default task fallback
+    grunt.registerTask('default', 'build');
+
 };

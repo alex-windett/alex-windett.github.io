@@ -14,6 +14,12 @@ permalink: pretty
 paginate: 2
 paginate_path: "/blog/page/:num"
 
+exclude: ['css', '_scss']
+keep_files: ['_site/css']
+
+gems:
+  [jekyll-paginate]
+
 # Content settings
 social:
     - name: Mail
