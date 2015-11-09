@@ -51,7 +51,18 @@ module.exports = function (grunt) {
                     sourceMapName: 'assets/scripts/min/script.map.js'
                 },
                 files: {
-                    'assets/scripts/min/script.js': 'assets/scripts/script.js'
+                    'assets/scripts/min/script.js': 'assets/scripts/concat/script.js'
+                }
+            }
+        },
+
+       concat: {
+            dist: {
+                files: {
+                    'assets/scripts/concat/script.js': [
+                        'assets/scripts/*.js',
+                        'assets/scripts/functions/*.js',
+                    ]
                 }
             }
         },
@@ -108,6 +119,8 @@ module.exports = function (grunt) {
     // Register the grunt build task
     grunt.registerTask('build', [
         'shell:jekyllBuild',
+        'concat',
+        'uglify',
         'sass',
     ]);
 

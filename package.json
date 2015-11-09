@@ -11,6 +11,7 @@
     "time-grunt": "~0.4.0"
   },
   "dependencies": {
+    "grunt-contrib-concat": "^0.5.1",
     "grunt-contrib-uglify": "^0.10.0",
     "grunt-githooks": "^0.3.1"
   }
