@@ -20,6 +20,14 @@ keep_files: ['_site/css']
 gems:
   [jekyll-paginate]
 
+exclude:
+  [
+    node_modules,
+    Gruntfile.js,
+    package.json
+  ]
+
+
 # Content settings
 social:
     - name: Mail
