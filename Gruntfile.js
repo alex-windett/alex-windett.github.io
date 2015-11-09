@@ -35,6 +35,7 @@ module.exports = function (grunt) {
                     '_posts/**',
                     '_includes/**',
                     '_sass/**',
+                    'scripts/**',
                 ],
                 options: {
                   livereload: true
@@ -44,9 +45,13 @@ module.exports = function (grunt) {
 
         // Project configuration.
         uglify: {
-            my_target: {
+            main_script: {
+                options: {
+                    sourceMap: true,
+                    sourceMapName: 'assets/scripts/min/script.map.js'
+                },
                 files: {
-                    'assets/scripts/script.min.js': 'assets/scripts/script.js'
+                    'assets/scripts/min/script.js': 'assets/scripts/script.js'
                 }
             }
         },
@@ -74,6 +79,7 @@ module.exports = function (grunt) {
         // run tasks in parallel
         concurrent: {
             serve: [
+                'uglify',
                 'sass',
                 'watch',
                 'shell:jekyllServe'
@@ -85,8 +91,8 @@ module.exports = function (grunt) {
 
         githooks: {
             all: {
-              // Will run the jshint and test:unit tasks at every commit
-              'pre-push': 'grunt'
+                // Should run grunt to uglify before a git push
+                'pre-push': 'grunt'
             }
         }
 
@@ -103,7 +109,6 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'shell:jekyllBuild',
         'sass',
-        'uglify'
     ]);
 
     // Register build as the default task fallback

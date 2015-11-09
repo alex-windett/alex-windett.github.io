@@ -28,6 +28,26 @@ body.home {
 				display: none;
 			}
 
+			article {
+				    width: 190%;
+					position: absolute;
+					top: 0;
+					left: 105%;
+
+					.cta {
+						font-family: $font__heading--main;
+					    font-size: 2rem;
+					    color: $color__copy--light;
+					    padding: 1rem 3rem;
+					    width: 100%;
+					    text-align: center;
+
+					    @media #{$large-up} {
+							width: 46%;
+					    }
+					}
+			}
+
 			&:hover {
 				@include opacity(0.6);
 				@include transition(ease-in-out, 0.2s);
@@ -45,7 +65,6 @@ body.home {
 						position: absolute;
 						top: 0;
 						width: 200%;
-						margin-left: 24rem;
 					}
 
 					@include transition(ease-in-out, 0.2s);
@@ -55,19 +74,6 @@ body.home {
 						font-size: 2.7rem;
 						line-height: 3.2rem;
 						color: $color__copy;
-					}
-
-					.cta {
-						font-family: $font__heading--main;
-					    font-size: 2rem;
-					    color: $color__copy--light;
-					    padding: 1rem 3rem;
-					    width: 100%;
-					    text-align: center;
-
-					    @media #{$large-up} {
-							width: 46%;
-					    }
 					}
 				}
 
