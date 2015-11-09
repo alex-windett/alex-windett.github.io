@@ -29,7 +29,6 @@ $(document).ready(function(){
         projectLogo		= $('.project--logo'),
         projectPreview	= $('.project--preview');
 
-
   	projectItem.click(function(){
         projectItem.each(function() {
             $(this).css('left', '0')
@@ -39,29 +38,36 @@ $(document).ready(function(){
   			$(this).removeClass('active').find(projectLogo).show();
             $(this).css('left', '0')
   		} else {
+
   			var elementPositon  = $(this).position(),
-  				elementIndex	= $(this).index()
+  				elementIndex	= $(this).index(),
+                left            = $(this).position().left,
+                itemWidth       = projectItem.width();
 
-	  		$(this).addClass('active').find(projectLogo).hide();
-	  		$(this).siblings().removeClass('active').find(projectLogo).show();
-
-	  		// Moving all but the first element
-	  		if ( elementIndex > 0 && windowWidth >= largeScreenSize ) {
-                // Very basic but works
-                // $(this).detach().prependTo('.block--grid');
-
-                var left        = $(this).position().left,
-                    itemWidth   = projectItem.width();
+            if ( elementIndex == 1 || elementIndex % 4 === 0 ) {
 
                 $(this).animate({
                     left: -Math.abs(left)
                 }, 'fast' );
-                $(this).siblings().animate({
-                    left: itemWidth + 20 // Componsating for extra space
+                $(this).prev().animate({
+                    left: itemWidth + 13 // Componsating for extra space
                 }, 'fast' );
-	  		}
 
+            } else if ( elementIndex == 2 || elementIndex % 5 === 0 ) {
 
+                $(this).animate({
+                    left: -Math.abs(left)
+                }, 'fast' );
+
+                var siblingToMove = elementIndex - 1;
+
+                projectItem + $(":nth-child(" + siblingToMove + ")").animate({
+                    left: left // Componsating for extra space
+                }, 'fast' );
+
+            } else {
+                return
+            }
 	  	}
   	})
 });
