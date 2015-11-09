@@ -42,6 +42,15 @@ module.exports = function (grunt) {
             }
         },
 
+        // Project configuration.
+        uglify: {
+            my_target: {
+                files: {
+                    'assets/scripts/script.min.js': 'assets/scripts/script.js'
+                }
+            }
+        },
+
         // sass (libsass) config
         sass: {
             options: {
@@ -74,7 +83,16 @@ module.exports = function (grunt) {
             }
         },
 
+        githooks: {
+            all: {
+              // Will run the jshint and test:unit tasks at every commit
+              'pre-push': 'grunt'
+            }
+        }
+
     });
+
+    grunt.loadNpmTasks('grunt-githooks');
 
     // Register the grunt serve task
     grunt.registerTask('serve', [
@@ -84,7 +102,8 @@ module.exports = function (grunt) {
     // Register the grunt build task
     grunt.registerTask('build', [
         'shell:jekyllBuild',
-        'sass'
+        'sass',
+        'uglify'
     ]);
 
     // Register build as the default task fallback

@@ -50,7 +50,7 @@ $(document).ready(function(){
                     left: -Math.abs(left)
                 }, 'fast' );
                 $(this).prev().animate({
-                    left: itemWidth + 13 // Componsating for extra space
+                    left: itemWidth + 13
                 }, 'fast' );
 
             } else if ( elementIndex == 2 || elementIndex % 5 === 0 ) {
@@ -61,8 +61,8 @@ $(document).ready(function(){
 
                 var siblingToMove = elementIndex - 1;
 
-                projectItem + $(":nth-child(" + siblingToMove + ")").animate({
-                    left: left // Componsating for extra space
+                $(".block--grid li:nth-child(" + siblingToMove + ")").animate({
+                    left: left
                 }, 'fast' );
 
             } else {
