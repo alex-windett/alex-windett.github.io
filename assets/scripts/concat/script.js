@@ -54,24 +54,29 @@ function projectSlider(){
             $(this).find(projectLogo).show();
 
 		} else {
+
             $(this).addClass('active');
             $(this).siblings().removeClass('active').find(projectPreview).hide();
             $(this).siblings().find(projectDetails).hide();
             $(this).siblings().find(projectLogo).show();
 
-    			var elementPositon  = $(this).position(),
-    				elementIndex	= $(this).index(),
-                    left            = $(this).position().left,
-                    itemWidth       = projectItem.width();
+            function changeState() {
+                $(this).find(projectLogo).hide();
+                $(this).find(projectPreview).show();
+                $(this).find(projectDetails).show();
+            }
+
+			var elementPositon  = $(this).position(),
+				elementIndex	= $(this).index(),
+                left            = $(this).position().left,
+                itemWidth       = projectItem.width();
 
             if ( elementIndex == 0 || elementIndex % 3 === 0 ) {
 
                 $(this).animate({
                     left: 0
                 }, 'fast', function(){
-                    $(this).find(projectLogo).hide();
-                    $(this).find(projectPreview).show();
-                    $(this).find(projectDetails).show();
+                    changeState()
                 });
 
             }  else if ( elementIndex == 1 || elementIndex % 4 === 0 ) {
@@ -79,9 +84,7 @@ function projectSlider(){
                 $(this).animate({
                     left: -Math.abs(left)
                 }, 'fast', function(){
-                    $(this).find(projectLogo).hide();
-                    $(this).find(projectPreview).show();
-                    $(this).find(projectDetails).show();
+                    changeState()
                 });
                 $(this).prev().animate({
                     left: itemWidth + 13
@@ -92,18 +95,14 @@ function projectSlider(){
                 $(this).animate({
                     left: -Math.abs(left)
                 }, 'fast', function(){
-                    $(this).find(projectLogo).hide();
-                    $(this).find(projectPreview).show();
-                    $(this).find(projectDetails).show();
+                    changeState()
                 });
 
                 var siblingToMove = elementIndex - 1;
 
                 $(".block--grid li:nth-child(" + siblingToMove + ")").animate({
                     left: left
-                }, 'fast', function(){
-
-                });
+                }, 'fast');
 
             } else {
                 return
