@@ -26,6 +26,13 @@ module.exports = function (grunt) {
                 files: ['_sass/**/*.{scss,sass}'],
                 tasks: ['sass']
             },
+            concat: {
+                files: [
+                    'assets/scripts/*.js',
+                    'assets/scripts/functions/*.js'
+                    ],
+                tasks: "concat"
+            },
              livereload: {
                 files: [
                     '_config.yml',
@@ -40,13 +47,6 @@ module.exports = function (grunt) {
                 options: {
                   livereload: true
                 },
-            },
-            concat: {
-                files: [
-                    'assets/scripts/*.js',
-                    'assets/scripts/functions/*.js'
-                    ],
-                tasks: "concat"
             }
         },
 

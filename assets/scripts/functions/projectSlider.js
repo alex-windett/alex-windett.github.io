@@ -5,7 +5,7 @@ function projectSlider(){
         projectPreview	= $('.project--preview');
 
 	projectItem.click(function(){
-        console.log($(this).index())
+
         projectItem.each(function() {
             $(this).css('left', '0')
         });

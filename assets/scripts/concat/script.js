@@ -39,7 +39,7 @@ function projectSlider(){
         projectPreview	= $('.project--preview');
 
 	projectItem.click(function(){
-        console.log($(this).index())
+
         projectItem.each(function() {
             $(this).css('left', '0')
         });
@@ -60,7 +60,7 @@ function projectSlider(){
             $(this).siblings().find(projectDetails).hide();
             $(this).siblings().find(projectLogo).show();
 
-            function changeState() {
+            var changeState = function() {
                 $(this).find(projectLogo).hide();
                 $(this).find(projectPreview).show();
                 $(this).find(projectDetails).show();
@@ -76,7 +76,10 @@ function projectSlider(){
                 $(this).animate({
                     left: 0
                 }, 'fast', function(){
-                    changeState()
+                    // changeState()
+                    $(this).find(projectLogo).hide();
+                    $(this).find(projectPreview).show();
+                    $(this).find(projectDetails).show()
                 });
 
             }  else if ( elementIndex == 1 || elementIndex % 4 === 0 ) {
@@ -84,7 +87,10 @@ function projectSlider(){
                 $(this).animate({
                     left: -Math.abs(left)
                 }, 'fast', function(){
-                    changeState()
+                    // changeState()
+                    $(this).find(projectLogo).hide();
+                    $(this).find(projectPreview).show();
+                    $(this).find(projectDetails).show()
                 });
                 $(this).prev().animate({
                     left: itemWidth + 13
@@ -95,7 +101,10 @@ function projectSlider(){
                 $(this).animate({
                     left: -Math.abs(left)
                 }, 'fast', function(){
-                    changeState()
+                    // changeState()
+                    $(this).find(projectLogo).hide();
+                    $(this).find(projectPreview).show();
+                    $(this).find(projectDetails).show()
                 });
 
                 var siblingToMove = elementIndex - 1;
