@@ -4,12 +4,13 @@ function projectSlider(){
         projectLogo		= $('.project--logo'),
         projectPreview	= $('.project--preview');
 
-    	projectItem.click(function(){
+	projectItem.click(function(){
+        console.log($(this).index())
         projectItem.each(function() {
             $(this).css('left', '0')
         });
 
-    		if ( $(this).hasClass('active') ) {
+		if ( $(this).hasClass('active') ) {
     			$(this).removeClass('active').find(projectLogo).show();
             $(this).css('left', '0')
 
@@ -18,7 +19,7 @@ function projectSlider(){
 
             $(this).find(projectLogo).show();
 
-    		} else {
+		} else {
             $(this).addClass('active');
             $(this).siblings().removeClass('active').find(projectPreview).hide();
             $(this).siblings().find(projectDetails).hide();
@@ -26,10 +27,33 @@ function projectSlider(){
 
     			var elementPositon  = $(this).position(),
     				elementIndex	= $(this).index(),
-                left            = $(this).position().left,
-                itemWidth       = projectItem.width();
+                    left            = $(this).position().left,
+                    itemWidth       = projectItem.width();
 
-            if ( elementIndex == 2 || elementIndex % 5 === 0 ) {
+            if ( elementIndex == 0 || elementIndex % 3 === 0 ) {
+
+                $(this).animate({
+                    left: 0
+                }, 'fast', function(){
+                    $(this).find(projectLogo).hide();
+                    $(this).find(projectPreview).show();
+                    $(this).find(projectDetails).show();
+                });
+
+            }  else if ( elementIndex == 1 || elementIndex % 4 === 0 ) {
+
+                $(this).animate({
+                    left: -Math.abs(left)
+                }, 'fast', function(){
+                    $(this).find(projectLogo).hide();
+                    $(this).find(projectPreview).show();
+                    $(this).find(projectDetails).show();
+                });
+                $(this).prev().animate({
+                    left: itemWidth + 13
+                }, 'fast' );
+
+            } else if ( elementIndex == 2 || elementIndex % 5 === 0 ) {
 
                 $(this).animate({
                     left: -Math.abs(left)
@@ -46,19 +70,6 @@ function projectSlider(){
                 }, 'fast', function(){
 
                 });
-
-            } else if ( elementIndex == 1 || elementIndex % 4 === 0 ) {
-
-                $(this).animate({
-                    left: -Math.abs(left)
-                }, 'fast', function(){
-                    $(this).find(projectLogo).hide();
-                    $(this).find(projectPreview).show();
-                    $(this).find(projectDetails).show();
-                });
-                $(this).prev().animate({
-                    left: itemWidth + 13
-                }, 'fast' );
 
             } else {
                 return

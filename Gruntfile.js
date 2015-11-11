@@ -90,7 +90,6 @@ module.exports = function (grunt) {
         // run tasks in parallel
         concurrent: {
             serve: [
-                'uglify',
                 'sass',
                 'watch',
                 'shell:jekyllServe'
@@ -113,6 +112,7 @@ module.exports = function (grunt) {
 
     // Register the grunt serve task
     grunt.registerTask('serve', [
+        'concat',
         'concurrent:serve'
     ]);
 
