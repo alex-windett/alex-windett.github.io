@@ -28,8 +28,8 @@ module.exports = function (grunt) {
             },
             concat: {
                 files: [
-                    'assets/scripts/*.js',
-                    'assets/scripts/functions/*.js'
+                    'assets/scripts/functions/*.js',
+                    'assets/scripts/*.js'
                     ],
                 tasks: "concat"
             },

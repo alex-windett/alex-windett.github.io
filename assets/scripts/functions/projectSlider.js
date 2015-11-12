@@ -26,10 +26,10 @@ function projectSlider(){
             $(this).siblings().find(projectDetails).hide();
             $(this).siblings().find(projectLogo).show();
 
-            function changeState() {
-                $(this).find(projectLogo).hide();
-                $(this).find(projectPreview).show();
-                $(this).find(projectDetails).show();
+            function changeState( el ) {
+                el.find(projectLogo).hide();
+                el.find(projectPreview).show();
+                el.find(projectDetails).show();
             }
 
 			var elementPositon  = $(this).position(),
@@ -42,7 +42,8 @@ function projectSlider(){
                 $(this).animate({
                     left: 0
                 }, 'fast', function(){
-                    changeState()
+                    $this = $(this);
+                    changeState( $this )
                 });
 
             }  else if ( elementIndex == 1 || elementIndex % 4 === 0 ) {
@@ -50,7 +51,9 @@ function projectSlider(){
                 $(this).animate({
                     left: -Math.abs(left)
                 }, 'fast', function(){
-                    changeState()
+                    $this = $(this);
+                    changeState( $this )
+
                 });
                 $(this).prev().animate({
                     left: itemWidth + 13
@@ -61,7 +64,9 @@ function projectSlider(){
                 $(this).animate({
                     left: -Math.abs(left)
                 }, 'fast', function(){
-                    changeState()
+                    $this = $(this);
+                    changeState( $this )
+
                 });
 
                 var siblingToMove = elementIndex - 1;
