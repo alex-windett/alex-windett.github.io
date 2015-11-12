@@ -1,3 +1,9 @@
+ function changeState( el ) {
+        el.find(projectLogo).hide();
+        el.find(projectPreview).show();
+        el.find(projectDetails).show();
+    }
+
 function projectSlider(){
     var projectItem 	= $('.block--grid li'),
         projectDetails	= $('article'),
@@ -26,12 +32,6 @@ function projectSlider(){
             $(this).siblings().find(projectDetails).hide();
             $(this).siblings().find(projectLogo).show();
 
-            function changeState( el ) {
-                el.find(projectLogo).hide();
-                el.find(projectPreview).show();
-                el.find(projectDetails).show();
-            }
-
 			var elementPositon  = $(this).position(),
 				elementIndex	= $(this).index(),
                 left            = $(this).position().left,
@@ -53,7 +53,6 @@ function projectSlider(){
                 }, 'fast', function(){
                     $this = $(this);
                     changeState( $this )
-
                 });
                 $(this).prev().animate({
                     left: itemWidth + 13
@@ -66,7 +65,6 @@ function projectSlider(){
                 }, 'fast', function(){
                     $this = $(this);
                     changeState( $this )
-
                 });
 
                 var siblingToMove = elementIndex - 1;
