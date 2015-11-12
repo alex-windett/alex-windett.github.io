@@ -32,17 +32,18 @@ $(document).ready(function(){
     projectSlider();
 });
 
- function changeState( el ) {
-        el.find(projectLogo).hide();
-        el.find(projectPreview).show();
-        el.find(projectDetails).show();
-    }
+var projectItem     = $('.block--grid li'),
+    projectDetails  = $('article'),
+    projectLogo     = $('.project--logo'),
+    projectPreview  = $('.project--preview');
+
+function changeState( el ) {
+    el.find(projectLogo).hide();
+    el.find(projectPreview).show();
+    el.find(projectDetails).show();
+}
 
 function projectSlider(){
-    var projectItem 	= $('.block--grid li'),
-        projectDetails	= $('article'),
-        projectLogo		= $('.project--logo'),
-        projectPreview	= $('.project--preview');
 
 	projectItem.click(function(){
 
