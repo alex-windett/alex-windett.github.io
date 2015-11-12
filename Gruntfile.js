@@ -104,13 +104,6 @@ module.exports = function (grunt) {
             options: {
                 logConcurrentOutput: true
             }
-        },
-
-        githooks: {
-            all: {
-                // Should run grunt to uglify before a git push
-                'pre-push': 'grunt'
-            }
         }
 
     });
