@@ -108,8 +108,6 @@ module.exports = function (grunt) {
 
     });
 
-    grunt.loadNpmTasks('grunt-githooks');
-
     // Register the grunt serve task
     grunt.registerTask('serve', [
         'concat',
