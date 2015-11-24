@@ -46,7 +46,7 @@ Here we are adding classes with the necessary attributes or ingredients we are a
 
 Creating modifying classes rather then single use classes is great, but can sometimes be harder to read in the HTML. So, another great way to make your HTML easier to read and understand is to avoid the use of `div`. I am one who all to frequently goes back to this, so I'm now aiming to no longer be a <a href="http://www.apaddedcell.com/div-itis-what-it-and-how-avoid-it">Divitis</a>. Instead of using `div`'s all over the place, I'm going to take the approach of laying out each section with specific elements.
 
-Using the inner elements of the `<body>` is a good place to start. Most commonly we set a page out along these sort of lines
+Using the inner elements of the `<body>` is a good place to start as an example. Most commonly we set a page out along these sort of lines
 
 {% highlight html %}
 <body>
@@ -55,9 +55,9 @@ Using the inner elements of the `<body>` is a good place to start. Most commonly
 
     <nav></nav>
 
-    <article>
-        <!-- Main Content will go in here  -->
-    </article>
+        <main>
+            <!-- Main Content will go in here  -->
+        </main>
 
     <footer></footer>
 
