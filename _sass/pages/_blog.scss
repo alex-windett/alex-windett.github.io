@@ -41,6 +41,14 @@ body.blog {
 			h3 > a {
 				color: inherit;
 			}
+
+			a {
+				color: $color__copy;
+
+				&:hover {
+					color: lighten($color__copy, 20%);
+				}
+			}
 		}
 	}
 }
