@@ -2,7 +2,7 @@
 layout: default
 
 layout: post
-title:  "Beyond Conf"
+title:  "Beyond Conf – Writing Better HTML and CSS"
 date:   2015-11-24
 ---
 
@@ -13,7 +13,7 @@ I managed to get an insight into aspects of Front End Development that I would n
 Anyway, using his example of a Subway sandwich an HTML element should avoid having multiple styles linked to it via one class, i.e.
 
 {% highlight html %}
-<div class"button--login">
+<div class="button--login">
     <span>Log In</span>
 </div>
 {% endhighlight %}
@@ -30,7 +30,7 @@ Anyway, using his example of a Subway sandwich an HTML element should avoid havi
 Not only does this class only apply to one type of button - the login button - but also it is not very flexible. Using the Subway analogy we should create a recipe of classes to create the button that we are looking for. Take for example:
 
 {% highlight html %}
-<div class"button button--large button--green button--capitlaize">
+<div class="button button--large button--green button--capitlaize">
     <span>Log In</span>
 </div>
 {% endhighlight %}
@@ -87,4 +87,4 @@ We should take this approach even when working on single pages. Moving away from
 </section>
 {% endhighlight %}
 
-This said, while using HTML elements to make our files more readable, these elements should be avoided in our CSS were possible. If for some reason we were to move the `nav` from out of our header in the main layout and put it in our `aside` instead, if we were using HTML elements in our CSS instead of classes, then chances are the layout could break.
+This said, while using HTML elements to make our files more readable, these elements should be avoided in our CSS were possible. If for some reason we were to move the `nav` from out of our `header` in the main layout and put it in our `aside` instead, if we were using HTML elements in our CSS instead of classes, then chances are the layout could break.
