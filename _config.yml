@@ -55,10 +55,10 @@ social:
 projects:
     - name: 9BAR
       url: https://www.9bar.com
-      description: '9Bar was the first project that I took a lead role in at Big Fish, and the first project that I started from the beiginning using a complex Front End setup'
+      description: '9Bar was the first project that I took a lead role in at Big Fish, and the first project that I started from scratch. The learning curve whilst working on this was very steep as there were many aspects that I had never worked with'
     - name: Yes+
       url: https://www.yesplus.org.uk
-      description: 'Yes+ was a project that was worked on remotely and enabled me to try a different setup and processes, whilst also strengthening on previous skills'
+      description: 'Yes+ was worked on remotely giving me expirience away from a normal face to face environment. It also gave me the chance to explore new processors, whilst also strengthening on previous skills. Due to the short timeframe, code was frequently deployed for review and ammends.'
     - name: Tyrrells
       url: https://www.tyrrellscrisps.co.uk
-      description: 'Working on Tyrrells involved inheriting a legacy site to imporve the code base across its multiple sites, refactoring excisting code and upgrading the outdated components'
+      description: 'Working on Tyrrells involved inheriting a legacy site with the end result being an imporved code base across its multiple sites and an upgrade of the outdated components whilst refactoring down templates, styles and javascript'
