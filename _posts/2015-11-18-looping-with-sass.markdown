@@ -4,7 +4,6 @@ title:  "Looping with SASS"
 date:   2015-11-18
 categories: sass
 
-permalink: looping-with-sass
 ---
 
 I have recently worked on a site that has many different background colors for many different pages, and for several days have kept going back and refactoring down. I have finally ended up doing the same task that I accomplished initially in over 100 lines of code now in 5, or 13 if your being picky.

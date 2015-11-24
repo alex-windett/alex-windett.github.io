@@ -55,16 +55,10 @@ social:
 projects:
     - name: 9BAR
       url: https://www.9bar.com
-      description: 'Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should'
+      description: '9Bar was the first project that I took a lead role in at Big Fish, and the first project that I started from the beiginning using a complex Front End setup'
     - name: Yes+
       url: https://www.yesplus.org.uk
-      description: 'Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should'
+      description: 'Yes+ was a project that was worked on remotely and enabled me to try a different setup and processes, whilst also strengthening on previous skills'
     - name: Tyrrells
       url: https://www.tyrrellscrisps.co.uk
-      description: 'Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should'
-    - name: Tyrrells
-      url: https://www.tyrrellscrisps.co.uk
-      description: 'Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should'
-    - name: Tyrrells
-      url: https://www.tyrrellscrisps.co.uk
-      description: 'Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should'
+      description: 'Working on Tyrrells involved inheriting a legacy site to imporve the code base across its multiple sites, refactoring excisting code and upgrading the outdated components'
