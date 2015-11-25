@@ -2,7 +2,7 @@ body.home {
 
 	.block--grid {
 		max-width: 70rem;
-		margin: 0 auto;
+		margin: 3rem auto 0;
 		text-align: left;
 		position: relative;
 
@@ -29,23 +29,23 @@ body.home {
 			}
 
 			article {
-				    width: 190%;
-					position: absolute;
-					top: 0;
-					left: 105%;
+			    width: 190%;
+				position: absolute;
+				top: 0;
+				left: 105%;
 
-					.cta {
-						font-family: $font__heading--main;
-					    font-size: 2rem;
-					    color: $color__copy--light;
-					    padding: 1rem 3rem;
-					    width: 100%;
-					    text-align: center;
+				.cta {
+					font-family: $font__heading--main;
+				    font-size: 2rem;
+				    color: $color__copy--light;
+				    padding: 1rem 3rem;
+				    width: 100%;
+				    text-align: center;
 
-					    @media #{$large-up} {
-							width: 46%;
-					    }
-					}
+				    @media #{$large-up} {
+						width: 46%;
+				    }
+				}
 			}
 
 			&:hover {
@@ -58,7 +58,6 @@ body.home {
 				@include opacity(1);
 
 				article {
-/* 					display: block; */
 					margin-top: 1rem;
 
 					@media #{$large-up} {
@@ -75,10 +74,6 @@ body.home {
 						line-height: 3.2rem;
 						color: $color__copy;
 					}
-				}
-
-				.project--preview {
-/* 					display: block; */
 				}
 			}
 		}
