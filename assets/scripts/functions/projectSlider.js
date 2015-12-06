@@ -80,3 +80,21 @@ function projectSlider(){
       	}
     });
 }
+
+
+var projectSliderSmall = {
+
+    init: function() {
+        projectItem.click(function(){
+
+            if ( $(this).hasClass('active') ) {
+                $(this).removeClass('active')
+                $(this).find(projectDetails).slideUp();
+            } else {
+                $(this).addClass('active');
+                $(this).find('article').slideDown('slow');
+                $(this).siblings().find('article').slideUp('slow'); 
+            }
+        });
+    }
+}

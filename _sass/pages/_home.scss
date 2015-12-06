@@ -29,10 +29,12 @@ body.home {
 			}
 
 			article {
-			    width: 190%;
-				position: absolute;
-				top: 0;
-				left: 105%;
+				@media #{$large-up} {
+					width: 190%;
+					position: absolute;
+					top: 0;
+					left: 105%;	
+				}
 
 				.cta {
 					font-family: $font__heading--main;

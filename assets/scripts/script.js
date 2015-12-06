@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-    var windowWidth = $(window).width();
-        largeScreenSize = 640,
+    var windowWidth = $(window).width(),
+        largeScreenSize = 1170;
 
 	// ++++++++++++++++++++++++++++++++
     // Navigation
@@ -23,5 +23,10 @@ $(document).ready(function(){
     // ++++++++++++++++++++++++++++++++
     // Home Page Projects
     // ++++++++++++++++++++++++++++++++
-    projectSlider();
+
+    if ( windowWidth >= largeScreenSize) {
+        projectSlider();
+    } else {
+        projectSliderSmall.init();
+    }
 });
