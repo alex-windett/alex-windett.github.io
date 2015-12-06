@@ -25,11 +25,16 @@
 		color: $color__copy;
 
 		&:hover {
-			border-bottom: 1px solid;
+			color: lighten($color__copy, 20%);
 		}
 	}
 
 	li {
 		color: $color__copy--dark;
+		padding-left: 1rem;
+
+		&:first-child {
+			padding-left: 0;
+		}
 	}
 }

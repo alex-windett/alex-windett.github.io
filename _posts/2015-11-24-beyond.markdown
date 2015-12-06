@@ -1,0 +1,90 @@
+---
+layout: default
+
+layout: post
+title:  "Beyond Conf – Writing Better HTML and CSS"
+date:   2015-11-24
+---
+
+Yesterday I was lucky enough to go to the very first <a href="http://beyondconf.co/">Beyond Conference</a> put on by the guys at Steer. It was the first conference that I had been to so didn't quite know what to expect, but came away with create insights on life as a dev and starting points to explore.
+
+I managed to get an insight into aspects of Front End Development that I would never have found just by looking on Google. I really enjoyed <a href="https://github.com/csswizardry">Harry Roberts (aka csswizardry)</a> talk on CSS on how structuring our HTML and correctly naming and and use of our CSS classes makes our code more flexible and reusable. Likening CSS selectors to walking into a Subway and creating a sandwich obviously grabbed everyones attention. Fun fact, there are over 6 billion possible combinations in creating a Subway sandwich...
+
+Anyway, using his example of a Subway sandwich an HTML element should avoid having multiple styles linked to it via one class, i.e.
+
+{% highlight html %}
+<div class="button--login">
+    <span>Log In</span>
+</div>
+{% endhighlight %}
+
+{% highlight sass %}
+.button--login {
+    background: red;
+    color: white;
+    padding: 2rem 1rem;
+    text-transform: uppercase;
+}
+{% endhighlight %}
+
+Not only does this class only apply to one type of button - the login button - but also it is not very flexible. Using the Subway analogy we should create a recipe of classes to create the button that we are looking for. Take for example:
+
+{% highlight html %}
+<div class="button button--large button--green button--capitlaize">
+    <span>Log In</span>
+</div>
+{% endhighlight %}
+
+{% highlight sass %}
+.button { border-radius: 0.5rem }
+.button--large { padding: 2rem 1rem }
+.button--green { background: green }
+.button--capitlaize { text-transform: uppercase }
+{% endhighlight %}
+
+Here we are adding classes with the necessary attributes or ingredients we are after while maintaining a base button style, which in this example has a border radius applied to it. This removes the sole purpose of the `button--login` class or only being used on the log in button. It also means that we can add or remove classes to this knowing that it will not effect any other button. This also allows us in the future to easily expand the use of button without having to change it multiple times or changing the base styles. This is great for maintainability when working with a number of people
+
+Creating modifying classes rather then single use classes is great, but can sometimes be harder to read in the HTML. So, another great way to make your HTML easier to read and understand is to avoid the use of `div`. I am one who all to frequently goes back to this, so I'm now aiming to no longer be a <a href="http://www.apaddedcell.com/div-itis-what-it-and-how-avoid-it">Divitis</a>. Instead of using `div`'s all over the place, I'm going to take the approach of laying out each section with specific elements.
+
+Using the inner elements of the `<body>` is a good place to start as an example. Most commonly we set a page out along these sort of lines
+
+{% highlight html %}
+<body>
+
+    <header></header>
+
+    <nav></nav>
+
+        <main>
+            <!-- Main Content will go in here  -->
+        </main>
+
+    <footer></footer>
+
+</body>
+{% endhighlight %}
+
+We should take this approach even when working on single pages. Moving away from the world of a `div` here and another one inside it and another one inside that - a sort of inception of `div`s - it makes are HTML much more readable. Scanning over if we see a `section` and clearly notice that there is a `header` where a title will no doubt live, and  a `footer` where some extra links could be found with an `aside` that may a little more information our work will be a lot less stresfull and  easu to ready. For example:
+
+{% highlight html %}
+<section>
+
+    <header>
+        <!-- Chances are a title will go in here -->
+    </header>
+
+    <aside>
+        <!-- This is where some really important stuff will go -->
+    </aside>
+
+
+    <aside>
+        <!-- Some less important stuff -->
+    </aside>
+
+    <footer></footer>
+
+</section>
+{% endhighlight %}
+
+This said, while using HTML elements to make our files more readable, these elements should be avoided in our CSS were possible. If for some reason we were to move the `nav` from out of our `header` in the main layout and put it in our `aside` instead, if we were using HTML elements in our CSS instead of classes, then chances are the layout could break.

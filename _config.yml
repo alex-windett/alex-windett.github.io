@@ -11,7 +11,7 @@ markdown: kramdown
 permalink: pretty
 
 # Pagination
-paginate: 2
+paginate: 10
 paginate_path: "/blog/page/:num"
 
 exclude: ['css', '_scss']
@@ -55,16 +55,10 @@ social:
 projects:
     - name: 9BAR
       url: https://www.9bar.com
-      description: 'Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should'
+      description: '9Bar was the first project that I took a lead role in at Big Fish, and the first project that I started from scratch. The learning curve whilst working on this was very steep as there were many aspects that I had never worked with'
     - name: Yes+
       url: https://www.yesplus.org.uk
-      description: 'Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should'
+      description: 'Yes+ was worked on remotely giving me expirience away from a normal face to face environment. It also gave me the chance to explore new processors, whilst also strengthening on previous skills. Due to the short timeframe, code was frequently deployed for review and ammends.'
     - name: Tyrrells
       url: https://www.tyrrellscrisps.co.uk
-      description: 'Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should'
-    - name: Tyrrells
-      url: https://www.tyrrellscrisps.co.uk
-      description: 'Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should'
-    - name: Tyrrells
-      url: https://www.tyrrellscrisps.co.uk
-      description: 'Yes+ is a project that Alex worked on, but it was before Big Fish so I don’t vknow anything about it. You should read this paragraph that’s delivering concise information as to what he did and then you should'
+      description: 'Working on Tyrrells involved inheriting a legacy site with the end result being an imporved code base across its multiple sites and an upgrade of the outdated components whilst refactoring down templates, styles and javascript'

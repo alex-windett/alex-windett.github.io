@@ -4,12 +4,18 @@ body_class: home
 ---
 
 <section class="background--light intro padder center">
+	<h3>About Me</h3>
+	<p class="center">Having completed General Assembly’s Immersive course in 2014, I have gone on to work at Big Fish Design building and maintain CMS systems in a small team of 5. Alongside my work at Big Fish I explore other frameworks and ways to improve my skills. I have found an particular interest in Polymer and am always looking into ways to improve my Sass, jQuery and workflow.</p>
+</section>
+
+
+<section class="background--light intro padder--bottom center">
 	<h3>Portfolio</h3>
-	<p class="center">Some sort of quick blurb about the type of work I do I image. Probably going onto multiple lines, who knows? </p>
+	<p class="center">Initially starting out as a Full Stack Ruby Developer, I now focus on creating clean and modular Front End web apps. These are just a few of the projects that I have worked on recently:</p>
 
 	<ul class="block--grid">
 		{% for project in site.projects %}
-		<li>
+		<li class="project">
 			<a href="#" class="link__removed">
 				<img class="project--logo" src="assets/images/projects/project__logo--{{ project.name | downcase }}.png" alt="">
 				<img class="project--preview" src="assets/images/projects/project__preview--{{ project.name | downcase }}.png" alt="">

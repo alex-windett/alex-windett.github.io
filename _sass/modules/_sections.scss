@@ -10,6 +10,14 @@ section.padder {
 	padding-bottom: 10rem;
 }
 
+section.padder--bottom {
+	padding-bottom: 10rem;
+}
+
+section.padder--top {
+	padding-top: 10rem;
+}
+
 section.intro {
 	width: 70%;
     margin: 0 auto;
@@ -26,6 +34,5 @@ section.intro {
 	> p {
 		max-width: 49.5rem;
 		margin: 0 auto;
-		margin-bottom: 3rem;
 	}
 }

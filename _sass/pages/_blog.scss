@@ -30,12 +30,24 @@ body.blog {
 				padding: 3rem 0;
 			}
 
+            &:first-child {
+                padding-top: 0;
+            }
+
 			p {
 				padding: 0.5rem 0;
 			}
 
 			h3 > a {
 				color: inherit;
+			}
+
+			a {
+				color: $color__copy;
+
+				&:hover {
+					color: lighten($color__copy, 20%);
+				}
 			}
 		}
 	}
