@@ -3,4 +3,6 @@ _site
 .sass-cache/**/*
 node_modules/*
 .jekyll-metadata
-npm-debug.log 
+npm-debug.log
+assets/images/projects/**/*
+assets/images/*
