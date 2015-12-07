@@ -1,0 +1,57 @@
+---
+layout: default
+body_class: blog
+---
+
+<section class="background--light padder intro center">
+	<h3>Blog</h3>
+	<p>When I started in the world of web, the most usefull and helpful things for me were blogs. Reading about other people's similar struggles and solutions to issues that I was having helped ease the the annoyance of not always being able to do something, so my blog will aim to to the same for others as well as some other things</p>
+</section>
+
+<section class="background--light padder blog--list clearfix">
+	<ul>
+		{% for post in paginator.posts %}
+		<li class="blog--list__item clearfix {% if post.image %}with__image{% endif %}">
+			{% if post.image %}
+			<div class="left">
+				<a href="{{ post.url }}"><img src="{{ post.image | prepend: baseurl }}" alt=""></a>
+			</div>
+			{% endif %}
+
+			<div class="right">
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></a></h3>
+				<p>{{ post.date | date: "%A, %B %-d, %Y" }}</p>
+				<p>{{ post.excerpt }}</p>
+			</div>
+		</li>
+		{% endfor %}
+	</ul>
+</section>
+
+{% if paginator.total_pages > 1 %}
+	<div class="pagination">
+		{% if paginator.previous_page %}
+			<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+		{% else %}
+			<span>&laquo; Prev</span>
+		{% endif %}
+
+		<ul>
+			{% for page in (1..paginator.total_pages) %}
+				{% if page == paginator.page %}
+					<li>{{ page }}</li>
+				{% elsif page == 1 %}
+					<li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+				{% else %}
+					<li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+
+		{% if paginator.next_page %}
+			<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+		{% else %}
+			<span>Next &raquo;</span>
+		{% endif %}
+	</div>
+{% endif %}

@@ -1,0 +1,40 @@
+.pagination {
+
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 10rem;
+
+	ul,
+	li {
+		display: inline-block;
+	}
+
+	ul {
+	    padding: 0 1rem;
+	}
+
+	span,
+	a,
+	li {
+		font-size: 2.2rem;
+		font-family: $font--heading__main;
+	}
+
+	a {
+		color: $color__copy;
+
+		&:hover {
+			color: lighten($color__copy, 20%);
+		}
+	}
+
+	li {
+		color: $color__copy--dark;
+		padding-left: 1rem;
+
+		&:first-child {
+			padding-left: 0;
+		}
+	}
+}

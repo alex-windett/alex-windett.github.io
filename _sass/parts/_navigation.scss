@@ -1,0 +1,110 @@
+// The total number of menu items
+$number-of-items: 3;
+
+nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    @include box-shadow(0px 3px 10px grey);
+}
+
+ul.burger-bar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 7rem;
+    height: 7rem;
+    padding: 1rem;
+    background: $color__bg--dark;
+
+    li {
+        width: 4rem;
+        margin: 1rem auto;
+        border: 0.2rem solid $color__copy--light;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+.cross {
+    margin-top: 0.4rem;
+
+    @media #{$large-up} {
+         border-left: white 0.2rem solid;
+    }
+
+    li {
+        &:nth-child(1) {
+            @include transform-origin(0% 50%);
+            @include transform( translateX(5px) rotate(45deg) );
+        }
+
+        &:nth-child(2) {
+            $hidden-distance: 100px;
+
+            @keyframes moveverticle {
+                0% {left: 0;}
+                100% {left: $hidden-distance;}
+            }
+
+            position: relative;
+            left: $hidden-distance;
+            @include animation(moveverticle, 0.5s);
+        }
+
+        &:nth-child(3) {
+            @include transform-origin(0% 50%);
+            @include transform( translateX(5px) rotate(-45deg) );
+        }
+    }
+}
+
+nav {
+    background: $color__bg--dark;
+}
+
+.header-menu {
+    display: none;
+    padding: 1.6rem 0;
+
+    @media #{$large-up} {
+        width: 91%;
+        margin: 1rem 10rem 1rem 0;
+    }
+
+    li {
+        width: 100%;
+        float: left;
+        text-align: center;
+
+        &:first-child a {
+            border-top: none;
+        }
+
+        @media #{$large-up} {
+            display: inline-block;
+            border-bottom: none;
+            border-right: 1px solid $color__copy--light;
+
+            width: 100% / $number-of-items;
+
+            &:last-child {
+                border-right: none;
+            }
+        }
+
+        a {
+            font-family: $font__heading--main;
+            color: $color__copy--light;
+
+            text-transform: lowercase;
+            @extend h4;
+
+            @media #{$medium-down} {
+                width: 45%;
+                display: inline-block;
+                border-top: 1px solid $color__copy--light;
+                padding: 1rem 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+body.home {
+
+	.block--grid {
+		max-width: 70rem;
+		margin: 3rem auto 0;
+		text-align: left;
+		position: relative;
+
+		li {
+			position: relative;
+			width: 100%;
+			padding: 1rem 0;
+
+			@include transition(ease-in-out, 0.2s);
+
+			@media #{$large-up} {
+			 	width: 33%;
+				display: inline-block;
+				padding: 0.5rem;
+			}
+
+			img {
+				width: 100%;
+			}
+
+			.project--preview,
+			article {
+				display: none;
+			}
+
+			article {
+				@media #{$large-up} {
+					width: 190%;
+					position: absolute;
+					top: 0;
+					left: 105%;	
+				}
+
+				.cta {
+					font-family: $font__heading--main;
+				    font-size: 2rem;
+				    color: $color__copy--light;
+				    padding: 1rem 3rem;
+				    width: 100%;
+				    text-align: center;
+
+				    @media #{$large-up} {
+						width: 46%;
+				    }
+				}
+			}
+
+			&:hover {
+				@include opacity(0.6);
+				@include transition(ease-in-out, 0.2s);
+			}
+
+			&.active {
+				// If its the active item, remove hover effect
+				@include opacity(1);
+
+				article {
+					margin-top: 1rem;
+
+					@media #{$large-up} {
+						position: absolute;
+						top: 0;
+						width: 200%;
+					}
+
+					@include transition(ease-in-out, 0.2s);
+
+					h4 {
+						font-family: $font__heading--main;
+						font-size: 2.7rem;
+						line-height: 3.2rem;
+						color: $color__copy;
+					}
+				}
+			}
+		}
+	}
+}

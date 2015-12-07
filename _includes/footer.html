@@ -1,0 +1,20 @@
+<footer class="site-footer clearfix">
+
+    <h3>Get in touch</h3>
+
+    <section class="social-links">
+	    <ul class="remove-default">
+	    	{% for socialite in site.social %}
+				<li>
+					<a href="{{ socialite.url }}">
+						<i class="icon-{{ socialite.name | downcase }}"></i> <p>{{ socialite.username }}</p>
+					</a>
+				</li>
+	    	{% endfor %}
+	    </ul>
+	</section>
+
+    <script src="{{ "/assets/scripts/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/scripts/concat/script.js" | prepend: site.baseurl }}"></script>
+
+</footer>

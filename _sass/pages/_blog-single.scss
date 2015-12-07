@@ -1,0 +1,63 @@
+body.post-single {
+
+	.post {
+	    width: 90%;
+	    margin: 0 auto;
+
+	    @media #{$large-up} {
+	        width: 60%;
+	    }
+
+	    p {
+			margin: 1rem 0;
+			color: $color__copy--dark;
+
+			a {
+				color: $color__copy;
+			}
+		}
+	}
+
+	.post-title {
+		font-family: $font__heading--main;
+		color: $color__copy;
+		padding: 5rem 0 0;
+	}
+
+	.post-header {
+		margin-bottom: 4rem;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.page-navigation {
+		padding: 4rem 0;
+
+		@media #{$large-up} {
+		    padding: 8rem 0;
+		}
+
+	    li {
+			width: 100%;
+	    	float: left;
+	    	padding: 1rem;
+
+	    	@media #{$medium-up} {
+	    		display: inline-block;
+	    	    width: 33.3%;
+	    	}
+	    }
+
+		a {
+			font-size: 1.8rem;
+			line-height: 2.6rem;
+			color: $color__copy;
+
+			&:hover {
+				border-bottom: solid 1px;
+			}
+		}
+	}
+}

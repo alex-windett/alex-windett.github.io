@@ -1,0 +1,64 @@
+# Site settings
+title: Alex Windett
+job_title: Web Developer
+baseurl: ""
+url: "http://windett.co.uk"
+
+# Build settings
+markdown: kramdown
+
+# Permalink style
+permalink: pretty
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page/:num"
+
+exclude: ['css', '_scss']
+keep_files: ['_site/css']
+
+gems:
+  [jekyll-paginate]
+
+exclude:
+  [
+    node_modules,
+    Gruntfile.js,
+    package.json
+  ]
+
+
+# Content settings
+social:
+    - name: Mail
+      icon: mail
+      username: windettalex@gmail.com
+      url: windettalex@gmai.com
+
+    - name: Twitter
+      icon: twitter
+      username: alexwindett
+      url: https://twitter.com/alexwindett
+
+    - name: GitHub
+      icon: github
+      username: alex-windett
+      url: https://github.com/alex-windett
+      desc: Fork me on GitHub
+
+    - name: LinkedIn
+      icon: linkedin
+      username: Alex Windett
+      url: https://uk.linkedin.com/in/alexwindett
+      desc: Connect with me on LinkedIn
+
+projects:
+    - name: 9BAR
+      url: https://www.9bar.com
+      description: '9Bar was the first project that I took a lead role in at Big Fish, and the first project that I started from scratch. The learning curve whilst working on this was very steep as there were many aspects that I had never worked with'
+    - name: Yes+
+      url: https://www.yesplus.org.uk
+      description: 'Yes+ was worked on remotely giving me expirience away from a normal face to face environment. It also gave me the chance to explore new processors, whilst also strengthening on previous skills. Due to the short timeframe, code was frequently deployed for review and ammends.'
+    - name: Tyrrells
+      url: https://www.tyrrellscrisps.co.uk
+      description: 'Working on Tyrrells involved inheriting a legacy site with the end result being an imporved code base across its multiple sites and an upgrade of the outdated components whilst refactoring down templates, styles and javascript'
