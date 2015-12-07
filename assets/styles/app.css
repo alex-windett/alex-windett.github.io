@@ -1,0 +1,1164 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, header .header-menu li a, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "Raleway Italic";
+  src: url("../fonts/raleway-italic-webfont.eot");
+  src: url("../fonts/raleway-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-italic-webfont.woff2") format("woff2"), url("../fonts/raleway-italic-webfont.woff") format("woff"), url("../fonts/raleway-italic-webfont.ttf") format("truetype"), url("../fonts/raleway-italic-webfont.svg#Raleway Italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway Thin";
+  src: url("../fonts/raleway-thin-webfont.eot");
+  src: url("../fonts/raleway-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-thin-webfont.woff2") format("woff2"), url("../fonts/raleway-thin-webfont.woff") format("woff"), url("../fonts/raleway-thin-webfont.ttf") format("truetype"), url("../fonts/raleway-thin-webfont.svg#Raleway Thin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fontello';
+  src: url("../fonts/fontello.eot");
+  src: url("../fonts/fontello.eot?#iefix") format("embedded-opentype"), url("../fonts/fontello.woff") format("woff"), url("../fonts/fontello.ttf") format("truetype"), url("../fonts/fontello.svg#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url("../fonts/fontello.svg?60423074#fontello") format("svg");
+  }
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-twitter:before {
+  content: '\e800';
+}
+
+/* '' */
+.icon-linkedin:before {
+  content: '\e803';
+}
+
+/* '' */
+.icon-github:before {
+  content: '\e804';
+}
+
+/* '' */
+.icon-mail:before {
+  content: '\e805';
+}
+
+/* '' */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.background--dark {
+  background: #64b178;
+  color: #ffffff;
+}
+
+.background--dark * {
+  color: #ffffff;
+}
+
+.background--light {
+  background: #ffffff;
+  color: #464646;
+}
+
+.background--light * {
+  color: #464646;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+ul.remove-default {
+  margin-left: 0;
+  list-style: none;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+}
+
+h1 {
+  font-family: "Raleway Thin";
+  font-size: 5.4rem;
+  line-height: 6rem;
+}
+
+h2 {
+  font-family: "Raleway Italic";
+  font-size: 3.6rem;
+  line-height: 4rem;
+}
+
+h3 {
+  font-family: "Raleway Thin";
+  font-size: 3.6rem;
+  line-height: 4rem;
+}
+
+h4, header .header-menu li a,
+p,
+p > a,
+li,
+span {
+  font-family: "Palatino";
+}
+
+h4, header .header-menu li a {
+  font-size: 2.6rem;
+  line-height: 3.4rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+header .header-menu li a,
+p,
+li,
+a,
+a:hover,
+a:visited,
+a:focus {
+  color: #ffffff;
+}
+
+a,
+a:hover,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+a {
+  -webkit-transition: ease-in-out 0.5s all;
+  transition: ease-in-out 0.5s all;
+}
+
+a:hover {
+  -webkit-transition: ease-in-out 0.5s all;
+  transition: ease-in-out 0.5s all;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+blockquote {
+  margin: 2rem 0 2rem 6rem;
+  border-left: solid #eeeeee 0.2rem;
+  padding: 0.5rem 0 0.5rem 2rem;
+}
+
+header nav {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  -moz-box-shadow: 0px 3px 10px grey;
+  -webkit-box-shadow: 0px 3px 10px grey;
+  box-shadow: 0px 3px 10px grey;
+}
+
+header ul.burger-bar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 7rem;
+  height: 7rem;
+  padding: 1rem;
+  background: #64b178;
+}
+
+header ul.burger-bar li {
+  width: 4rem;
+  margin: 1rem auto;
+  border: 0.2rem solid #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+header .cross {
+  margin-top: 0.4rem;
+}
+
+@media only screen and (min-width: 73.142857143em) {
+  header .cross {
+    border-left: white 0.2rem solid;
+  }
+}
+
+header .cross li:nth-child(1) {
+  transform-origin: 0% 50%;
+  -ms-transform-origin: 0% 50%;
+  -webkit-transform-origin: 0% 50%;
+  -ms-transform: translateX(5px) rotate(45deg);
+  -webkit-transform: translateX(5px) rotate(45deg);
+  transform: translateX(5px) rotate(45deg);
+}
+
+header .cross li:nth-child(2) {
+  position: relative;
+  left: 100px;
+  -webkit-animation: moveverticle 0.5s;
+  -moz-animation: moveverticle 0.5s;
+  -o-animation: moveverticle 0.5s;
+  animation: moveverticle 0.5s;
+}
+
+@keyframes moveverticle {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100px;
+  }
+}
+
+header .cross li:nth-child(3) {
+  transform-origin: 0% 50%;
+  -ms-transform-origin: 0% 50%;
+  -webkit-transform-origin: 0% 50%;
+  -ms-transform: translateX(5px) rotate(-45deg);
+  -webkit-transform: translateX(5px) rotate(-45deg);
+  transform: translateX(5px) rotate(-45deg);
+}
+
+header nav {
+  background: #64b178;
+}
+
+header .header-menu {
+  display: none;
+  padding: 1.6rem 0;
+}
+
+@media only screen and (min-width: 73.142857143em) {
+  header .header-menu {
+    width: 91%;
+    margin: 1rem 10rem 1rem 0;
+  }
+}
+
+header .header-menu li {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+header .header-menu li:first-child a {
+  border-top: none;
+}
+
+@media only screen and (min-width: 73.142857143em) {
+  header .header-menu li {
+    display: inline-block;
+    border-bottom: none;
+    border-right: 1px solid #ffffff;
+    width: 33.3333333333%;
+  }
+  header .header-menu li:last-child {
+    border-right: none;
+  }
+}
+
+header .header-menu li a {
+  font-family: "Raleway Thin";
+  color: #ffffff;
+  text-transform: lowercase;
+}
+
+@media only screen and (max-width: 45.714285714em) {
+  header .header-menu li a {
+    width: 45%;
+    display: inline-block;
+    border-top: 1px solid #ffffff;
+    padding: 1rem 0;
+  }
+}
+
+.cta {
+  display: inline-block;
+  padding: 0.5rem 10rem;
+  margin: 1rem 0;
+}
+
+.cta h2 {
+  font-size: 2.7rem;
+  line-height: 4rem;
+}
+
+.cta--dark {
+  background: #64b178;
+  -webkit-transition: ease-in-out 0.5s all;
+  transition: ease-in-out 0.5s all;
+}
+
+.cta--dark h2 {
+  color: #ffffff;
+}
+
+.cta--dark:hover {
+  background: #a8d3b3;
+  -webkit-transition: ease-in-out 0.5s all;
+  transition: ease-in-out 0.5s all;
+}
+
+footer {
+  background: #64b178;
+  padding: 10rem 0;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+footer .social-links {
+  width: 24rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+footer li {
+  padding-bottom: 1rem;
+}
+
+footer li i {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+
+footer li p {
+  font-family: "Raleway Thin";
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  display: inline-block;
+}
+
+.cover__image {
+  background: url("../images/home_cover.png") no-repeat 100% 100%;
+  padding: 7% 0;
+}
+
+.cover__image--portrait {
+  text-align: center;
+}
+
+.cover__image--portrait img {
+  border-radius: 14rem;
+}
+
+.cover__image--title {
+  margin: 4rem auto 0;
+  width: 33rem;
+  text-align: center;
+}
+
+.background--light h3 {
+  color: #64b178;
+}
+
+section.padder {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+section.padder--bottom {
+  padding-bottom: 10rem;
+}
+
+section.padder--top {
+  padding-top: 10rem;
+}
+
+section.intro {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 73.142857143em) {
+  section.intro {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+section.intro h3 {
+  margin-bottom: 3rem;
+}
+
+section.intro > p {
+  max-width: 49.5rem;
+  margin: 0 auto;
+}
+
+.pagination {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10rem;
+}
+
+.pagination ul,
+.pagination li {
+  display: inline-block;
+}
+
+.pagination ul {
+  padding: 0 1rem;
+}
+
+.pagination span,
+.pagination a,
+.pagination li {
+  font-size: 2.2rem;
+  font-family: "Raleway Thin";
+}
+
+.pagination a {
+  color: #64b178;
+}
+
+.pagination a:hover {
+  color: #a8d3b3;
+}
+
+.pagination li {
+  color: #464646;
+  padding-left: 1rem;
+}
+
+.pagination li:first-child {
+  padding-left: 0;
+}
+
+.highlight {
+  background: #ffffff;
+}
+
+.highlight .c {
+  color: #999988;
+  font-style: italic;
+}
+
+/* Comment */
+.highlight .k {
+  font-weight: bold;
+}
+
+/* Keyword */
+.highlight .o {
+  font-weight: bold;
+}
+
+/* Operator */
+.highlight .cm {
+  color: #999988;
+  font-style: italic;
+}
+
+/* Comment.Multiline */
+.highlight .cp {
+  color: #999999;
+  font-weight: bold;
+}
+
+/* Comment.Preproc */
+.highlight .c1 {
+  color: #999988;
+  font-style: italic;
+}
+
+/* Comment.Single */
+.highlight .cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Comment.Special */
+.highlight .gd {
+  color: #000000;
+  background-color: #ffdddd;
+}
+
+/* Generic.Deleted */
+.highlight .gd .x {
+  color: #000000;
+  background-color: #ffaaaa;
+}
+
+/* Generic.Deleted.Specific */
+.highlight .ge {
+  font-style: italic;
+}
+
+/* Generic.Emph */
+.highlight .gr {
+  color: #aa0000;
+}
+
+/* Generic.Error */
+.highlight .gh {
+  color: #999999;
+}
+
+/* Generic.Heading */
+.highlight .gi {
+  color: #000000;
+  background-color: #ddffdd;
+}
+
+/* Generic.Inserted */
+.highlight .gi .x {
+  color: #000000;
+  background-color: #aaffaa;
+}
+
+/* Generic.Inserted.Specific */
+.highlight .go {
+  color: #888888;
+}
+
+/* Generic.Output */
+.highlight .gp {
+  color: #555555;
+}
+
+/* Generic.Prompt */
+.highlight .gs {
+  font-weight: bold;
+}
+
+/* Generic.Strong */
+.highlight .gu {
+  color: #aaaaaa;
+}
+
+/* Generic.Subheading */
+.highlight .gt {
+  color: #aa0000;
+}
+
+/* Generic.Traceback */
+.highlight .kc {
+  font-weight: bold;
+}
+
+/* Keyword.Constant */
+.highlight .kd {
+  font-weight: bold;
+}
+
+/* Keyword.Declaration */
+.highlight .kp {
+  font-weight: bold;
+}
+
+/* Keyword.Pseudo */
+.highlight .kr {
+  font-weight: bold;
+}
+
+/* Keyword.Reserved */
+.highlight .kt {
+  color: #445588;
+  font-weight: bold;
+}
+
+/* Keyword.Type */
+.highlight .m {
+  color: #009999;
+}
+
+/* Literal.Number */
+.highlight .s {
+  color: #d14;
+}
+
+/* Literal.String */
+.highlight .na {
+  color: #008080;
+}
+
+/* Name.Attribute */
+.highlight .nb {
+  color: #0086B3;
+}
+
+/* Name.Builtin */
+.highlight .nc {
+  color: #445588;
+  font-weight: bold;
+}
+
+/* Name.Class */
+.highlight .no {
+  color: #008080;
+}
+
+/* Name.Constant */
+.highlight .ni {
+  color: #800080;
+}
+
+/* Name.Entity */
+.highlight .ne {
+  color: #990000;
+  font-weight: bold;
+}
+
+/* Name.Exception */
+.highlight .nf {
+  color: #990000;
+  font-weight: bold;
+}
+
+/* Name.Function */
+.highlight .nn {
+  color: #555555;
+}
+
+/* Name.Namespace */
+.highlight .nt {
+  color: #000080;
+}
+
+/* Name.Tag */
+.highlight .nv {
+  color: #008080;
+}
+
+/* Name.Variable */
+.highlight .ow {
+  font-weight: bold;
+}
+
+/* Operator.Word */
+.highlight .w {
+  color: #bbbbbb;
+}
+
+/* Text.Whitespace */
+.highlight .mf {
+  color: #009999;
+}
+
+/* Literal.Number.Float */
+.highlight .mh {
+  color: #009999;
+}
+
+/* Literal.Number.Hex */
+.highlight .mi {
+  color: #009999;
+}
+
+/* Literal.Number.Integer */
+.highlight .mo {
+  color: #009999;
+}
+
+/* Literal.Number.Oct */
+.highlight .sb {
+  color: #d14;
+}
+
+/* Literal.String.Backtick */
+.highlight .sc {
+  color: #d14;
+}
+
+/* Literal.String.Char */
+.highlight .sd {
+  color: #d14;
+}
+
+/* Literal.String.Doc */
+.highlight .s2 {
+  color: #d14;
+}
+
+/* Literal.String.Double */
+.highlight .se {
+  color: #d14;
+}
+
+/* Literal.String.Escape */
+.highlight .sh {
+  color: #d14;
+}
+
+/* Literal.String.Heredoc */
+.highlight .si {
+  color: #d14;
+}
+
+/* Literal.String.Interpol */
+.highlight .sx {
+  color: #d14;
+}
+
+/* Literal.String.Other */
+.highlight .sr {
+  color: #009926;
+}
+
+/* Literal.String.Regex */
+.highlight .s1 {
+  color: #d14;
+}
+
+/* Literal.String.Single */
+.highlight .ss {
+  color: #990073;
+}
+
+/* Literal.String.Symbol */
+.highlight .bp {
+  color: #999999;
+}
+
+/* Name.Builtin.Pseudo */
+.highlight .vc {
+  color: #008080;
+}
+
+/* Name.Variable.Class */
+.highlight .vg {
+  color: #008080;
+}
+
+/* Name.Variable.Global */
+.highlight .vi {
+  color: #008080;
+}
+
+/* Name.Variable.Instance */
+.highlight .il {
+  color: #009999;
+}
+
+/* Literal.Number.Integer.Long */
+/* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
+.highlight .lineno {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+}
+
+.lineno::-moz-selection {
+  background-color: transparent;
+}
+
+/* Mozilla specific */
+.lineno::selection {
+  background-color: transparent;
+}
+
+/* Other major browsers */
+pre, code, .text-selector {
+  font-family: 'Ubuntu Mono', monospace;
+  -webkit-border-radius: 4px;
+  /* Saf3-4, iOS 1-3.2, Android ≤1.6 */
+  border-radius: 4px;
+  /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
+  tab-size: 4;
+}
+
+code {
+  background: #EEE;
+  overflow-x: scroll;
+  padding: 0.25em;
+}
+
+code > span {
+  line-height: 2.8rem;
+}
+
+pre {
+  margin: 0;
+  position: relative;
+  font-size: 0.75em;
+  -webkit-border-radius: 2px;
+  /* Saf3-4, iOS 1-3.2, Android ≤1.6 */
+  border-radius: 2px;
+  /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
+}
+
+pre code {
+  background: #FAFAFA;
+  font-size: 2rem;
+  -webkit-transition: all 0.4s ease-out;
+  /* Saf3.2+, Chrome */
+  -moz-transition: all 0.4s ease-out;
+  /* Firefox 4-15 */
+  -o-transition: all 0.4s ease-out;
+  /* Opera 10.5+ */
+  transition: all 0.4s ease-out;
+  /* Firefox 16+ */
+  -webkit-border-radius: 6px;
+  /* Saf3-4, iOS 1-3.2, Android ≤1.6 */
+  border-radius: 6px;
+  /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
+  display: inline-block;
+  /* fix space at beginning of code blocks */
+}
+
+pre code:hover {
+  background: #FCFCFC;
+  -webkit-box-shadow: 0px 0px 5px 0px #AAA;
+  box-shadow: 0px 0px 5px 0px #AAA;
+  -webkit-border-radius: 4px;
+  /* Saf3-4, iOS 1-3.2, Android ≤1.6 */
+  border-radius: 4px;
+  /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
+}
+
+pre .copy {
+  font-size: 12px;
+  opacity: 0;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  -webkit-transition: opacity 0.4s ease-out;
+  /* Saf3.2+, Chrome */
+  -moz-transition: opacity 0.4s ease-out;
+  /* Firefox 4-15 */
+  -o-transition: opacity 0.4s ease-out;
+  /* Opera 10.5+ */
+  transition: opacity 0.4s ease-out;
+  /* Firefox 16+ */
+}
+
+pre:hover .copy {
+  opacity: 1;
+}
+
+body.home .block--grid {
+  max-width: 70rem;
+  margin: 3rem auto 0;
+  text-align: left;
+  position: relative;
+}
+
+body.home .block--grid li {
+  position: relative;
+  width: 100%;
+  padding: 1rem 0;
+  -webkit-transition: ease-in-out 0.2s all;
+  transition: ease-in-out 0.2s all;
+}
+
+@media only screen and (min-width: 73.142857143em) {
+  body.home .block--grid li {
+    width: 33%;
+    display: inline-block;
+    padding: 0.5rem;
+  }
+}
+
+body.home .block--grid li img {
+  width: 100%;
+}
+
+body.home .block--grid li .project--preview,
+body.home .block--grid li article {
+  display: none;
+}
+
+@media only screen and (min-width: 73.142857143em) {
+  body.home .block--grid li article {
+    width: 190%;
+    position: absolute;
+    top: 0;
+    left: 105%;
+  }
+}
+
+body.home .block--grid li article .cta {
+  font-family: "Raleway Thin";
+  font-size: 2rem;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 73.142857143em) {
+  body.home .block--grid li article .cta {
+    width: 46%;
+  }
+}
+
+body.home .block--grid li:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  -webkit-transition: ease-in-out 0.2s all;
+  transition: ease-in-out 0.2s all;
+}
+
+body.home .block--grid li.active {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+body.home .block--grid li.active article {
+  margin-top: 1rem;
+  -webkit-transition: ease-in-out 0.2s all;
+  transition: ease-in-out 0.2s all;
+}
+
+@media only screen and (min-width: 73.142857143em) {
+  body.home .block--grid li.active article {
+    position: absolute;
+    top: 0;
+    width: 200%;
+  }
+}
+
+body.home .block--grid li.active article h4, body.home .block--grid header .header-menu li.active article a, header .header-menu body.home .block--grid li.active article a {
+  font-family: "Raleway Thin";
+  font-size: 2.7rem;
+  line-height: 3.2rem;
+  color: #64b178;
+}
+
+body.blog .blog--list {
+  padding-top: 0;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 102rem;
+}
+
+body.blog .blog--list .with__image .left {
+  width: 30%;
+}
+
+body.blog .blog--list .with__image .right {
+  width: 70%;
+}
+
+@media only screen and (max-width: 45.714285714em) {
+  body.blog .blog--list .with__image .right,
+  body.blog .blog--list .with__image .left {
+    width: 100%;
+  }
+}
+
+body.blog .blog--list__item {
+  padding: 2rem 0;
+}
+
+@media only screen and (min-width: 73.142857143em) {
+  body.blog .blog--list__item {
+    padding: 3rem 0;
+  }
+}
+
+body.blog .blog--list__item:first-child {
+  padding-top: 0;
+}
+
+body.blog .blog--list__item p {
+  padding: 0.5rem 0;
+}
+
+body.blog .blog--list__item h3 > a {
+  color: inherit;
+}
+
+body.blog .blog--list__item a {
+  color: #64b178;
+}
+
+body.blog .blog--list__item a:hover {
+  color: #a8d3b3;
+}
+
+body.post-single .post {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 73.142857143em) {
+  body.post-single .post {
+    width: 60%;
+  }
+}
+
+body.post-single .post p {
+  margin: 1rem 0;
+  color: #464646;
+}
+
+body.post-single .post p a {
+  color: #64b178;
+}
+
+body.post-single .post-title {
+  font-family: "Raleway Thin";
+  color: #64b178;
+  padding: 5rem 0 0;
+}
+
+body.post-single .post-header {
+  margin-bottom: 4rem;
+}
+
+body.post-single .post-header img {
+  width: 100%;
+}
+
+body.post-single .page-navigation {
+  padding: 4rem 0;
+}
+
+@media only screen and (min-width: 73.142857143em) {
+  body.post-single .page-navigation {
+    padding: 8rem 0;
+  }
+}
+
+body.post-single .page-navigation li {
+  width: 100%;
+  float: left;
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 45.714285714em) {
+  body.post-single .page-navigation li {
+    display: inline-block;
+    width: 33.3%;
+  }
+}
+
+body.post-single .page-navigation a {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  color: #64b178;
+}
+
+body.post-single .page-navigation a:hover {
+  border-bottom: solid 1px;
+}
+
+/*# sourceMappingURL=app.css.map */

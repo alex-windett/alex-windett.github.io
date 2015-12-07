@@ -41,7 +41,7 @@ module.exports = function (grunt) {
                     '_layouts/**',
                     '_posts/**',
                     '_includes/**',
-                    '_sass/**',
+                    'assets/styles/**',
                     'scripts/**',
                 ],
                 options: {
@@ -81,14 +81,14 @@ module.exports = function (grunt) {
                 relativeAssets: false,
                 outputStyle: 'expanded',
                 sassDir: '_sass',
-                cssDir: '_site/css'
+                cssDir: 'assets/styles'
             },
             build: {
                 files: [{
                     expand: true,
                     cwd: '_sass/',
                     src: ['**/*.{scss,sass}'],
-                    dest: '_site/css',
+                    dest: 'assets/styles',
                     ext: '.css'
                 }]
             }
