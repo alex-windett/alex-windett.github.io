@@ -27,6 +27,8 @@ exclude:
     package.json
   ]
 
+include: ['.htaccess']
+
 
 # Content settings
 social:
