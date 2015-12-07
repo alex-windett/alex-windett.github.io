@@ -1,6 +1,0 @@
-production: false
-
-sass:
-	style: exapnded
-
-url: https://localhost:4000

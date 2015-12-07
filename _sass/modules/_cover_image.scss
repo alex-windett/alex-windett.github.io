@@ -1,0 +1,18 @@
+.cover__image {
+	background: url($image-path + "home_cover.png") no-repeat 100% 100%;
+	padding: 7% 0;
+
+	&--portrait {
+		text-align: center;
+
+		img {
+			border-radius: 14rem;
+		}
+	}
+
+	&--title {
+	    margin: 4rem auto 0;
+	    width: 33rem;
+	    text-align: center;
+	}
+}

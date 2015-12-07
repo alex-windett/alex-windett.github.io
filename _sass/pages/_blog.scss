@@ -1,0 +1,54 @@
+body.blog {
+
+	.blog--list {
+		padding-top: 0;
+		margin: 0 auto;
+		width: 70%;
+		max-width: 102rem;
+
+		.with__image {
+			.left {
+				width: 30%;
+			}
+
+			.right {
+				width: 70%;
+			}
+
+			.right,
+			.left {
+				@media #{$small-only} {
+					width: 100%;
+				}
+			}
+		}
+
+		&__item {
+			padding: 2rem 0;
+
+			@media #{$large-up} {
+				padding: 3rem 0;
+			}
+
+            &:first-child {
+                padding-top: 0;
+            }
+
+			p {
+				padding: 0.5rem 0;
+			}
+
+			h3 > a {
+				color: inherit;
+			}
+
+			a {
+				color: $color__copy;
+
+				&:hover {
+					color: lighten($color__copy, 20%);
+				}
+			}
+		}
+	}
+}

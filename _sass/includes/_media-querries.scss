@@ -1,0 +1,43 @@
+// ****************************************
+// Setting up the widths of media querry
+// break points
+// ****************************************
+$small-lower: 0em;
+$small-upper: 45.714285714em;
+
+$medium-lower: $small-upper;
+$medium-upper: 73.142857143em;
+
+$large-lower: $medium-upper;
+$large-upper: 97.374em;
+
+$xlarge-lower: $large-upper;
+$xlarge-upper: 120em;
+
+$xxlarge-lower: $xlarge-upper;
+$xxlarge-upper: 99999999em;
+
+// ****************************************
+// Creating the shorthand media querries
+// ****************************************
+
+$screen: "only screen";
+
+$landscape: "#{$screen} and (orientation: landscape)";
+$portrait: "#{$screen} and (orientation: portrait)";
+
+$small-up: $screen;
+$small-only: "#{$screen} and (max-width: #{$small-upper})";
+
+$medium-down: "#{$screen} and (max-width:#{$medium-lower})";
+$medium-up: "#{$screen} and (min-width:#{$medium-lower})";
+$medium-only: "#{$screen} and (min-width:#{$medium-lower}) and (max-width:#{$medium-upper})";
+
+$large-up: "#{$screen} and (min-width:#{$large-lower})";
+$large-only: "#{$screen} and (min-width:#{$large-lower}) and (max-width:#{$large-upper})";
+
+$xlarge-up: "#{$screen} and (min-width:#{$xlarge-lower})";
+$xlarge-only: "#{$screen} and (min-width:#{$xlarge-lower}) and (max-width:#{$xlarge-upper})";
+
+$xxlarge-up: "#{$screen} and (min-width:#{$xxlarge-lower})";
+$xxlarge-only: "#{$screen} and (min-width:#{$xxlarge-lower}) and (max-width:#{$xxlarge-upper})";

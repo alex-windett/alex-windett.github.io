@@ -1,19 +1,18 @@
-<header class="navigation" role="banner">
-    <div class="navigation-wrapper">
-        <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
-            <i class="fa fa-bars"></i>
-        </a>
-        <nav role="navigation">
-            <ul id="js-navigation-menu" class="navigation-menu show">
-                <li class="nav-link">
-                     <a href="http://windett.co.uk">
-                        Home
-                    </a>
-                </li>
-                <li class="nav-link"><a href="/contact">Contact</a></li>
-                <li class="nav-link"><a href="/portfolio">Portfolio</a></li>
-                <li class="nav-link"><a href="/blog">Blog</a></li>
-            </ul>
-        </nav>
-    </div>
+<header class="site-header">
+
+	<nav>
+		<ul class="header-menu remove-default clearfix">
+			<li><a href="{{ '/' | prepend: baseurl }}">Home</a></li>
+			<!-- <li><a href="#">Portfolio</a></li> -->
+			<li><a href="{{ '/blog' | prepend: baseurl }}">Blog</a></li>
+			<li><a href="{{ '/assets/files/CV_December_2015.pdf' | prepend: baseurl }}" target="_blank">Download CV</a></li>
+			<!-- <li><a href="#">Get in touch</a></li> -->
+		</ul>
+
+		 <ul class="burger-bar">
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</nav>
 </header>

@@ -1,0 +1,92 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+body {
+	background: $body-background;
+}
+
+h1 {
+	font-family: $font__heading--main;
+	font-size: 5.4rem;
+	line-height: 6rem;
+}
+
+h2 {
+	font-family: $font__heading--secondary;
+	font-size: 3.6rem;
+	line-height: 4rem;
+}
+
+h3 {
+	font-family: $font__heading--main;
+	font-size: 3.6rem;
+	line-height: 4rem;
+}
+
+h4,
+p,
+p > a,
+li,
+span {
+	font-family: $font__paragraph;
+}
+
+h4 {
+	font-size: 2.6rem;
+	line-height: 3.4rem;
+}
+
+p {
+	font-size: 1.6rem;
+	line-height: 2.6rem;
+	text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+a,
+a:hover,
+a:visited,
+a:focus {
+	color: $color__copy--light;
+}
+
+a,
+a:hover,
+a:visited,
+a:focus {
+	text-decoration: none;
+}
+
+a {
+
+    @include transition(ease-in-out, 0.5s);
+
+    &:hover {
+        @include transition(ease-in-out, 0.5s);
+    }
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 2rem 0 2rem 6rem;
+	border-left: solid #eeeeee 0.2rem;
+	padding: 0.5rem 0 0.5rem 2rem;
+}
