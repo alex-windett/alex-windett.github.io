@@ -13,7 +13,6 @@ code {
 	> span {
 	    line-height: 2.8rem
 	}
-
 }
 pre {
 	margin:0;
@@ -27,15 +26,18 @@ pre code {
 	background:#FAFAFA;
 	font-size: 2rem;
 
-	-webkit-transition:all 0.4s ease-out;  /* Saf3.2+, Chrome */
-	   -moz-transition:all 0.4s ease-out;  /* Firefox 4-15 */
-		 -o-transition:all 0.4s ease-out;  /* Opera 10.5+ */
-			transition:all 0.4s ease-out;  /* Firefox 16+ */
+	@include transition(ease-out, 0.4s);
 
-	-webkit-border-radius:6px; /* Saf3-4, iOS 1-3.2, Android ≤1.6 */
-			border-radius:6px; /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
+	border-radius:6px;
 
 	display:inline-block; /* fix space at beginning of code blocks */
+
+	width: 100%;
+
+	@media #{$medium-up} {
+		width: auto;
+	}
+
 }
 pre code:hover {
 	background:#FCFCFC;
@@ -43,8 +45,7 @@ pre code:hover {
 	-webkit-box-shadow:0px 0px 5px 0px #AAA;
 			box-shadow:0px 0px 5px 0px #AAA;
 
-	-webkit-border-radius:4px; /* Saf3-4, iOS 1-3.2, Android ≤1.6 */
-			border-radius:4px; /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
+	border-radius:4px;
 }
 pre .copy {
 	font-size:12px;
