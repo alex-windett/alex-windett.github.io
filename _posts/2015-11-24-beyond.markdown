@@ -6,9 +6,9 @@ title:  "Beyond Conf – Writing Better HTML and CSS"
 date:   2015-11-24
 ---
 
-Yesterday I was lucky enough to go to the very first <a href="http://beyondconf.co/">Beyond Conference</a> put on by the guys at Steer. It was the first conference that I had been to so didn't quite know what to expect, but came away with create insights on life as a dev and starting points to explore.
+Yesterday I was lucky enough to go to the very first [Beyond Conference](http://beyondconf.co/) put on by the guys at Steer. It was the first conference that I had been to so didn't quite know what to expect, but came away with create insights on life as a dev and starting points to explore.
 
-I managed to get an insight into aspects of Front End Development that I would never have found just by looking on Google. I really enjoyed <a href="https://github.com/csswizardry">Harry Roberts (aka csswizardry)</a> talk on CSS on how structuring our HTML and correctly naming and and use of our CSS classes makes our code more flexible and reusable. Likening CSS selectors to walking into a Subway and creating a sandwich obviously grabbed everyones attention. Fun fact, there are over 6 billion possible combinations in creating a Subway sandwich...
+I managed to get an insight into aspects of Front End Development that I would never have found just by looking on Google. I really enjoyed [Harry Roberts](https://github.com/csswizardry) – aka [csswizardry](https://github.com/csswizardry) – talk on CSS on how structuring our HTML and correctly naming and and use of our CSS classes makes our code more flexible and reusable. Likening CSS selectors to walking into a Subway and creating a sandwich obviously grabbed everyones attention. Fun fact, there are over 6 billion possible combinations in creating a Subway sandwich...
 
 Anyway, using his example of a Subway sandwich an HTML element should avoid having multiple styles linked to it via one class, i.e.
 
