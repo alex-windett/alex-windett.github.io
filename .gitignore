@@ -5,4 +5,5 @@ node_modules/*
 .jekyll-metadata
 npm-debug.log
 assets/images/projects/**/*
-assets/images/*
+assets/images/*.png
+assets/images/*.jpg

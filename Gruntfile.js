@@ -63,6 +63,17 @@ module.exports = function (grunt) {
             }
         },
 
+        imagemin: {                          // Task
+            img: {                         // Another target
+                files: [{
+                    expand: true,                  // Enable dynamic expansion
+                    cwd: 'assets/images/src',                   // Src matches are relative to this path
+                    src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
+                    dest: 'assets/images/min'                  // Destination path prefix
+                }]
+            }
+        },
+
        concat: {
             dist: {
                 files: {
@@ -119,6 +130,7 @@ module.exports = function (grunt) {
         'shell:jekyllBuild',
         'concat',
         'uglify',
+        'imagemin',
         'sass',
     ]);
 
