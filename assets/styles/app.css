@@ -222,7 +222,7 @@ h4, header .header-menu li a {
 p {
   font-size: 1.6rem;
   line-height: 2.6rem;
-  text-align: justify;
+  text-align: left;
 }
 
 h1,
@@ -386,7 +386,7 @@ header .header-menu li a {
   text-transform: lowercase;
 }
 
-@media only screen and (max-width: 45.714285714em) {
+@media only screen and (max-width: 73.142857143em) {
   header .header-menu li a {
     width: 45%;
     display: inline-block;
