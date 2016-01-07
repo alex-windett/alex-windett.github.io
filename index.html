@@ -5,7 +5,7 @@ body_class: home
 
 <section class="background--light intro padder center">
 	<h3>About Me</h3>
-	<p class="center">Having completed General Assembly’s Immersive course in 2014, I have gone on to work at Big Fish Design building and maintaining CMS systems in a small team of 5. Alongside my work at Big Fish I explore other frameworks and ways to further my skills. I have found a particular interest in Polymer and am always looking into ways to improve my Sass and workflow, and continually  follow the latest frameworks and trends.</p>
+	<p class="center">Having completed General Assembly&rsquo;s Immersive Course in 2014, I now work for Big Fish Design Ltd. &ndash; a design, branding and marketing consultancy where I build and maintain CMS systems for a wide range of clients. While utilising my existing experience this job has also given me the opportunity to explore other frameworks and ways to further my skills. At the moment, I am particularly interested in Web Components and Google Polymer and I am always looking for ways to improve upon my Front End skills and workflow.</p>
 </section>
 
 
@@ -25,9 +25,11 @@ body_class: home
 				<h4>{{ project.name }}</h4>
 				<p>{{ project.description }}</p>
 
-				<a href="{{ project.url }}" class="cta cta--dark">
-					to the website
-				</a>
+				{% if project.url %}
+					<a href="{{ project.url }}" class="cta cta--dark" target="_blank">
+						to the website
+					</a>
+				{% endif %}
 			</article>
 		</li>
 		{% endfor %}
