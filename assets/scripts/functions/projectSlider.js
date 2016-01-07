@@ -89,11 +89,11 @@ var projectSliderSmall = {
 
             if ( $(this).hasClass('active') ) {
                 $(this).removeClass('active')
-                $(this).find(projectDetails).slideUp();
+                $(this).find(projectDetails).hide();
             } else {
                 $(this).addClass('active');
-                $(this).find('article').slideDown('slow');
-                $(this).siblings().find('article').slideUp('slow');
+                $(this).find('article').show();
+                $(this).siblings().find('article').hide
             }
         });
     }

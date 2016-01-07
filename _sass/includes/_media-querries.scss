@@ -29,7 +29,7 @@ $portrait: "#{$screen} and (orientation: portrait)";
 $small-up: $screen;
 $small-only: "#{$screen} and (max-width: #{$small-upper})";
 
-$medium-down: "#{$screen} and (max-width:#{$medium-lower})";
+$medium-down: "#{$screen} and (max-width:#{$medium-upper})";
 $medium-up: "#{$screen} and (min-width:#{$medium-lower})";
 $medium-only: "#{$screen} and (min-width:#{$medium-lower}) and (max-width:#{$medium-upper})";
 
