@@ -6,7 +6,7 @@ categories: sass
 
 ---
 
-I have recently worked on a site that has many different background colors for many different pages, and for several days have kept going back and refactoring down. I have finally ended up doing the same task that I accomplished initially in over 100 lines of code now in 5, or 13 if your being picky.
+I have recently worked on a site that has many different background colors for many different pages, and for several days have kept going back and refactoring down. I have finally ended up doing the same task that I accomplished initially in over 100 lines of code now in 5 or 13 if your being picky.
 
 Having come across hash and key / value pairs in other languages. I had never actually used them in sass, so was really pleased at how easy they were to use and implement.
 
