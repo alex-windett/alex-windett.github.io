@@ -12,7 +12,7 @@ Having come across hash and key / value pairs in other languages. I had never ac
 
 Anyway, I thought I'd share what I started with and what I ended up with.
 
-To start, and this didn't change throughout my refactoring, was a `mixin` that contains all the elements that need to change color, and that color is passed in as the mixin argument. It goes something along the lines of this
+To start, and this didn't change throughout my refactoring, was a `mixin` that contains all the elements that need to change color, and that color is passed in as the mixin argument. It goes something along the lines of this:
 
 {% highlight sass %}
 @mixin zone-color($color) {
@@ -44,7 +44,7 @@ Next I worked on integration this mixin with all the different possible color va
 {% endhighlight %}
 
 
-I then needed created a list of all of the placeholder names, which I then looped over and created a class with the same name as the placeholder that was being called
+I then needed created a list of all of the placeholder names, which I then looped over and created a class with the same name as the placeholder that was being called:
 
 {% highlight sass %}
 $zones: zone-black,
