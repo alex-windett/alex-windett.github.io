@@ -78,8 +78,8 @@ module.exports = function (grunt) {
             dist: {
                 files: {
                     'assets/scripts/concat/script.js': [
-                        'assets/scripts/*.js',
                         'assets/scripts/functions/*.js',
+                        'assets/scripts/script.js'
                     ]
                 }
             }
