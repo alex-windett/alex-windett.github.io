@@ -116,7 +116,7 @@ function projectSlider(){
         });
 
 		if ( $(this).hasClass('active') ) {
-    			$(this).removeClass('active').find(projectLogo).show();
+    		$(this).removeClass('active').find(projectLogo).show();
             $(this).css('left', '0')
 
             $(this).find(projectDetails).hide();
@@ -191,7 +191,7 @@ var projectSliderSmall = {
             } else {
                 $(this).addClass('active');
                 $(this).find('article').show();
-                $(this).siblings().find('article').hide();
+                $(this).siblings().find('article').hide
             }
         });
     }
