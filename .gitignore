@@ -4,6 +4,4 @@ _site
 node_modules/*
 .jekyll-metadata
 **/npm-debug.log
-assets/images/src/**/*
 .DS_Store
-assets/scripts/functions/**/*
