@@ -63,3 +63,6 @@ projects:
     - name: Tyrrells
       url: https://www.tyrrellscrisps.co.uk
       description: 'Working on Tyrrells involved inheriting a legacy site with the end result being an imporved code base across it&rsquo;s multiple sites and an upgrade of the outdated components whilst refactoring down templates, styles and JavaScript.'
+    - name: 'Belvoir Botanicals'
+      url: http://www.belvoirbotanicals.co.uk/
+      description: 'This micro site for an excisting client gave me the opporutnity to use more advanced Sass, include writing my own functions, loops and high level mixins. Producing more concise code I was able to deliver a piece of work in a short space of time and to a high quality.'

@@ -5,7 +5,7 @@ body_class: home
 
 <section class="background--light intro padder center">
 	<h3>About Me</h3>
-	<p class="center">Having completed General Assembly&rsquo;s Immersive Course in 2014, I now work for Big Fish Design Ltd. &ndash; a design, branding and marketing consultancy where I build and maintain CMS systems for a wide range of clients. While utilising my existing experience this job has also given me the opportunity to explore other frameworks and ways to further my skills. At the moment, I am particularly interested in Web Components and Google Polymer and I am always looking for ways to improve upon my Front End skills and workflow.</p>
+	<p class="center">Having completed General Assembly&rsquo;s Immersive Course in 2014, I now work for Big Fish Design Ltd. &ndash; a design, branding and marketing consultancy where I build and maintain CMS systems and online apps for a wide range of clients. While utilising my existing experience this job has also given me the opportunity to explore other frameworks and ways to further my skills. Having tought my self React and Flux, I am now building a new clients sites with these frameworks. Having not only enjoyed learning React, the intergration of these Frameworks will improve the UX significantly.</p>
 </section>
 
 
@@ -17,8 +17,8 @@ body_class: home
 		{% for project in site.projects %}
 		<li class="project">
 			<a href="#" class="link__removed">
-				<img class="project--logo" src="assets/images/min/projects/project__logo--{{ project.name | downcase }}.png" alt="">
-				<img class="project--preview" src="assets/images/min/projects/project__preview--{{ project.name | downcase }}.png" alt="">
+				<img class="project--logo" src="assets/images/min/projects/project__logo--{{ project.name | slugify }}.png" alt="">
+				<img class="project--preview" src="assets/images/min/projects/project__preview--{{ project.name | slugify }}.png" alt="">
 			</a>
 
 			<article>

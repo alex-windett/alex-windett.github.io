@@ -3,7 +3,5 @@ _site
 .sass-cache/**/*
 node_modules/*
 .jekyll-metadata
-npm-debug.log
-assets/images/projects
-assets/images/*.png
-assets/images/*.jpg
+**/npm-debug.log
+.DS_Store
