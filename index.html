@@ -4,8 +4,8 @@ body_class: home
 ---
 
 <section class="background--light intro padder center">
-	<h3>About Me</h3>
-	<p class="center">Having completed General Assembly&rsquo;s Immersive Course in 2014, I now work for Big Fish Design Ltd. &ndash; a design, branding and marketing consultancy where I build and maintain CMS systems and online apps for a wide range of clients. While utilising my existing experience this job has also given me the opportunity to explore other frameworks and ways to further my skills. Having tought myself React with Flux and then Redux, I am now building a new client's website with these frameworks and am always looking on ways to imporove to expand my React knowledge.</p>
+	<h3>About Me</h3>	
+	<p class="center">I am a keen cyclist and triathlete with an entheusiasm for food and beer on the side. Starting my coding life out as a graduate of General Assembly, I have been working at Big Fish Design - a branding and marketing consultancy - as a Front End Devloper since 2014. Having created a number of WordPress sites and small projects on the side, I am currently building a React-Redux e-commerce app. Developed in bi-monthly and weekly sprints, I am now a keen React developer always looking to imporve my work.</p>
 </section>
 
 
@@ -14,7 +14,8 @@ body_class: home
 	<p class="center">Initially starting out as a Full Stack Ruby Developer, I now focus on creating clean and modular Front End web apps. These are just a few of the projects that I have worked on&nbsp;recently:</p>
 
 	<ul class="block--grid">
-		{% for project in site.projects %}
+		{% assign sorted_team = site.projects | sort:'name' %}
+		{% for project in sorted_team  %}
 		<li class="project">
 			<a href="#" class="link__removed">
 				<img class="project--logo" src="assets/images/min/projects/project__logo--{{ project.name | slugify }}.png" alt="">
