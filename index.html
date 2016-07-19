@@ -14,7 +14,7 @@ body_class: home
 	<p class="center">Initially starting out as a Full Stack Ruby Developer, I now focus on creating clean and modular Front End web apps. These are just a few of the projects that I have worked on&nbsp;recently:</p>
 
 	<ul class="block--grid">
-		{% for site.projects in sorted_team  %}
+		{% for project in site.projects  %}
 		<li class="project">
 			<a href="#" class="link__removed">
 				<img class="project--logo" src="assets/images/min/projects/project__logo--{{ project.name | slugify }}.png" alt="">
