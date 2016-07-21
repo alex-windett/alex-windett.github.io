@@ -1089,70 +1089,70 @@ body.blog .blog--list__item a:hover {
   color: #a8d3b3;
 }
 
-body.post-single .post {
+.post-single .post {
   width: 90%;
   margin: 0 auto;
 }
 
 @media only screen and (min-width: 73.142857143em) {
-  body.post-single .post {
+  .post-single .post {
     width: 60%;
   }
 }
 
-body.post-single .post p {
+.post-single .post p {
   margin: 1rem 0;
   color: #464646;
 }
 
-body.post-single .post p a {
+.post-single .post p a {
   color: #64b178;
 }
 
-body.post-single .post-title {
+.post-single .post-title {
   font-family: "Raleway Thin";
   color: #64b178;
   padding: 5rem 0 0;
 }
 
-body.post-single .post-header {
+.post-single .post-header {
   margin-bottom: 4rem;
 }
 
-body.post-single .post-header img {
+.post-single .post-header img {
   width: 100%;
 }
 
-body.post-single .page-navigation {
+.post-single .page-navigation {
   padding: 4rem 0;
 }
 
 @media only screen and (min-width: 73.142857143em) {
-  body.post-single .page-navigation {
+  .post-single .page-navigation {
     padding: 8rem 0;
   }
 }
 
-body.post-single .page-navigation li {
+.post-single .page-navigation li {
   width: 100%;
   float: left;
   padding: 1rem;
 }
 
 @media only screen and (min-width: 45.714285714em) {
-  body.post-single .page-navigation li {
+  .post-single .page-navigation li {
     display: inline-block;
     width: 33.3%;
   }
 }
 
-body.post-single .page-navigation a {
+.post-single .page-navigation a {
   font-size: 1.8rem;
   line-height: 2.6rem;
   color: #64b178;
 }
 
-body.post-single .page-navigation a:hover {
+.post-single .page-navigation a:hover {
   border-bottom: solid 1px;
 }
 
