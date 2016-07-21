@@ -1156,4 +1156,31 @@ body.post-single .page-navigation a:hover {
   border-bottom: solid 1px;
 }
 
+body.page-portfolio .list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+body.page-portfolio .list__ga li {
+  display: inline-block;
+  width: 32%;
+  vertical-align: top;
+}
+
+body.page-portfolio .list__projects--sites > li {
+  margin: 35px 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+body.page-portfolio .list__projects--sites > li:first-child {
+  margin-left: 0;
+}
+
+body.page-portfolio .list__projects img {
+  width: 140px;
+  margin: 0;
+}
+
 /*# sourceMappingURL=app.css.map */
