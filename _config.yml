@@ -56,8 +56,8 @@ social:
 
 projects:
     - name: 'Freddies Flowers'
-     url: https://www.freddiesflowers.com
-     description: 'A flower delivery service that I am re-building in bi-monthly or weekly sprints - depending on the features - in React. Driving the project, it is the first time my company and I have used a front end JavaScript framework. This has brought about some challanges but has ultimately imporved the UX and functionality.'
+      url: https://www.freddiesflowers.com
+      description: 'A flower delivery service that I am re-building in bi-monthly or weekly sprints - depending on the features - in React. Driving the project, it is the first time my company and I have used a front end JavaScript framework. This has brought about some challanges but has ultimately imporved the UX and functionality.'
     - name: 'Belvoir Botanicals'
       url: http://www.belvoirbotanicals.co.uk/
       description: 'This micro site for an excisting client gave me the opporutnity to use more advanced Sass, include writing my own functions, loops and high level mixins. Producing more concise code I was able to deliver a piece of work in a short space of time and to a high quality.'
