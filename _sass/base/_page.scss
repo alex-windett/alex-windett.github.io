@@ -13,8 +13,12 @@ body {
 
 h1 {
 	font-family: $font__heading--main;
-	font-size: 5.4rem;
+	font-size: 4.4rem;
 	line-height: 6rem;
+
+    @media #{$medium-up} {
+        font-size: 5.4rem;
+    }
 }
 
 h2 {
