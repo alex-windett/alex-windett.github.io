@@ -5,3 +5,4 @@ node_modules/*
 .jekyll-metadata
 **/npm-debug.log
 .DS_Store
+/assets/images/src
