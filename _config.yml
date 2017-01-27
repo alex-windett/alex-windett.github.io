@@ -54,6 +54,12 @@ social:
       url: https://uk.linkedin.com/in/alexwindett
       desc: Connect with me on LinkedIn
 
+      - name: GitLab
+        icon: gitlab
+        username: alexw1
+        url: https://gitlab.com/alexw1
+        desc: Find me on GitLab
+
 projects:
     - name: 'Freddies Flowers'
       url: https://www.freddiesflowers.com
