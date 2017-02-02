@@ -56,8 +56,8 @@ social:
 
     - name: GitLab
       icon: gitlab
-      username: alexw1
-      url: https://gitlab.com/alexw1
+      username: alex-windett
+      url: https://gitlab.com/alex-windett
       desc: Find me on GitLab
 
 projects:
