@@ -236,6 +236,10 @@ p {
   text-align: left;
 }
 
+p + p {
+  margin-top: 2rem;
+}
+
 h1,
 h2,
 h3,
@@ -518,7 +522,8 @@ section.intro h3 {
 
 section.intro > p {
   max-width: 49.5rem;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pagination {

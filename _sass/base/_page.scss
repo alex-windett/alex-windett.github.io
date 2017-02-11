@@ -50,6 +50,10 @@ p {
 	font-size: 1.6rem;
 	line-height: 2.6rem;
 	text-align: left;
+
+  & + & {
+    margin-top: 2rem;
+  }
 }
 
 h1,
