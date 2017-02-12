@@ -159,7 +159,13 @@ table {
   color: #464646;
 }
 
-.background--light * {
+.background--light h1,
+.background--light h2,
+.background--light h3,
+.background--light h4,
+.background--light header .header-menu li a, header .header-menu li
+.background--light a,
+.background--light p {
   color: #464646;
 }
 
@@ -246,18 +252,14 @@ h3,
 h4,
 header .header-menu li a,
 p,
-li,
-a,
-a:hover,
-a:visited,
-a:focus {
+li {
   color: #ffffff;
 }
 
 a,
-a:hover,
 a:visited,
 a:focus {
+  color: #64b178;
   text-decoration: none;
 }
 
@@ -267,6 +269,7 @@ a {
 }
 
 a:hover {
+  text-decoration: underline;
   -webkit-transition: ease-in-out 0.5s all;
   transition: ease-in-out 0.5s all;
 }

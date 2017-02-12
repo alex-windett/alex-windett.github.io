@@ -61,6 +61,9 @@ social:
       desc: Find me on GitLab
 
 projects:
+    - name: 'Joyent'
+      url: https://github.com/yldio/joyent-portal
+      description: 'The intial phase of an open-source re-design and re-build of Joyent&rsquo;s cloud base conatainer service. Working closely with their USA based infrastructure team, our design team and development team, I have been involved in everystep of the process in creating an initial prototype.'
     - name: 'Freddies Flowers'
       url: https://www.freddiesflowers.com
       description: 'A flower delivery e-commerce app being re-built in bi-monthly or weekly sprints - depending on the feature - in React and Redux. Driving the project, it is the first I have used React and a JavaScript framework, bringing about some challanges but has ultimately imporved the UX and functionality.'

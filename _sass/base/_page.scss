@@ -61,18 +61,14 @@ h2,
 h3,
 h4,
 p,
-li,
-a,
-a:hover,
-a:visited,
-a:focus {
+li, {
 	color: $color__copy--light;
 }
 
 a,
-a:hover,
 a:visited,
 a:focus {
+  color: $color__copy;
 	text-decoration: none;
 }
 
@@ -81,6 +77,7 @@ a {
     @include transition(ease-in-out, 0.5s);
 
     &:hover {
+        text-decoration: underline;
         @include transition(ease-in-out, 0.5s);
     }
 }

@@ -28,7 +28,11 @@
 	background: $color__bg--light;
 	color: $color__copy--dark;
 
-	* {
+	h1,
+	h2,
+	h3,
+	h4,
+	p {
 		color: $color__copy--dark;
 	}
 }
