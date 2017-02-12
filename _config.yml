@@ -1,6 +1,6 @@
 # Site settings
 title: Alex Windett
-job_title: UX Designer & Frontend Developer
+job_title: UX Product Designer & Frontend Developer
 baseurl: ""
 url: "https://windett.co.uk"
 
@@ -48,17 +48,17 @@ social:
       url: https://github.com/alex-windett
       desc: Fork me on GitHub
 
-    - name: LinkedIn
-      icon: linkedin
-      username: Alex Windett
-      url: https://uk.linkedin.com/in/alexwindett
-      desc: Connect with me on LinkedIn
-
     - name: GitLab
       icon: gitlab
       username: alex-windett
       url: https://gitlab.com/alex-windett
       desc: Find me on GitLab
+
+    - name: LinkedIn
+      icon: linkedin
+      username: Alex Windett
+      url: https://uk.linkedin.com/in/alexwindett
+      desc: Connect with me on LinkedIn
 
 projects:
     - name: 'Joyent'

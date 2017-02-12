@@ -91,6 +91,7 @@ table {
   font-style: normal;
   font-weight: normal;
   speak: none;
+  color: #FFF;
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
@@ -486,7 +487,7 @@ footer li p {
 
 .cover__image--title {
   margin: 4rem auto 0;
-  width: 33rem;
+  width: 37rem;
   text-align: center;
 }
 

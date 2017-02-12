@@ -61,6 +61,7 @@ $i: 1;
   font-style: normal;
   font-weight: normal;
   speak: none;
+	color: #FFF;
 
   display: inline-block;
   text-decoration: inherit;
@@ -90,7 +91,6 @@ $i: 1;
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
-
 .icon-mail:before { content: '\e801'; } /* '' */
 .icon-github:before { content: '\e802'; } /* '' */
 .icon-linkedin:before { content: '\e806'; } /* '' */
