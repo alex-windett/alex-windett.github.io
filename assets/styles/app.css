@@ -140,6 +140,11 @@ table {
 }
 
 /* '' */
+.icon-strava:before {
+  background-image: url("../../assets/images/src/strava.svg");
+  content: '';
+}
+
 .clearfix:after {
   content: "";
   display: table;
