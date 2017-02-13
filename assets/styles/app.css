@@ -140,11 +140,6 @@ table {
 }
 
 /* '' */
-.icon-strava:before {
-  background-image: url("../../assets/images/src/strava.svg");
-  content: '';
-}
-
 .clearfix:after {
   content: "";
   display: table;
@@ -475,6 +470,17 @@ footer li p {
   font-size: 1.8rem;
   line-height: 2.4rem;
   display: inline-block;
+}
+
+footer .icon-strava svg {
+  height: 25px;
+  margin-left: 8px;
+  margin-right: 5px;
+}
+
+footer .icon-strava + p {
+  position: relative;
+  top: -5px;
 }
 
 .cover__image {
