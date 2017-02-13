@@ -472,6 +472,17 @@ footer li p {
   display: inline-block;
 }
 
+footer .icon-strava svg {
+  height: 25px;
+  margin-left: 8px;
+  margin-right: 5px;
+}
+
+footer .icon-strava + p {
+  position: relative;
+  top: -5px;
+}
+
 .cover__image {
   background: url("../images/min/home_cover.png") no-repeat 100% 100%;
   padding: 7% 0;
