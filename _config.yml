@@ -1,6 +1,6 @@
 # Site settings
 title: Alex Windett
-job_title: Frontend Developer & UX Product Designer  
+job_title: Frontend Developer & UX Product Designer
 baseurl: ""
 url: "https://windett.co.uk"
 
@@ -35,7 +35,7 @@ social:
     - name: Mail
       icon: mail
       username: windettalex@gmail.com
-      url: windettalex@gmai.com
+      url: mailto:windettalex@gmai.com
 
     - name: Twitter
       icon: twitter
