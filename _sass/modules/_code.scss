@@ -11,7 +11,7 @@ code {
 	padding:0.25em;
 
 	> span {
-	    line-height: 2.8rem
+	    line-height: 18px;
 	}
 }
 pre {
@@ -24,7 +24,7 @@ pre {
 }
 pre code {
 	background:#FAFAFA;
-	font-size: 2rem;
+	font-size: 14px;
 
 	@include transition(ease-out, 0.4s);
 
@@ -35,7 +35,7 @@ pre code {
 	width: 100%;
 
 	@media #{$medium-up} {
-		width: auto;
+		width: 100%;
 	}
 
 }

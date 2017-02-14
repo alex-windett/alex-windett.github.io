@@ -922,7 +922,7 @@ code {
 }
 
 code > span {
-  line-height: 2.8rem;
+  line-height: 18px;
 }
 
 pre {
@@ -937,7 +937,7 @@ pre {
 
 pre code {
   background: #FAFAFA;
-  font-size: 2rem;
+  font-size: 14px;
   -webkit-transition: ease-out 0.4s all;
   transition: ease-out 0.4s all;
   border-radius: 6px;
@@ -948,7 +948,7 @@ pre code {
 
 @media only screen and (min-width: 45.714285714em) {
   pre code {
-    width: auto;
+    width: 100%;
   }
 }
 
