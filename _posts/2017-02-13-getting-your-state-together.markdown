@@ -19,7 +19,7 @@ Take for an example this relatively simple mock store:
         age: 25,
         gender: 'male',
       },
-      related_contacts: {
+      related_contacts: [
         {
           name: "Sam",
           email: "sam@foo.com",
@@ -30,7 +30,7 @@ Take for an example this relatively simple mock store:
           name: "Bob",
           email: "bob@baz.com"
         },
-      },
+      ],
     },
     ui: {
       profile_nav_toggled: false,
@@ -61,7 +61,7 @@ There are two key points that I have taken from moving all data / state manageme
     }
   },
   "projects": {
-    "data": {
+    "data": [
       {
         id: 1,
         name: "project1"
@@ -69,7 +69,7 @@ There are two key points that I have taken from moving all data / state manageme
         id: 2,
         name: "project2"
       },
-    },
+    ],
     "ui": {
       selected_ids: [
         1,
@@ -77,7 +77,7 @@ There are two key points that I have taken from moving all data / state manageme
     }
   },
   "members": {
-    "data": {
+    "data": [
       {
         id: 1
         name: "Sam",
@@ -91,7 +91,7 @@ There are two key points that I have taken from moving all data / state manageme
         name: "Bob",
         email: "bob@baz.com"
       }
-    },
+    ],
     "ui": {
       selected: [
         1,  
