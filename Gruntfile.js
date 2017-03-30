@@ -17,6 +17,9 @@ module.exports = function (grunt) {
             },
             jekyllServe: {
                 command: 'jekyll serve'
+            },
+            jekyllServeDrafts: {
+                command: 'jekyll serve --drafts'
             }
         },
 
@@ -112,17 +115,26 @@ module.exports = function (grunt) {
                 'watch',
                 'shell:jekyllServe'
             ],
+            serveDrafts: [
+                'sass',
+                'watch',
+                'shell:jekyllServeDrafts'
+            ],
             options: {
                 logConcurrentOutput: true
             }
         }
-
     });
 
     // Register the grunt serve task
     grunt.registerTask('serve', [
         'concat',
         'concurrent:serve'
+    ]);
+
+    grunt.registerTask('serve-drafts', [
+        'concat',
+        'concurrent:serveDrafts'
     ]);
 
     // Register the grunt build task
