@@ -29,6 +29,10 @@ exclude:
 
 include: ['.htaccess']
 
+assets:
+    assets:
+        - assets/
+
 
 # Content settings
 social:
