@@ -1,5 +1,8 @@
 .cover__image {
-	background: url($image-path + "home_cover.png") no-repeat 100% 100%;
+	background-image: url($image-path + "home_cover.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: $color__bg--dark;
 	padding: 7% 0;
 
 	&--portrait {

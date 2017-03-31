@@ -484,7 +484,10 @@ footer .icon-strava + p {
 }
 
 .cover__image {
-  background: url("../images/min/home_cover.png") no-repeat 100% 100%;
+  background-image: url("../images/min/home_cover.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #64b178;
   padding: 7% 0;
 }
 
