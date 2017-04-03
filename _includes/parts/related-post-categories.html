@@ -1,0 +1,17 @@
+{% assign current_page_cat = page.category %}
+
+{% if page.category %}
+  <div class="post-categories clearfix">
+    <h2 class="post-categories-title">Related Posts</h2>
+    {% for post in site.posts %}
+    <ul>
+      {% if post.category == page.category and post.url != page.url %}
+      <li>
+        <p><a href="{{ post.url | prepend: site.baseurl }}">{{
+          post.title }}</a></p>
+      </li>
+      {% endif %}
+    </ul>
+    {% endfor %}
+  </div>
+{% endif %}

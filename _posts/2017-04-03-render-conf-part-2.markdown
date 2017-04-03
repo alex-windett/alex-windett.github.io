@@ -2,8 +2,8 @@
 layout: default
 
 layout: post
-title:  "Render Conf 2017"
-date:   2017-03-30
+title:  "Render Conf 2017 Part 2"
+date:   2017-04-03
 category: "render-conf"
 ---
 
