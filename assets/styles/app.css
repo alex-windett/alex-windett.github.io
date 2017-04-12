@@ -1153,6 +1153,11 @@ body.blog .blog--list__item a:hover {
   color: #64b178;
 }
 
+.post-single .post h2 {
+  color: #64b178;
+  padding-top: 2rem;
+}
+
 .post-single .post-title {
   font-family: "Raleway Thin";
   color: #64b178;

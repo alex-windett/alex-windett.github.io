@@ -11,12 +11,17 @@
 	    }
 
 	    p {
-			margin: 1rem 0;
-			color: $color__copy--dark;
+				margin: 1rem 0;
+				color: $color__copy--dark;
 
-			a {
-				color: $color__copy;
-			}
+				a {
+					color: $color__copy;
+				}
+		 }
+
+		h2 {
+			color: $color__copy;
+			padding-top: 2rem;
 		}
 	}
 

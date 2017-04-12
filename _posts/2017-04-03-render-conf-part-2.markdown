@@ -8,36 +8,88 @@ category: "Render Conf"
 Illness and a heavy crash racing has delayed the writing of this - hopefully my 
 memory won't fail me about some of the speakers a week ago.
 
-## Evaluating Technology
+Evaluating Technology
+--
 [Jeremy Keith]() opened up the conference by discussing the nature of technology 
-and what, as humans, our relationship is to it. Opening the discussion with the 
+and what, as humans, our relationship is to it. Starting the discussion with the 
 nature of technology, he discusses how technology is inherently a domain of 
 co-opperation. Working closely with other devs and the open source nature of modern 
 web development is clear, and if you have experienced this first hand I would be 
 very surprised as our industry is one of the most inclusive. This is shown first
- hand by Apple and Samsung, two market leading brands who share the similar 
- hardware in their manufacturing. 
+hand by Apple and Samsung, two market leading brands who share the similar 
+hardware in their manufacturing. 
+
+Although hardware is the basis for which software can run, the availability of 
+hardware is now almost in surplus and it is software that is now become more 
+important. At the dawn of the home computer back in the 70s it was a scramble to 
+get the latest device, now with the same power coming from a mobile phone, it is 
+how software is the availability of software and its performance which is in the 
+spotlight.
  
- Although hardware is the basis for which software can run, the availability of 
- hardware is now almost in surplus and it is software that is now become more 
- important. At the dawn of the home computer back in the 70s it was a scramble to 
- get the latest device, now with the same power coming from a mobile phone, it is 
- how software is the availability of software and its performance which is in the 
- spotlight.
+The talked moved away from this shift in paradigms to to the usability of current
+software and its design principles. I think the most relatable and easy to grasp 
+example of this are service workers. Jeremy argues that while we should be 
+aiming to provide the best experience for all, we should also be able to provide
+the best experience for when technology fails. Service workers for example, 
+should be able to enhance a users interaction (as they do), but if they "fail" 
+they should not effect the user (as they do, well, sorta) - if a 
+browser doesn't support service workers, then nothing changes to that of a first visit 
+with a compatible browser.
+
+Another interesting point is that while code is not intrinsically opinionated, 
+it is still bias. Opinions usually arise from different sides of an argument, 
+but developers all have their way of doing things - hence the emergence of 
+linting. There are different libraries, languages, code styles etc that all 
+lend themselves towards providing a "better" solution. However, this methods 
+should not comprise the following, in order:
+1. Users
+2. The authors / developers
+3. The applications the software runs on
+4. The theorists or market leaders (i.e the "...but Facebook use it" syndrome).
  
- The talked moved away from this shift in paradigms to to the usability of current
-  software and its design principles. I think the most relatable and easy to grasp 
-  example of this are service workers. Jeremy argues that while we should be 
-  aiming to provide the best experience for all, we should also be able to provide
-   the best experience for when technology fails. Service workers for example, 
-   should be able to enhance a users interaction (as they do), but if they "fail" 
-   they should not effect the user (as they do, well, sorta) - if a 
-   browser doesn't support service workers, then nothing changes to that of a first visit 
-   with a compatible browser.
-   
-   Another interesting point is that while code is not intrinsically opinionated, 
-   it is still bias. Opinions usually arise from different sides of an argument, 
-   but developers all have their way of doing things - hence the emergence of 
-   linting. There are different libraries, languages, code styles etc that all 
-   lend themselves towards providing a "better" solution. 
+React with node alongside a legacy backend
+--
+This all sounded a bit confusing to me, but ended to only understanding it, but 
+also very well implement by [Ben Ilegbodu]().
+
+One of the downsides fo using React with modern web apps is the need for SEO 
+optimisation and Open Graph tags. However, Google a reducing this annoyance are 
+have started allowing JS to be indexed.
+
+Past projects have gave me first hand frustration with dealing with either 
+compromising with legacy backends or the time needed to learn a new language / 
+framework - something apparently Eventbrite wen though as well, but overcame. The 
+dev ops and front end team compromised by using their current Django backend and a
+small Node server. The Node server acted purely to render React components 
+while the Django server posted to a URL that would return HTML.
+  
+{% highlight shell %}
+  REQUEST:
+  - URL endpoint
+      ex. http://localhost:9009/render
+  - Path to React component
+      ex. /www/js/react/HelloWorld.jsx
+  - Component props
+      ex. {name: 'Alex'}
+  
+  RESPONSE:
+  - Rendered markup
+      ex. <div data-reactid="1">Hello Ben!</div>
+ {% endhighlight %}
+ 
+Accessibility, what about us Dyslexic lot?
+--
+As you may have found out, hopefully not, my spelling and grammar can sometimes 
+be a little, well, unique. According to the very talented [Sarah Davies]()
+this is something that is often forgot when creating accessible web pages. Screen
+readers are often taken into account, but what about other disabilities like 
+dyslexia? Shapes, patterns and fonts all have dramatic font on the usability of
+pages - more specifically, the readbality. Very interestingly and something I 
+had never taken point of, instead of using capitals as headings why not 
+considering using sentence case? The similar letter structure in capitals 
+removes some of the brains recognition of the shape of a letter. 
+    
+ It is something so key, that the British Dyslexia Association has written on 
+ [style guide](http://www.bdadyslexia.org.uk/common/ckeditor/filemanager/userfiles/About_Us/policies/Dyslexia_Style_Guide.pdf) - not that they conform to it on [their own site](http://www.bdadyslexia
+ .org.uk), note the capitals everywhere.
  
