@@ -4,7 +4,7 @@ layout: default
 layout: post
 title:  "Render Conf 2017 Part 2"
 date:   2017-04-03
-category: "render-conf"
+category: "Render Conf"
 ---
 
 Writing this on the way back to London from day 1 of [Render Conf 2017](http://2017.render-conf.com//) in Oxford leaves me wishing I could attend Day 2, however, cycling commitments the next few days have got in the way. I don't normally do a write up about some of the events I attend straight away - mainly because of lack of time, but also a lot I leave them thinking "that was good, but....". Render, while quite small in size (only about 400 attendees), really packed a punch for all experience levels.

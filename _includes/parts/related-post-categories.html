@@ -2,7 +2,7 @@
 
 {% if page.category %}
   <div class="post-categories clearfix">
-    <h2 class="post-categories-title">Related Posts</h2>
+    <h4 class="post-categories-title">More from {{ current_page_cat }}:</h4>
     {% for post in site.posts %}
     <ul>
       {% if post.category == page.category and post.url != page.url %}

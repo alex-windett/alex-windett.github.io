@@ -1123,6 +1123,16 @@ body.blog .blog--list__item a:hover {
   color: #a8d3b3;
 }
 
+.post-single .post-categories {
+  padding-top: 2rem;
+  border-top: 2px solid #64b178;
+  margin-top: 4rem;
+}
+
+.post-single .post-categories-title {
+  color: #464646;
+}
+
 .post-single .post {
   width: 90%;
   margin: 0 auto;
