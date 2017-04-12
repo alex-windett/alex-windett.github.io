@@ -1,6 +1,4 @@
 ---
-layout: default
-
 layout: post
 title:  "Render Conf 2017"
 date:   2017-03-30
