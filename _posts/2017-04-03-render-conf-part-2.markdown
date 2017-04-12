@@ -78,15 +78,14 @@ Accessibility, what about us Dyslexic lot?
 --
 As you may have found out, hopefully not, my spelling and grammar can sometimes 
 be a little, well, unique. According to the very talented [Sarah Davies]()
-this is something that is often forgot when creating accessible web pages. Screen
+the cause of my sometimes poor english is something that is often forgotten when creating accessible web pages. Screen
 readers are often taken into account, but what about other disabilities like 
-dyslexia? Shapes, patterns and fonts all have dramatic font on the usability of
-pages - more specifically, the readbality. Very interestingly and something I 
+dyslexia? Shapes, patterns and fonts all have implications on the usability of
+pages - more specifically, the readability. Very interestingly and something I
 had never taken point of, instead of using capitals as headings why not 
 considering using sentence case? The similar letter structure in capitals 
-removes some of the brains recognition of the shape of a letter. 
+removes some of the brains recognition of the shape of a letters therefore reading words.
     
- It is something so key, that the British Dyslexia Association has written on 
+ It is something so key, that the British Dyslexia Association has written a style guide on
  [style guide](http://www.bdadyslexia.org.uk/common/ckeditor/filemanager/userfiles/About_Us/policies/Dyslexia_Style_Guide.pdf) - not that they conform to it on [their own site](http://www.bdadyslexia
  .org.uk), note the capitals everywhere.
- 

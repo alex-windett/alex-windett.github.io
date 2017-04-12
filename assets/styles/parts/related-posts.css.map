@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "related-posts.css",
+	"sources": [
+		"../../../_sass/parts/related-posts.scss"
+	],
+	"mappings": "",
+	"names": []
+}
