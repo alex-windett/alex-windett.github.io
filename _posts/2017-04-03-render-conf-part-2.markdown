@@ -11,17 +11,15 @@ memory won't fail and give crrdit to the speakers wlmost two weeks ago.
 Evaluating Technology
 --
 [Jeremy Keith]() opened up the conference by discussing the *Nature of Technology*
-and what, as humans, our relationship is to it. Starting of with how technology is inherently a domain of 
-co-opperation and working closely with other devs and the open source nature of modern 
-web development is clear, and if you haven't experienced this first hand I would be 
-very surprised as our industry is one of the most inclusive. This is shown first
-hand by Apple and Samsung, two market leading competing brands, share the similar 
-hardware in their manufacturing. 
+and what, as humans, our relationship is to it. He startined off exploring how technology is inherently a domain of 
+co-opperation where working closely with other devs and the open source nature of modern 
+web development is clear. If you haven't experienced this first hand I would be 
+very surprised as our industry is one of the most inclusive.
 
-this moves us on to another point that was made. Although hardware is the basis for which software can run, the availability of 
+later he moved us on to the changing demand for software vs. hardware. Although hardware is the basis for which software can run, the availability of 
 hardware is now almost in surplus and it is software that is now become more 
 important. At the dawn of the home computer back in the 70s it was a scramble to 
-get the latest device, now with the same power coming from a mobile phone, ii is the availability of software and its performance which is in the 
+get that extra bit of CPU or memory , now with the same power coming from a mobile phone, it is the availability of software and its performance which is in the 
 spotlight.
  
 The talked moved away from this shifting techniological paradigms to the usability of current
@@ -43,23 +41,27 @@ should not comprise the following, in order:
 2. The authors / developers
 3. The applications the software runs on
 4. The theorists or market leaders (i.e the "...but Facebook use it" syndrome).
+
+In one form or another I have been following these points thrugh progressive enhancement, even if it is being made to use legacy frameworks. 
  
 React with node alongside a legacy backend
 --
-This all sounded a bit confusing to me, but ended to only understanding it, but 
-also very well implement by [Ben Ilegbodu]().
+This all sounded a bit confusing to me, but ended up not only understanding it, but 
+also seeing a very well implement example by [Ben Ilegbodu]().
 
 One of the downsides fo using React with modern web apps is the need for SEO 
 optimisation and Open Graph tags. However, Google a reducing this annoyance are 
 have started allowing JS to be indexed.
 
-Past projects have gave me first hand frustration with dealing with either 
-compromising with legacy backends or the time needed to learn a new language / 
-framework - something apparently Eventbrite wen though as well, but overcame. The 
+Past projects gave me first hand frustration with dealing with either 
+uncompromising legacy backends or the lack of time needed to learn a new language / 
+framework - something apparently Eventbrite went though as well, but overcame. The 
 dev ops and front end team compromised by using their current Django backend and a
 small Node server. The Node server acted purely to render React components 
 while the Django server posted to a URL that would return HTML.
-  
+
+
+example request and response:
 {% highlight shell %}
   REQUEST:
   - URL endpoint
@@ -76,7 +78,7 @@ while the Django server posted to a URL that would return HTML.
  
 Accessibility, what about us Dyslexic lot?
 --
-As you may have found out, hopefully not, my spelling and grammar can sometimes 
+As you may have picked up on, or hopefully not, my spelling and grammar can sometimes 
 be a little, well, unique. According to the very talented [Sarah Davies]()
 the cause of my sometimes poor english is something that is often forgotten when creating accessible web pages. Screen
 readers are often taken into account, but what about other disabilities like 
