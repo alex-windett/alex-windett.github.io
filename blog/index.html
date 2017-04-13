@@ -16,7 +16,7 @@ Expect code snippets, conference write ups and challenges I've come across in
 <section class="background--light padder blog--list clearfix">
 	<ul>
 		{% for post in paginator.posts %}
-		<li class="blog--list__item clearfix {% if post.image %}with__image{% endif %}">
+		<li class="blog--list__item clearfix">
 
 			<div class="right">
 				<h3><a href="{{ post.url }}">{{ post.title }}</a></a></h3>

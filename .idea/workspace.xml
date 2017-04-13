@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="31ebda5d-215d-4da9-8aeb-8ecf4cde884b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-04-03-render-conf-part-2.markdown" afterPath="$PROJECT_DIR$/_posts/2017-04-03-render-conf-part-2.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/base/_page.scss" afterPath="$PROJECT_DIR$/_sass/base/_page.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/pages/_blog-single.scss" afterPath="$PROJECT_DIR$/_sass/pages/_blog-single.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/app.css" afterPath="$PROJECT_DIR$/assets/styles/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/app.css.map" afterPath="$PROJECT_DIR$/assets/styles/app.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.html" afterPath="$PROJECT_DIR$/blog/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,35 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_blog-single.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_blog-single.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/pages/_blog-single.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-03-30-render-conf.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-03-30-render-conf.markdown">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="21">
-                <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -65,8 +37,74 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="588">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <marker date="1492082025000" expanded="true" signature="438:475" ph="assets: &lt;1 key&gt;" />
+                <marker date="1492082025000" expanded="true" signature="450:475" ph="assets: &lt;1 item&gt;" />
+                <marker date="1492082025000" expanded="true" signature="468:475" ph="assets/" />
+                <marker date="1492082025000" expanded="true" signature="497:1171" ph="social: &lt;5 items&gt;" />
+                <marker date="1492082025000" expanded="true" signature="517:521" ph="Mail" />
+                <marker date="1492082025000" expanded="true" signature="534:538" ph="mail" />
+                <marker date="1492082025000" expanded="true" signature="555:576" ph="windettal…@gmail.com" />
+                <marker date="1492082025000" expanded="true" signature="588:615" ph="mailto:wi…x@gmai.com" />
+                <marker date="1492082025000" expanded="true" signature="629:636" ph="Twitter" />
+                <marker date="1492082025000" expanded="true" signature="649:656" ph="twitter" />
+                <marker date="1492082025000" expanded="true" signature="673:684" ph="alexwindett" />
+                <marker date="1492082025000" expanded="true" signature="696:727" ph="https://t…lexwindett" />
+                <marker date="1492082025000" expanded="true" signature="741:747" ph="GitHub" />
+                <marker date="1492082025000" expanded="true" signature="760:766" ph="github" />
+                <marker date="1492082025000" expanded="true" signature="783:795" ph="alex-windett" />
+                <marker date="1492082025000" expanded="true" signature="807:838" ph="https://g…ex-windett" />
+                <marker date="1492082025000" expanded="true" signature="851:868" ph="Fork me on GitHub" />
+                <marker date="1492082025000" expanded="true" signature="882:888" ph="GitLab" />
+                <marker date="1492082025000" expanded="true" signature="901:907" ph="gitlab" />
+                <marker date="1492082025000" expanded="true" signature="924:936" ph="alex-windett" />
+                <marker date="1492082025000" expanded="true" signature="948:979" ph="https://g…ex-windett" />
+                <marker date="1492082025000" expanded="true" signature="992:1009" ph="Find me on GitLab" />
+                <marker date="1492082025000" expanded="true" signature="1023:1031" ph="LinkedIn" />
+                <marker date="1492082025000" expanded="true" signature="1044:1052" ph="linkedin" />
+                <marker date="1492082025000" expanded="true" signature="1069:1081" ph="Alex Windett" />
+                <marker date="1492082025000" expanded="true" signature="1093:1131" ph="https://u…lexwindett" />
+                <marker date="1492082025000" expanded="true" signature="1144:1171" ph="Connect w…n LinkedIn" />
+                <marker date="1492082025000" expanded="true" signature="1173:3322" ph="projects: &lt;6 items&gt;" />
+                <marker date="1492082025000" expanded="true" signature="1195:1218" ph="Joyent &amp;m…sh; Triton" />
+                <marker date="1492082025000" expanded="true" signature="1230:1268" ph="https://g…ent-portal" />
+                <marker date="1492082025000" expanded="true" signature="1288:1576" ph="The initi…prototype." />
+                <marker date="1492082025000" expanded="true" signature="1589:1614" ph="Freddie&amp;r…;s Flowers" />
+                <marker date="1492082025000" expanded="true" signature="1626:1657" ph="https://w…lowers.com" />
+                <marker date="1492082025000" expanded="true" signature="1677:1975" ph="A flower …tionality." />
+                <marker date="1492082025000" expanded="true" signature="1988:2008" ph="Belvoir Botanicals" />
+                <marker date="1492082025000" expanded="true" signature="2020:2055" ph="http://ww…als.co.uk/" />
+                <marker date="1492082025000" expanded="true" signature="2075:2343" ph="This micr…h quality." />
+                <marker date="1492082025000" expanded="true" signature="2356:2360" ph="9BAR" />
+                <marker date="1492082025000" expanded="true" signature="2372:2391" ph="http://www.9bar.com" />
+                <marker date="1492082025000" expanded="true" signature="2411:2672" ph="9BAR was …ing on it." />
+                <marker date="1492082025000" expanded="true" signature="2685:2693" ph="Tyrrells" />
+                <marker date="1492082025000" expanded="true" signature="2705:2737" ph="https://w…isps.co.uk" />
+                <marker date="1492082025000" expanded="true" signature="2757:3006" ph="Working o…avaScript." />
+                <marker date="1492082025000" expanded="true" signature="3019:3023" ph="Yes+" />
+                <marker date="1492082025000" expanded="true" signature="3043:3322" ph="Working o…or review." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -76,8 +114,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-04-03-render-conf-part-2.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="77">
-                <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+              <first_editor relative-caret-position="1680">
+                <caret line="80" column="19" lean-forward="false" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -88,32 +126,9 @@
       <file leaf-file-name="_page.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/base/_page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
+            <state relative-caret-position="1029">
               <caret line="49" column="3" lean-forward="false" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__base.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/base/__base.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-11-24-beyond.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015-11-24-beyond.markdown">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="168">
-                <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -121,18 +136,18 @@
       <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="504">
               <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+            <state relative-caret-position="377">
+              <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -162,7 +177,6 @@
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/_drafts/2017-03-30-render-conf.markdown" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/blog/index.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_site/index.html" />
@@ -175,6 +189,7 @@
         <option value="$PROJECT_DIR$/_sass/base/_page.scss" />
         <option value="$PROJECT_DIR$/_posts/2017-04-03-render-conf-part-2.markdown" />
         <option value="$PROJECT_DIR$/_sass/pages/_blog-single.scss" />
+        <option value="$PROJECT_DIR$/blog/index.html" />
       </list>
     </option>
   </component>
@@ -190,6 +205,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1280" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="1413" />
@@ -250,7 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_sass" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,71 +280,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_sass" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windett" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windett" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windett" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windett" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windett" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windett" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windett" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windett" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -466,7 +422,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17504000" />
+    <option name="totallyTimeSpent" value="17614000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,17 +434,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="1413" extended-state="0" />
+    <frame x="1280" y="23" width="1280" height="1413" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13741064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13661636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3984556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3969112" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -497,17 +453,17 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.397351" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.136716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +503,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1492082025000" expanded="true" signature="438:475" ph="assets: &lt;1 key&gt;" />
+            <marker date="1492082025000" expanded="true" signature="450:475" ph="assets: &lt;1 item&gt;" />
+            <marker date="1492082025000" expanded="true" signature="468:475" ph="assets/" />
+            <marker date="1492082025000" expanded="true" signature="497:1171" ph="social: &lt;5 items&gt;" />
+            <marker date="1492082025000" expanded="true" signature="517:521" ph="Mail" />
+            <marker date="1492082025000" expanded="true" signature="534:538" ph="mail" />
+            <marker date="1492082025000" expanded="true" signature="555:576" ph="windettal…@gmail.com" />
+            <marker date="1492082025000" expanded="true" signature="588:615" ph="mailto:wi…x@gmai.com" />
+            <marker date="1492082025000" expanded="true" signature="629:636" ph="Twitter" />
+            <marker date="1492082025000" expanded="true" signature="649:656" ph="twitter" />
+            <marker date="1492082025000" expanded="true" signature="673:684" ph="alexwindett" />
+            <marker date="1492082025000" expanded="true" signature="696:727" ph="https://t…lexwindett" />
+            <marker date="1492082025000" expanded="true" signature="741:747" ph="GitHub" />
+            <marker date="1492082025000" expanded="true" signature="760:766" ph="github" />
+            <marker date="1492082025000" expanded="true" signature="783:795" ph="alex-windett" />
+            <marker date="1492082025000" expanded="true" signature="807:838" ph="https://g…ex-windett" />
+            <marker date="1492082025000" expanded="true" signature="851:868" ph="Fork me on GitHub" />
+            <marker date="1492082025000" expanded="true" signature="882:888" ph="GitLab" />
+            <marker date="1492082025000" expanded="true" signature="901:907" ph="gitlab" />
+            <marker date="1492082025000" expanded="true" signature="924:936" ph="alex-windett" />
+            <marker date="1492082025000" expanded="true" signature="948:979" ph="https://g…ex-windett" />
+            <marker date="1492082025000" expanded="true" signature="992:1009" ph="Find me on GitLab" />
+            <marker date="1492082025000" expanded="true" signature="1023:1031" ph="LinkedIn" />
+            <marker date="1492082025000" expanded="true" signature="1044:1052" ph="linkedin" />
+            <marker date="1492082025000" expanded="true" signature="1069:1081" ph="Alex Windett" />
+            <marker date="1492082025000" expanded="true" signature="1093:1131" ph="https://u…lexwindett" />
+            <marker date="1492082025000" expanded="true" signature="1144:1171" ph="Connect w…n LinkedIn" />
+            <marker date="1492082025000" expanded="true" signature="1173:3322" ph="projects: &lt;6 items&gt;" />
+            <marker date="1492082025000" expanded="true" signature="1195:1218" ph="Joyent &amp;m…sh; Triton" />
+            <marker date="1492082025000" expanded="true" signature="1230:1268" ph="https://g…ent-portal" />
+            <marker date="1492082025000" expanded="true" signature="1288:1576" ph="The initi…prototype." />
+            <marker date="1492082025000" expanded="true" signature="1589:1614" ph="Freddie&amp;r…;s Flowers" />
+            <marker date="1492082025000" expanded="true" signature="1626:1657" ph="https://w…lowers.com" />
+            <marker date="1492082025000" expanded="true" signature="1677:1975" ph="A flower …tionality." />
+            <marker date="1492082025000" expanded="true" signature="1988:2008" ph="Belvoir Botanicals" />
+            <marker date="1492082025000" expanded="true" signature="2020:2055" ph="http://ww…als.co.uk/" />
+            <marker date="1492082025000" expanded="true" signature="2075:2343" ph="This micr…h quality." />
+            <marker date="1492082025000" expanded="true" signature="2356:2360" ph="9BAR" />
+            <marker date="1492082025000" expanded="true" signature="2372:2391" ph="http://www.9bar.com" />
+            <marker date="1492082025000" expanded="true" signature="2411:2672" ph="9BAR was …ing on it." />
+            <marker date="1492082025000" expanded="true" signature="2685:2693" ph="Tyrrells" />
+            <marker date="1492082025000" expanded="true" signature="2705:2737" ph="https://w…isps.co.uk" />
+            <marker date="1492082025000" expanded="true" signature="2757:3006" ph="Working o…avaScript." />
+            <marker date="1492082025000" expanded="true" signature="3019:3023" ph="Yes+" />
+            <marker date="1492082025000" expanded="true" signature="3043:3322" ph="Working o…or review." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -555,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,8 +656,9 @@
     <entry file="file://$PROJECT_DIR$/.circle-ci.yml" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -721,7 +722,8 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -736,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,35 +767,71 @@
     <entry file="file://$PROJECT_DIR$/_posts/2015-07-12-inheriting-and-react.markdown" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-02-13-getting-your-state-together.markdown" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-03-30-render-conf.markdown">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="21">
             <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="588">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <marker date="1492082025000" expanded="true" signature="438:475" ph="assets: &lt;1 key&gt;" />
+            <marker date="1492082025000" expanded="true" signature="450:475" ph="assets: &lt;1 item&gt;" />
+            <marker date="1492082025000" expanded="true" signature="468:475" ph="assets/" />
+            <marker date="1492082025000" expanded="true" signature="497:1171" ph="social: &lt;5 items&gt;" />
+            <marker date="1492082025000" expanded="true" signature="517:521" ph="Mail" />
+            <marker date="1492082025000" expanded="true" signature="534:538" ph="mail" />
+            <marker date="1492082025000" expanded="true" signature="555:576" ph="windettal…@gmail.com" />
+            <marker date="1492082025000" expanded="true" signature="588:615" ph="mailto:wi…x@gmai.com" />
+            <marker date="1492082025000" expanded="true" signature="629:636" ph="Twitter" />
+            <marker date="1492082025000" expanded="true" signature="649:656" ph="twitter" />
+            <marker date="1492082025000" expanded="true" signature="673:684" ph="alexwindett" />
+            <marker date="1492082025000" expanded="true" signature="696:727" ph="https://t…lexwindett" />
+            <marker date="1492082025000" expanded="true" signature="741:747" ph="GitHub" />
+            <marker date="1492082025000" expanded="true" signature="760:766" ph="github" />
+            <marker date="1492082025000" expanded="true" signature="783:795" ph="alex-windett" />
+            <marker date="1492082025000" expanded="true" signature="807:838" ph="https://g…ex-windett" />
+            <marker date="1492082025000" expanded="true" signature="851:868" ph="Fork me on GitHub" />
+            <marker date="1492082025000" expanded="true" signature="882:888" ph="GitLab" />
+            <marker date="1492082025000" expanded="true" signature="901:907" ph="gitlab" />
+            <marker date="1492082025000" expanded="true" signature="924:936" ph="alex-windett" />
+            <marker date="1492082025000" expanded="true" signature="948:979" ph="https://g…ex-windett" />
+            <marker date="1492082025000" expanded="true" signature="992:1009" ph="Find me on GitLab" />
+            <marker date="1492082025000" expanded="true" signature="1023:1031" ph="LinkedIn" />
+            <marker date="1492082025000" expanded="true" signature="1044:1052" ph="linkedin" />
+            <marker date="1492082025000" expanded="true" signature="1069:1081" ph="Alex Windett" />
+            <marker date="1492082025000" expanded="true" signature="1093:1131" ph="https://u…lexwindett" />
+            <marker date="1492082025000" expanded="true" signature="1144:1171" ph="Connect w…n LinkedIn" />
+            <marker date="1492082025000" expanded="true" signature="1173:3322" ph="projects: &lt;6 items&gt;" />
+            <marker date="1492082025000" expanded="true" signature="1195:1218" ph="Joyent &amp;m…sh; Triton" />
+            <marker date="1492082025000" expanded="true" signature="1230:1268" ph="https://g…ent-portal" />
+            <marker date="1492082025000" expanded="true" signature="1288:1576" ph="The initi…prototype." />
+            <marker date="1492082025000" expanded="true" signature="1589:1614" ph="Freddie&amp;r…;s Flowers" />
+            <marker date="1492082025000" expanded="true" signature="1626:1657" ph="https://w…lowers.com" />
+            <marker date="1492082025000" expanded="true" signature="1677:1975" ph="A flower …tionality." />
+            <marker date="1492082025000" expanded="true" signature="1988:2008" ph="Belvoir Botanicals" />
+            <marker date="1492082025000" expanded="true" signature="2020:2055" ph="http://ww…als.co.uk/" />
+            <marker date="1492082025000" expanded="true" signature="2075:2343" ph="This micr…h quality." />
+            <marker date="1492082025000" expanded="true" signature="2356:2360" ph="9BAR" />
+            <marker date="1492082025000" expanded="true" signature="2372:2391" ph="http://www.9bar.com" />
+            <marker date="1492082025000" expanded="true" signature="2411:2672" ph="9BAR was …ing on it." />
+            <marker date="1492082025000" expanded="true" signature="2685:2693" ph="Tyrrells" />
+            <marker date="1492082025000" expanded="true" signature="2705:2737" ph="https://w…isps.co.uk" />
+            <marker date="1492082025000" expanded="true" signature="2757:3006" ph="Working o…avaScript." />
+            <marker date="1492082025000" expanded="true" signature="3019:3023" ph="Yes+" />
+            <marker date="1492082025000" expanded="true" signature="3043:3322" ph="Working o…or review." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -806,7 +840,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="168">
             <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -814,7 +847,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="504">
           <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding />
         </state>
@@ -824,13 +857,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/base/_page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
+        <state relative-caret-position="1029">
           <caret line="49" column="3" lean-forward="false" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
           <folding />
         </state>
@@ -839,8 +871,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-04-03-render-conf-part-2.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="77">
-            <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+          <first_editor relative-caret-position="1680">
+            <caret line="80" column="19" lean-forward="false" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
             <folding />
           </first_editor>
           <second_editor />
@@ -850,7 +882,15 @@
     <entry file="file://$PROJECT_DIR$/_sass/pages/_blog-single.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding />
         </state>
       </provider>
