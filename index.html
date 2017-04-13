@@ -27,8 +27,10 @@ body_class: home
 		{% for project in site.projects  %}
 		<li class="project">
 			<a href="#" class="link__removed">
-				<img class="project--logo" src="assets/images/min/projects/project__logo--{{ project.name | slugify }}.png" alt="">
-				<img class="project--preview" src="assets/images/min/projects/project__preview--{{ project.name | slugify }}.png" alt="">
+				<img class="project--logo"
+						 src="assets/images/min/projects/project__logo--{{ project.image_name | slugify }}.png" alt="">
+				<img class="project--preview"
+						 src="assets/images/min/projects/project__preview--{{ project.image_name | slugify }}.png" alt="">
 			</a>
 
 			<article>

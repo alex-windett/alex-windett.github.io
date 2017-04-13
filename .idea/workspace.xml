@@ -2,12 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31ebda5d-215d-4da9-8aeb-8ecf4cde884b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/apple-touch-icon-114x114.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/apple-touch-icon-120x120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/apple-touch-icon-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/apple-touch-icon-152x152.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/apple-touch-icon-57x57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/apple-touch-icon-60x60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/apple-touch-icon-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/apple-touch-icon-76x76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/favicon-128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/favicon-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/favicon-196x196.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/favicon-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/favicon-96x96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/mstile-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/mstile-150x150.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/mstile-310x150.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/mstile-310x310.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/favicons/mstile-70x70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/home_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/home_cover_portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/projects/project__logo--9bar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/projects/project__logo--belvoir-botanicals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/projects/project__logo--freddies-flowers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/projects/project__logo--joyent.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/projects/project__logo--joyent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/projects/project__logo--tyrrells.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/projects/project__logo--yes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/projects/project__preview--9bar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/projects/project__preview--belvoir-botanicals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/projects/project__preview--freddies-flowers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/projects/project__preview--joyent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/projects/project__preview--tyrrells.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/min/projects/project__preview--yes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/src/projects/project__logo--belvoir-botanicals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/src/projects/project__logo--freddies-flowers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/src/projects/project__preview--belvoir-botanicals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/src/projects/project__preview--freddies-flowers.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-04-03-render-conf-part-2.markdown" afterPath="$PROJECT_DIR$/_posts/2017-04-03-render-conf-part-2.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/base/_page.scss" afterPath="$PROJECT_DIR$/_sass/base/_page.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/pages/_blog-single.scss" afterPath="$PROJECT_DIR$/_sass/pages/_blog-single.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/app.css" afterPath="$PROJECT_DIR$/assets/styles/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/app.css.map" afterPath="$PROJECT_DIR$/assets/styles/app.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +62,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_blog-single.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_blog-single.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/pages/_blog-single.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="252">
+              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="30" column="77" lean-forward="false" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+              <caret line="32" column="80" lean-forward="false" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -41,64 +86,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <marker date="1492082025000" expanded="true" signature="438:475" ph="assets: &lt;1 key&gt;" />
-                <marker date="1492082025000" expanded="true" signature="450:475" ph="assets: &lt;1 item&gt;" />
-                <marker date="1492082025000" expanded="true" signature="468:475" ph="assets/" />
-                <marker date="1492082025000" expanded="true" signature="497:1171" ph="social: &lt;5 items&gt;" />
-                <marker date="1492082025000" expanded="true" signature="517:521" ph="Mail" />
-                <marker date="1492082025000" expanded="true" signature="534:538" ph="mail" />
-                <marker date="1492082025000" expanded="true" signature="555:576" ph="windettal…@gmail.com" />
-                <marker date="1492082025000" expanded="true" signature="588:615" ph="mailto:wi…x@gmai.com" />
-                <marker date="1492082025000" expanded="true" signature="629:636" ph="Twitter" />
-                <marker date="1492082025000" expanded="true" signature="649:656" ph="twitter" />
-                <marker date="1492082025000" expanded="true" signature="673:684" ph="alexwindett" />
-                <marker date="1492082025000" expanded="true" signature="696:727" ph="https://t…lexwindett" />
-                <marker date="1492082025000" expanded="true" signature="741:747" ph="GitHub" />
-                <marker date="1492082025000" expanded="true" signature="760:766" ph="github" />
-                <marker date="1492082025000" expanded="true" signature="783:795" ph="alex-windett" />
-                <marker date="1492082025000" expanded="true" signature="807:838" ph="https://g…ex-windett" />
-                <marker date="1492082025000" expanded="true" signature="851:868" ph="Fork me on GitHub" />
-                <marker date="1492082025000" expanded="true" signature="882:888" ph="GitLab" />
-                <marker date="1492082025000" expanded="true" signature="901:907" ph="gitlab" />
-                <marker date="1492082025000" expanded="true" signature="924:936" ph="alex-windett" />
-                <marker date="1492082025000" expanded="true" signature="948:979" ph="https://g…ex-windett" />
-                <marker date="1492082025000" expanded="true" signature="992:1009" ph="Find me on GitLab" />
-                <marker date="1492082025000" expanded="true" signature="1023:1031" ph="LinkedIn" />
-                <marker date="1492082025000" expanded="true" signature="1044:1052" ph="linkedin" />
-                <marker date="1492082025000" expanded="true" signature="1069:1081" ph="Alex Windett" />
-                <marker date="1492082025000" expanded="true" signature="1093:1131" ph="https://u…lexwindett" />
-                <marker date="1492082025000" expanded="true" signature="1144:1171" ph="Connect w…n LinkedIn" />
-                <marker date="1492082025000" expanded="true" signature="1173:3322" ph="projects: &lt;6 items&gt;" />
-                <marker date="1492082025000" expanded="true" signature="1195:1218" ph="Joyent &amp;m…sh; Triton" />
-                <marker date="1492082025000" expanded="true" signature="1230:1268" ph="https://g…ent-portal" />
-                <marker date="1492082025000" expanded="true" signature="1288:1576" ph="The initi…prototype." />
-                <marker date="1492082025000" expanded="true" signature="1589:1614" ph="Freddie&amp;r…;s Flowers" />
-                <marker date="1492082025000" expanded="true" signature="1626:1657" ph="https://w…lowers.com" />
-                <marker date="1492082025000" expanded="true" signature="1677:1975" ph="A flower …tionality." />
-                <marker date="1492082025000" expanded="true" signature="1988:2008" ph="Belvoir Botanicals" />
-                <marker date="1492082025000" expanded="true" signature="2020:2055" ph="http://ww…als.co.uk/" />
-                <marker date="1492082025000" expanded="true" signature="2075:2343" ph="This micr…h quality." />
-                <marker date="1492082025000" expanded="true" signature="2356:2360" ph="9BAR" />
-                <marker date="1492082025000" expanded="true" signature="2372:2391" ph="http://www.9bar.com" />
-                <marker date="1492082025000" expanded="true" signature="2411:2672" ph="9BAR was …ing on it." />
-                <marker date="1492082025000" expanded="true" signature="2685:2693" ph="Tyrrells" />
-                <marker date="1492082025000" expanded="true" signature="2705:2737" ph="https://w…isps.co.uk" />
-                <marker date="1492082025000" expanded="true" signature="2757:3006" ph="Working o…avaScript." />
-                <marker date="1492082025000" expanded="true" signature="3019:3023" ph="Yes+" />
-                <marker date="1492082025000" expanded="true" signature="3043:3322" ph="Working o…or review." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="356">
+              <caret line="82" column="186" lean-forward="false" selection-start-line="82" selection-start-column="186" selection-end-line="82" selection-end-column="187" />
               <folding />
             </state>
           </provider>
@@ -194,7 +183,6 @@
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/_drafts/2017-03-30-render-conf.markdown" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/_sass/parts/_related-posts.scss" />
@@ -207,6 +195,8 @@
         <option value="$PROJECT_DIR$/_sass/base/_page.scss" />
         <option value="$PROJECT_DIR$/_posts/2017-04-03-render-conf-part-2.markdown" />
         <option value="$PROJECT_DIR$/_sass/pages/_blog-single.scss" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -420,7 +410,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19329000" />
+    <option name="totallyTimeSpent" value="19705000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,7 +423,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="1413" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13661636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -442,7 +431,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3969112" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3969112" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -475,13 +464,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -501,53 +483,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <marker date="1492082025000" expanded="true" signature="438:475" ph="assets: &lt;1 key&gt;" />
-            <marker date="1492082025000" expanded="true" signature="450:475" ph="assets: &lt;1 item&gt;" />
-            <marker date="1492082025000" expanded="true" signature="468:475" ph="assets/" />
-            <marker date="1492082025000" expanded="true" signature="497:1171" ph="social: &lt;5 items&gt;" />
-            <marker date="1492082025000" expanded="true" signature="517:521" ph="Mail" />
-            <marker date="1492082025000" expanded="true" signature="534:538" ph="mail" />
-            <marker date="1492082025000" expanded="true" signature="555:576" ph="windettal…@gmail.com" />
-            <marker date="1492082025000" expanded="true" signature="588:615" ph="mailto:wi…x@gmai.com" />
-            <marker date="1492082025000" expanded="true" signature="629:636" ph="Twitter" />
-            <marker date="1492082025000" expanded="true" signature="649:656" ph="twitter" />
-            <marker date="1492082025000" expanded="true" signature="673:684" ph="alexwindett" />
-            <marker date="1492082025000" expanded="true" signature="696:727" ph="https://t…lexwindett" />
-            <marker date="1492082025000" expanded="true" signature="741:747" ph="GitHub" />
-            <marker date="1492082025000" expanded="true" signature="760:766" ph="github" />
-            <marker date="1492082025000" expanded="true" signature="783:795" ph="alex-windett" />
-            <marker date="1492082025000" expanded="true" signature="807:838" ph="https://g…ex-windett" />
-            <marker date="1492082025000" expanded="true" signature="851:868" ph="Fork me on GitHub" />
-            <marker date="1492082025000" expanded="true" signature="882:888" ph="GitLab" />
-            <marker date="1492082025000" expanded="true" signature="901:907" ph="gitlab" />
-            <marker date="1492082025000" expanded="true" signature="924:936" ph="alex-windett" />
-            <marker date="1492082025000" expanded="true" signature="948:979" ph="https://g…ex-windett" />
-            <marker date="1492082025000" expanded="true" signature="992:1009" ph="Find me on GitLab" />
-            <marker date="1492082025000" expanded="true" signature="1023:1031" ph="LinkedIn" />
-            <marker date="1492082025000" expanded="true" signature="1044:1052" ph="linkedin" />
-            <marker date="1492082025000" expanded="true" signature="1069:1081" ph="Alex Windett" />
-            <marker date="1492082025000" expanded="true" signature="1093:1131" ph="https://u…lexwindett" />
-            <marker date="1492082025000" expanded="true" signature="1144:1171" ph="Connect w…n LinkedIn" />
-            <marker date="1492082025000" expanded="true" signature="1173:3322" ph="projects: &lt;6 items&gt;" />
-            <marker date="1492082025000" expanded="true" signature="1195:1218" ph="Joyent &amp;m…sh; Triton" />
-            <marker date="1492082025000" expanded="true" signature="1230:1268" ph="https://g…ent-portal" />
-            <marker date="1492082025000" expanded="true" signature="1288:1576" ph="The initi…prototype." />
-            <marker date="1492082025000" expanded="true" signature="1589:1614" ph="Freddie&amp;r…;s Flowers" />
-            <marker date="1492082025000" expanded="true" signature="1626:1657" ph="https://w…lowers.com" />
-            <marker date="1492082025000" expanded="true" signature="1677:1975" ph="A flower …tionality." />
-            <marker date="1492082025000" expanded="true" signature="1988:2008" ph="Belvoir Botanicals" />
-            <marker date="1492082025000" expanded="true" signature="2020:2055" ph="http://ww…als.co.uk/" />
-            <marker date="1492082025000" expanded="true" signature="2075:2343" ph="This micr…h quality." />
-            <marker date="1492082025000" expanded="true" signature="2356:2360" ph="9BAR" />
-            <marker date="1492082025000" expanded="true" signature="2372:2391" ph="http://www.9bar.com" />
-            <marker date="1492082025000" expanded="true" signature="2411:2672" ph="9BAR was …ing on it." />
-            <marker date="1492082025000" expanded="true" signature="2685:2693" ph="Tyrrells" />
-            <marker date="1492082025000" expanded="true" signature="2705:2737" ph="https://w…isps.co.uk" />
-            <marker date="1492082025000" expanded="true" signature="2757:3006" ph="Working o…avaScript." />
-            <marker date="1492082025000" expanded="true" signature="3019:3023" ph="Yes+" />
-            <marker date="1492082025000" expanded="true" signature="3043:3322" ph="Working o…or review." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -678,13 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="23" column="98" lean-forward="false" selection-start-line="23" selection-start-column="98" selection-end-line="23" selection-end-column="98" />
         </state>
       </provider>
     </entry>
@@ -833,64 +762,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/_sass/pages/_blog-single.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <marker date="1492082025000" expanded="true" signature="438:475" ph="assets: &lt;1 key&gt;" />
-            <marker date="1492082025000" expanded="true" signature="450:475" ph="assets: &lt;1 item&gt;" />
-            <marker date="1492082025000" expanded="true" signature="468:475" ph="assets/" />
-            <marker date="1492082025000" expanded="true" signature="497:1171" ph="social: &lt;5 items&gt;" />
-            <marker date="1492082025000" expanded="true" signature="517:521" ph="Mail" />
-            <marker date="1492082025000" expanded="true" signature="534:538" ph="mail" />
-            <marker date="1492082025000" expanded="true" signature="555:576" ph="windettal…@gmail.com" />
-            <marker date="1492082025000" expanded="true" signature="588:615" ph="mailto:wi…x@gmai.com" />
-            <marker date="1492082025000" expanded="true" signature="629:636" ph="Twitter" />
-            <marker date="1492082025000" expanded="true" signature="649:656" ph="twitter" />
-            <marker date="1492082025000" expanded="true" signature="673:684" ph="alexwindett" />
-            <marker date="1492082025000" expanded="true" signature="696:727" ph="https://t…lexwindett" />
-            <marker date="1492082025000" expanded="true" signature="741:747" ph="GitHub" />
-            <marker date="1492082025000" expanded="true" signature="760:766" ph="github" />
-            <marker date="1492082025000" expanded="true" signature="783:795" ph="alex-windett" />
-            <marker date="1492082025000" expanded="true" signature="807:838" ph="https://g…ex-windett" />
-            <marker date="1492082025000" expanded="true" signature="851:868" ph="Fork me on GitHub" />
-            <marker date="1492082025000" expanded="true" signature="882:888" ph="GitLab" />
-            <marker date="1492082025000" expanded="true" signature="901:907" ph="gitlab" />
-            <marker date="1492082025000" expanded="true" signature="924:936" ph="alex-windett" />
-            <marker date="1492082025000" expanded="true" signature="948:979" ph="https://g…ex-windett" />
-            <marker date="1492082025000" expanded="true" signature="992:1009" ph="Find me on GitLab" />
-            <marker date="1492082025000" expanded="true" signature="1023:1031" ph="LinkedIn" />
-            <marker date="1492082025000" expanded="true" signature="1044:1052" ph="linkedin" />
-            <marker date="1492082025000" expanded="true" signature="1069:1081" ph="Alex Windett" />
-            <marker date="1492082025000" expanded="true" signature="1093:1131" ph="https://u…lexwindett" />
-            <marker date="1492082025000" expanded="true" signature="1144:1171" ph="Connect w…n LinkedIn" />
-            <marker date="1492082025000" expanded="true" signature="1173:3322" ph="projects: &lt;6 items&gt;" />
-            <marker date="1492082025000" expanded="true" signature="1195:1218" ph="Joyent &amp;m…sh; Triton" />
-            <marker date="1492082025000" expanded="true" signature="1230:1268" ph="https://g…ent-portal" />
-            <marker date="1492082025000" expanded="true" signature="1288:1576" ph="The initi…prototype." />
-            <marker date="1492082025000" expanded="true" signature="1589:1614" ph="Freddie&amp;r…;s Flowers" />
-            <marker date="1492082025000" expanded="true" signature="1626:1657" ph="https://w…lowers.com" />
-            <marker date="1492082025000" expanded="true" signature="1677:1975" ph="A flower …tionality." />
-            <marker date="1492082025000" expanded="true" signature="1988:2008" ph="Belvoir Botanicals" />
-            <marker date="1492082025000" expanded="true" signature="2020:2055" ph="http://ww…als.co.uk/" />
-            <marker date="1492082025000" expanded="true" signature="2075:2343" ph="This micr…h quality." />
-            <marker date="1492082025000" expanded="true" signature="2356:2360" ph="9BAR" />
-            <marker date="1492082025000" expanded="true" signature="2372:2391" ph="http://www.9bar.com" />
-            <marker date="1492082025000" expanded="true" signature="2411:2672" ph="9BAR was …ing on it." />
-            <marker date="1492082025000" expanded="true" signature="2685:2693" ph="Tyrrells" />
-            <marker date="1492082025000" expanded="true" signature="2705:2737" ph="https://w…isps.co.uk" />
-            <marker date="1492082025000" expanded="true" signature="2757:3006" ph="Working o…avaScript." />
-            <marker date="1492082025000" expanded="true" signature="3019:3023" ph="Yes+" />
-            <marker date="1492082025000" expanded="true" signature="3043:3322" ph="Working o…or review." />
-          </folding>
+        <state relative-caret-position="252">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/pages/_blog-single.scss">
+    <entry file="file://$PROJECT_DIR$/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="-291">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="82" column="186" lean-forward="false" selection-start-line="82" selection-start-column="186" selection-end-line="82" selection-end-column="187" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" column="77" lean-forward="false" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+          <caret line="32" column="80" lean-forward="false" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
           <folding />
         </state>
       </provider>

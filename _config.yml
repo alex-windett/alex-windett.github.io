@@ -66,20 +66,26 @@ social:
 
 projects:
     - name: 'Joyent &mdash; Triton'
+      image_name: 'joyent'
       url: https://github.com/yldio/joyent-portal
       description: 'The initial phase of an open-source re-design and re-build of Joyent&rsquo;s cloud base container service. Working closely with their USA based infrastructure team, our design team and development team, I have been involved in every step of the process in creating an initial prototype.'
     - name: 'Freddie&rsquo;s Flowers'
+      image_name: 'freddies'
       url: https://www.freddiesflowers.com
       description: 'A flower delivery e-commerce app being re-built in bi-monthly or weekly sprints - depending on the feature - in React and Redux. Driving the project, it is the first I have used React and a JavaScript framework, bringing about some challenges but has ultimately improved the UX and functionality.'
     - name: 'Belvoir Botanicals'
+      image_name: 'belvoir'
       url: http://www.belvoirbotanicals.co.uk/
       description: 'This micro site for an excising client gave me the opportunity to use more advanced Sass, include writing my own functions, loops and high level mixins. Producing more concise code I was able to deliver a piece of work in a short space of time and to a high quality.'
     - name: 9BAR
+      image_name: '9bar'
       url: http://www.9bar.com
       description: '9BAR was my first lead role in developing a site. The learning curve whilst working on this project was steep and very rewarding as, not only, were the clients happy with the end result but I acquired many valuable and transferable skills while working on it.'
     - name: Tyrrells
+      image_name: 'tyrrells'
       url: https://www.tyrrellscrisps.co.uk
       description: 'Working on Tyrrells&rsquo; involved inheriting a legacy site
       with the end result being an improved code base across it&rsquo;s multiple sites and an upgrade of the outdated components whilst refactoring down templates, styles and JavaScript.'
     - name: Yes+
+      image_name: 'yes'
       description: 'Working on YES+ remotely gave me the experience of working on a project away from a face to face environment. It also gave me to opportunity to explore new processes whilst also strengthening excising skills. Due to the short time from, code was frequently deployed for review.'
