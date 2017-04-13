@@ -2,6 +2,9 @@
 layout: post
 title:  "Render Conf 2017"
 date:   2017-03-30
+image: http://2016.render-conf.com/img/Render_logo_Colour.png
+image_credit_url: http://render-conf.com
+image_credit: Render Conf
 category: "Render Conf"
 ---
 
