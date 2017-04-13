@@ -38,10 +38,11 @@ it is still bias. Developers all have their way of doing things - hence the emer
 linting. There are different libraries, languages, code styles etc that all 
 lend themselves towards providing a "better" solution. However, these choices
 should not comprise the following, in order:
-1. The users
-2. The authors / developers
-3. The applications the software runs on
-4. The theorists or market leaders (i.e the "...but Facebook use it" syndrome).
+
+* - The users
+* - The authors / developers
+* - The applications the software runs on
+* - The theorists or market leaders (i.e the "...but Facebook use it" syndrome).
 
 In one form or another I have been following these points through progressive enhancement, even if it is being made to use legacy frameworks. 
  
@@ -94,7 +95,6 @@ It is something so key, that the British Dyslexia Association has written a styl
 .org.uk), note the capitals everywhere.
 
 ### Speaker Videos
-
 
 * [Jeremy Keith](https://www.youtube.com/watch?v=wAekLOUpMB4&list=PLBzScQzZ83I_n5kvxmUaRNZvc_vsCuEQD)
 * [Ben Ilegbodu](https://www.youtube.com/watch?v=zxtcr8Zuvfs&list=PLBzScQzZ83I_n5kvxmUaRNZvc_vsCuEQD&index=4)

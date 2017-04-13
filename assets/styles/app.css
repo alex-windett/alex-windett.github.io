@@ -237,18 +237,13 @@ h4, header .header-menu li a {
   line-height: 3.4rem;
 }
 
-p,
-li {
+p {
   font-size: 1.6rem;
   line-height: 2.6rem;
   text-align: left;
 }
 
-p + p,
-li + p, p +
-li,
-li +
-li {
+p + p {
   margin-top: 2rem;
 }
 
@@ -1128,6 +1123,12 @@ body.blog .blog--list__item a:hover {
   color: #a8d3b3;
 }
 
+.post-single {
+  /********************************/
+  /******** POST CONTENT **********/
+  /********************************/
+}
+
 .post-single .post-categories {
   padding-top: 2rem;
   border-top: 2px solid #64b178;
@@ -1156,6 +1157,12 @@ body.blog .blog--list__item a:hover {
 
 .post-single .post p a {
   color: #64b178;
+}
+
+.post-single .post li {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: inherit;
 }
 
 .post-single .post h2 {
