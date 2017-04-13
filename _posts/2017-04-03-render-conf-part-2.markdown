@@ -6,29 +6,30 @@ category: "Render Conf"
 ---
 
 Illness and a heavy crash racing has delayed the writing of this - hopefully my 
-memory won't fail and give crrdit to the speakers wlmost two weeks ago.
+memory won't fail and give credit to the speakers almost two weeks ago.
 
 Evaluating Technology
 --
-[Jeremy Keith]() opened up the conference by discussing the *Nature of Technology*
-and what, as humans, our relationship is to it. He startined off exploring how technology is inherently a domain of 
-co-opperation where working closely with other devs and the open source nature of modern 
+[Jeremy Keith](https://github.com/adactio) opened up the conference by discussing the *Nature of Technology*
+and what, as humans, our relationship is to it. He started off exploring how 
+technology is inherently a domain of 
+co-operation where working closely with other devs and the open source nature of modern 
 web development is clear. If you haven't experienced this first hand I would be 
 very surprised as our industry is one of the most inclusive.
 
-later he moved us on to the changing demand for software vs. hardware. Although hardware is the basis for which software can run, the availability of 
+Later he moved us on to the changing demand for software vs. hardware. Although hardware is the basis for which software can run, the availability of 
 hardware is now almost in surplus and it is software that is now become more 
 important. At the dawn of the home computer back in the 70s it was a scramble to 
 get that extra bit of CPU or memory , now with the same power coming from a mobile phone, it is the availability of software and its performance which is in the 
 spotlight.
  
-The talked moved away from this shifting techniological paradigms to the usability of current
+The talked moved away from this shifting technological paradigms to the usability of current
 software and its design principles. I think the most relatable and easy to grasp 
 example of this are service workers. Jeremy argues that while we should be 
 aiming to provide the best experience for all, we should also be able to provide
 the best experience for when technology "fails". Service workers for example, 
 should be able to enhance a users interaction (as they do), but if they "fail" 
-they should not effect the user or give them a similar expirience (as they do, well, sorta) - if a 
+they should not effect the user or give them a similar experience (as they do, well, sorta) - if a 
 browser doesn't support service workers, then nothing changes to that of a first visit 
 with a compatible browser.
 
@@ -42,12 +43,12 @@ should not comprise the following, in order:
 3. The applications the software runs on
 4. The theorists or market leaders (i.e the "...but Facebook use it" syndrome).
 
-In one form or another I have been following these points thrugh progressive enhancement, even if it is being made to use legacy frameworks. 
+In one form or another I have been following these points through progressive enhancement, even if it is being made to use legacy frameworks. 
  
 React with node alongside a legacy backend
 --
 This all sounded a bit confusing to me, but ended up not only understanding it, but 
-also seeing a very well implement example by [Ben Ilegbodu]().
+also seeing a very well implement example by [Ben Ilegbodu](https://github.com/benmvp).
 
 One of the downsides fo using React with modern web apps is the need for SEO 
 optimisation and Open Graph tags. However, Google a reducing this annoyance are 
@@ -79,7 +80,7 @@ example request and response:
 Accessibility, what about us Dyslexic lot?
 --
 As you may have picked up on, or hopefully not, my spelling and grammar can sometimes 
-be a little, well, unique. According to the very talented [Sarah Davies]()
+be a little, well, unique. According to the very talented [Seren Davies](https://github.com/ninjanails)
 the cause of my sometimes poor english is something that is often forgotten when creating accessible web pages. Screen
 readers are often taken into account, but what about other disabilities like 
 dyslexia? Shapes, patterns and fonts all have implications on the usability of
@@ -91,3 +92,9 @@ removes some of the brains recognition of the shape of a letters therefore readi
  It is something so key, that the British Dyslexia Association has written a style guide on
  [style guide](http://www.bdadyslexia.org.uk/common/ckeditor/filemanager/userfiles/About_Us/policies/Dyslexia_Style_Guide.pdf) - not that they conform to it on [their own site](http://www.bdadyslexia
  .org.uk), note the capitals everywhere.
+ 
+ Speaker Videos
+ ----
+ * [Jeremy Keith](https://www.youtube.com/watch?v=wAekLOUpMB4&list=PLBzScQzZ83I_n5kvxmUaRNZvc_vsCuEQD)
+ * [Ben Ilegbodu](https://www.youtube.com/watch?v=zxtcr8Zuvfs&list=PLBzScQzZ83I_n5kvxmUaRNZvc_vsCuEQD&index=4)
+ & [Seren Davies](https://www.youtube.com/watch?v=oG_cYElSZwM&list=PLBzScQzZ83I_n5kvxmUaRNZvc_vsCuEQD&index=3)
