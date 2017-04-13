@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "Render Conf 2017 Part 2"
+title:  "Render Conf 2017: Part 2"
 date:   2017-04-10
+image: http://2016.render-conf.com/img/Render_logo_Colour.png
+image_credit_url: http://render-conf.com
+image_credit: Render Conf
 category: "Render Conf"
 ---
 
@@ -88,13 +91,14 @@ pages - more specifically, the readability. Very interestingly and something I
 had never taken point of, instead of using capitals as headings why not 
 considering using sentence case? The similar letter structure in capitals 
 removes some of the brains recognition of the shape of a letters therefore reading words.
-    
- It is something so key, that the British Dyslexia Association has written a style guide on
- [style guide](http://www.bdadyslexia.org.uk/common/ckeditor/filemanager/userfiles/About_Us/policies/Dyslexia_Style_Guide.pdf) - not that they conform to it on [their own site](http://www.bdadyslexia
- .org.uk), note the capitals everywhere.
- 
- Speaker Videos
- ----
- * [Jeremy Keith](https://www.youtube.com/watch?v=wAekLOUpMB4&list=PLBzScQzZ83I_n5kvxmUaRNZvc_vsCuEQD)
- * [Ben Ilegbodu](https://www.youtube.com/watch?v=zxtcr8Zuvfs&list=PLBzScQzZ83I_n5kvxmUaRNZvc_vsCuEQD&index=4)
- & [Seren Davies](https://www.youtube.com/watch?v=oG_cYElSZwM&list=PLBzScQzZ83I_n5kvxmUaRNZvc_vsCuEQD&index=3)
+
+It is something so key, that the British Dyslexia Association has written a style guide on
+[style guide](http://www.bdadyslexia.org.uk/common/ckeditor/filemanager/userfiles/About_Us/policies/Dyslexia_Style_Guide.pdf) - not that they conform to it on [their own site](http://www.bdadyslexia
+.org.uk), note the capitals everywhere.
+
+### Speaker Videos
+
+
+* [Jeremy Keith](https://www.youtube.com/watch?v=wAekLOUpMB4&list=PLBzScQzZ83I_n5kvxmUaRNZvc_vsCuEQD)
+* [Ben Ilegbodu](https://www.youtube.com/watch?v=zxtcr8Zuvfs&list=PLBzScQzZ83I_n5kvxmUaRNZvc_vsCuEQD&index=4)
+* [Seren Davies](https://www.youtube.com/watch?v=oG_cYElSZwM&list=PLBzScQzZ83I_n5kvxmUaRNZvc_vsCuEQD&index=3)

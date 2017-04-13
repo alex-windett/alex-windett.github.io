@@ -9,7 +9,9 @@ layout: default
 
 			{% if page.image %}
 				<img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}">
-				<p class="image-credit">Image credit – <a href="{{ page.image_credit_url }}">{{ page.image_credit }}</p></a>
+				<p class="image-credit">Image credit – <a href="{{ page.image_credit_url }}" target="_blank">{{
+					page.image_credit
+					}}</p></a>
 			{% endif %}
 		</header>
 
