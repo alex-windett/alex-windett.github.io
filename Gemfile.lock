@@ -105,6 +105,7 @@ GEM
     minitest (5.9.0)
     multipart-post (2.0.0)
     net-dns (0.8.0)
+    newrelic_rpm (4.1.0.333)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
@@ -142,6 +143,7 @@ DEPENDENCIES
   jekyll
   jekyll-assets
   jekyll-paginate
+  newrelic_rpm
 
 BUNDLED WITH
-   1.13.1
+   1.14.4
