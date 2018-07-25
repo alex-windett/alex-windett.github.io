@@ -396,7 +396,7 @@ header .header-menu li:first-child a {
     display: inline-block;
     border-bottom: none;
     border-right: 1px solid #ffffff;
-    width: 33.3333333333%;
+    width: 25%;
   }
   header .header-menu li:last-child {
     border-right: none;
