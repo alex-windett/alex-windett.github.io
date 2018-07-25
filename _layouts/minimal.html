@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{% include head.html %}
+
+<body {% if page.body_class %}class="{{ page.body_class }}"{% endif %}>
+
+    {% include header.html %}
+
+    <div class="page-content">
+        <div class="wrapper">
+            <!-- {% include cover.html %} -->
+
+            {{ content }}
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
